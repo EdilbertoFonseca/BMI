@@ -38,9 +38,9 @@ O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diá
 
 ### Diálogo principal
 
-* “alt+C”: Efetua o cálculo.
+* “alt+A”: Efetua o cálculo.
 * “alt+L: Limpa os campos e posiciona o cursor no campo altura.
-* “alt+F”: Encerra o diálogo, pode ser usado também o escape.
+* “alt+C”: Encerra o diálogo, pode ser usado também o escape.
 
 ## Licença
 

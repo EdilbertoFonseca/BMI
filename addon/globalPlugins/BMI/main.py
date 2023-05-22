@@ -64,7 +64,7 @@ class DialogBMI(wx.Dialog):
 		self.spinWeight.SetRange(0, 500)
 
 		self.buttonCalc = buttonSizer.addItem(
-			wx.Button(panel, -1, label=_("&Calculate"))
+			wx.Button(panel, -1, label=_("C&alculate"))
 		)
 		self.Bind(wx.EVT_BUTTON, self.onCalc, self.buttonCalc)
 
