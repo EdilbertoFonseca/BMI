@@ -13,38 +13,40 @@ import gui
 import globalVars
 import wx
 
-# Imports from the IMC module.
+# Imports from the BMI module.
 from .main import DialogBMI
+
+# Get the add-on summary contained in the manifest.
+ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
 # Module required to carry out the translations.
 addonHandler.initTranslation()
 
-def avoidSecure():
-	# Avoid use in secure screens and during installation
-	if (globalVars.appArgs.secure or globalVars.appArgs.install or globalVars.appArgs.minimal):
-		return
+def disableInSecureMode(decoratedCls):
+	if globalVars.appArgs.secure:
+		return globalPluginHandler.GlobalPlugin
+	return decoratedCls
 
-
+@disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Creating the constructor of the newly created GlobalPlugin class.
-	def __init__(self, *args, **kwargs):
-		super(GlobalPlugin, self).__init__(*args, **kwargs)
-		# Avoid use in secure screens
-		if globalVars.appArgs.secure:
-			return
-
+	def __init__(self):
+		super(GlobalPlugin, self).__init__()
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 
 		# Translators: Add-on title in the tools menu.
-		self.calculate = self.toolsMenu.Append(-1, _("&Calculate your BMI"))
+		self.calculate = self.toolsMenu.Append(wx.ID_ANY, _("&Calculate your BMI..."))
 		gui.mainFrame.sysTrayIcon.Bind(
 			wx.EVT_MENU, self.script_onIMC, self.calculate)
 
 	#defining a script with decorator:
 	@script(
 		gesture="kb:Windows+alt+I",
-		description=_("BMI, This add-on calculates the body mass index.")
+
+		# Translators: Text displayed in NVDA help.
+		description=_("BMI, This add-on calculates the body mass index."),
+		category=ADDON_SUMMARY
 	)
 	def script_onIMC(self, gesture):
 		# Translators: Dialog title Body mass Index Calculation.
@@ -55,12 +57,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.dlg.CentreOnScreen()
 		gui.mainFrame.postPopup()
 
-		# This terminate function is necessary when creating new menus.
+	# This terminate function is necessary when creating new menus.
 	def terminate(self):
 		try:
-			if wx.version().startswith("4"):
-				self.toolsMenu.Remove(self.calculate)
-			else:
-				self.toolsMenu.RemoveItem(self.calculate)
-		except:
+			self.toolsMenu.Remove(self.urlsListItem)
+		except Exception:
 			pass

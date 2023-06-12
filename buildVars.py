@@ -27,7 +27,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon calculates the body mass index."""),
 	# version
-	"addon_version": "2023.2.1",
+	"addon_version": "2023.3.1",
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support
@@ -65,7 +65,7 @@ pythonSources = [
 ]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources # + ["buildVars.py"]
+i18nSources = pythonSources + ["buildVars.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.

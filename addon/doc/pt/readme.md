@@ -1,11 +1,13 @@
-﻿# (IMC) Cálculo do índice de maça corporal
+# (IMC) Cálculo do índice de maça corporal
 
 * Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
 * Data da criação: 11/08/2022.
 
 ## Introdução
 
-Bem-vindo ao Add-on IMC! Este é um plug-in desenvolvido para ajudar na determinação do Índice de Massa Corporal (IMC), que é uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Addon, você pode calcular facilmente seu IMC, fornecendo sua altura e peso. Além disso, também oferecemos uma classificação detalhada dos resultados, para que você possa entender melhor sua situação e tomar as medidas necessárias para alcançar e manter uma boa saúde. Observação: Lembre-se de sempre consultar um médico ou um nutricionista antes de tomar qualquer decisão.
+Bem-vindo ao Add-on IMC! Este é um plug-in desenvolvido para ajudar na determinação do Índice de Massa Corporal (IMC), que é uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Addon, você pode calcular facilmente seu IMC, fornecendo sua altura e peso. Além disso, também oferecemos uma classificação detalhada dos resultados, para que você possa entender melhor sua situação e tomar as medidas necessárias para alcançar e manter uma boa saúde.
+
+ Observação: Para uma interpretação adequada do IMC, é recomendável considerar outros fatores, como a composição corporal, a distribuição de gordura, a idade, o sexo e a saúde geral da pessoa. É sempre recomendável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e para obter orientações adequadas sobre a saúde e o peso.
 
 ## Instalação
 
