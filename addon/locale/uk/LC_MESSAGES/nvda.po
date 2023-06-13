@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'BMI' '2023.2.1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-05-25 11:08+0300\n"
-"PO-Revision-Date: 2023-05-25 15:30+0300\n"
+"POT-Creation-Date: 2023-06-12 14:21-0300\n"
+"PO-Revision-Date: 2023-06-12 14:33-0300\n"
 "Last-Translator: Heorhii <nvda.translation.uk@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -20,115 +20,208 @@ msgstr ""
 "X-Poedit-SearchPath-0: buildVars.py\n"
 
 #. Translators: Add-on title in the tools menu.
-#: addon\globalPlugins\BMI\__init__.py:40
-msgid "&Calculate your BMI"
+#: addon\globalPlugins\BMI\__init__.py:39
+#, fuzzy
+#| msgid "&Calculate your BMI"
+msgid "&Calculate your BMI..."
 msgstr "&Обчислити свій ІМТ"
 
-#: addon\globalPlugins\BMI\__init__.py:47
+#. Translators: Text displayed in NVDA help.
+#: addon\globalPlugins\BMI\__init__.py:48
+#, fuzzy
+#| msgid "BMI, This add-on calculates the body mass index."
 msgid "BMI, This add-on calculates the body mass index."
 msgstr "ІМТ, цей додаток обчислює індекс маси тіла."
 
-#: addon\globalPlugins\BMI\__init__.py:52
+#: addon\globalPlugins\BMI\__init__.py:54
 msgid "Calculation of the Body mass Index."
 msgstr "Обчислення індексу маси тіла."
 
 #. Translators: spin height label.
-#: addon\globalPlugins\BMI\main.py:48
-msgid "Enter or select your height: "
+#: addon\globalPlugins\BMI\main.py:49
+#, fuzzy
+#| msgid "Enter or select your height: "
+msgid "Enter or select your height in centimeters: "
 msgstr "Введіть або виберіть свій зріст: "
 
 #. Translators: Spin Weight label.
-#: addon\globalPlugins\BMI\main.py:59
-msgid "Enter or select your weight: "
+#: addon\globalPlugins\BMI\main.py:60
+#, fuzzy
+#| msgid "Enter or select your weight: "
+msgid "Enter or select your weight in kilograms: "
 msgstr "Введіть або виберіть свою вагу: "
 
-#: addon\globalPlugins\BMI\main.py:67
+#: addon\globalPlugins\BMI\main.py:68
 msgid "C&alculate"
 msgstr "&Обчислити"
 
-#: addon\globalPlugins\BMI\main.py:72
+#: addon\globalPlugins\BMI\main.py:73
 msgid "C&lean"
 msgstr "&Очистити"
 
-#: addon\globalPlugins\BMI\main.py:77
+#: addon\globalPlugins\BMI\main.py:78
 msgid "&Cancel"
 msgstr "&Скасувати"
 
-#. Translators: Message displayed when fields are not filled.
-#: addon\globalPlugins\BMI\main.py:94
-msgid "Fill in all fields!"
-msgstr "Заповніть усі поля!"
-
-#: addon\globalPlugins\BMI\main.py:95
+#: addon\globalPlugins\BMI\main.py:100
 msgid "Atention"
 msgstr "Увага"
 
-#: addon\globalPlugins\BMI\main.py:102
+#: addon\globalPlugins\BMI\main.py:105
 msgid ""
 "Your BMI is {}.\n"
 "\n"
 "Your BMI indicates that you are underweight.\n"
 "\n"
 "It's important to consult a doctor or nutritionist to evaluate your health "
-"and identify ways to gain weight in a healthy way."
+"and identify ways to gain weight in a healthy way.\n"
+"\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other "
+"factors such as body composition, fat distribution, age, gender and general "
+"health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a "
+"physician or nutritionist, for a more accurate assessment and proper "
+"guidance on health and weight."
 msgstr ""
-"Ваш ІМТ становить {}.\n"
-"\n"
-"Ваш ІМТ вказує на те, що у вас недостатня вага.\n"
-"\n"
-"Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан вашого "
-"здоров'я та визначити способи набрати вагу здоровим способом."
 
-#: addon\globalPlugins\BMI\main.py:109
+#: addon\globalPlugins\BMI\main.py:116
 msgid ""
 "Your BMI is {}.\n"
 "\n"
 "Your BMI indicates that you are at a healthy weight.\n"
 "\n"
 "Keep it up by maintaining a balanced diet and regularly engaging in physical "
-"activity."
+"activity.\n"
+"\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other "
+"factors such as body composition, fat distribution, age, gender and general "
+"health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a "
+"physician or nutritionist, for a more accurate assessment and proper "
+"guidance on health and weight."
 msgstr ""
-"Ваш ІМТ становить {}.\n"
-"\n"
-"Ваш ІМТ вказує на те, що ви маєте здорову вагу.\n"
-"\n"
-"Підтримуйте її, дотримуючись збалансованої дієти та регулярно займаючись "
-"фізичною активністю."
 
-#: addon\globalPlugins\BMI\main.py:116 addon\globalPlugins\BMI\main.py:123
+#: addon\globalPlugins\BMI\main.py:127 addon\globalPlugins\BMI\main.py:138
 msgid ""
 "Your BMI is {}.\n"
 "\n"
 "Your BMI indicates that you are overweight.\n"
 "\n"
 "It's important to consult a doctor or nutritionist to evaluate your health "
-"and identify ways to lose weight in a healthy way."
+"and identify ways to lose weight in a healthy way.\n"
+"\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other "
+"factors such as body composition, fat distribution, age, gender and general "
+"health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a "
+"physician or nutritionist, for a more accurate assessment and proper "
+"guidance on health and weight."
 msgstr ""
-"Ваш ІМТ становить {}.\n"
-"\n"
-"Ваш ІМТ вказує на те, що ви маєте надлишкову вагу.\n"
-"\n"
-"Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан вашого "
-"здоров'я та визначити шляхи здорового схуднення."
 
-#: addon\globalPlugins\BMI\main.py:130
+#: addon\globalPlugins\BMI\main.py:149
 msgid ""
 "Your BMI is {}.\n"
 "\n"
 "Your BMI indicates that you are obese.\n"
 "\n"
 "It's important to consult a doctor or nutritionist to evaluate your health "
-"and identify ways to lose weight in a healthy way and reduce health risks."
+"and identify ways to lose weight in a healthy way and reduce health risks.\n"
+"\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other "
+"factors such as body composition, fat distribution, age, gender and general "
+"health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a "
+"physician or nutritionist, for a more accurate assessment and proper "
+"guidance on health and weight."
 msgstr ""
-"Ваш ІМТ становить {}.\n"
-"\n"
-"Ваш ІМТ вказує на те, що у вас ожиріння.\n"
-"\n"
-"Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан вашого "
-"здоров'я та визначити шляхи здорового схуднення і зниження ризиків для "
-"здоров'я."
 
-#. Translators: Notification message
-#: addon\globalPlugins\BMI\main.py:137
+#. Translators: Notification message informing the user of the BMI calculation result.
+#: addon\globalPlugins\BMI\main.py:160
 msgid "Attention"
 msgstr "Увага"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:25
+#, fuzzy
+#| msgid "&Calculate your BMI"
+msgid "Calculate your BMI"
+msgstr "&Обчислити свій ІМТ"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:28
+#, fuzzy
+#| msgid "BMI, This add-on calculates the body mass index."
+msgid "This addon calculates the body mass index."
+msgstr "ІМТ, цей додаток обчислює індекс маси тіла."
+
+#~ msgid "Fill in all fields!"
+#~ msgstr "Заповніть усі поля!"
+
+#~ msgid ""
+#~ "Your BMI is {}.\n"
+#~ "\n"
+#~ "Your BMI indicates that you are underweight.\n"
+#~ "\n"
+#~ "It's important to consult a doctor or nutritionist to evaluate your "
+#~ "health and identify ways to gain weight in a healthy way."
+#~ msgstr ""
+#~ "Ваш ІМТ становить {}.\n"
+#~ "\n"
+#~ "Ваш ІМТ вказує на те, що у вас недостатня вага.\n"
+#~ "\n"
+#~ "Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан "
+#~ "вашого здоров'я та визначити способи набрати вагу здоровим способом."
+
+#~ msgid ""
+#~ "Your BMI is {}.\n"
+#~ "\n"
+#~ "Your BMI indicates that you are at a healthy weight.\n"
+#~ "\n"
+#~ "Keep it up by maintaining a balanced diet and regularly engaging in "
+#~ "physical activity."
+#~ msgstr ""
+#~ "Ваш ІМТ становить {}.\n"
+#~ "\n"
+#~ "Ваш ІМТ вказує на те, що ви маєте здорову вагу.\n"
+#~ "\n"
+#~ "Підтримуйте її, дотримуючись збалансованої дієти та регулярно займаючись "
+#~ "фізичною активністю."
+
+#~ msgid ""
+#~ "Your BMI is {}.\n"
+#~ "\n"
+#~ "Your BMI indicates that you are overweight.\n"
+#~ "\n"
+#~ "It's important to consult a doctor or nutritionist to evaluate your "
+#~ "health and identify ways to lose weight in a healthy way."
+#~ msgstr ""
+#~ "Ваш ІМТ становить {}.\n"
+#~ "\n"
+#~ "Ваш ІМТ вказує на те, що ви маєте надлишкову вагу.\n"
+#~ "\n"
+#~ "Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан "
+#~ "вашого здоров'я та визначити шляхи здорового схуднення."
+
+#~ msgid ""
+#~ "Your BMI is {}.\n"
+#~ "\n"
+#~ "Your BMI indicates that you are obese.\n"
+#~ "\n"
+#~ "It's important to consult a doctor or nutritionist to evaluate your "
+#~ "health and identify ways to lose weight in a healthy way and reduce "
+#~ "health risks."
+#~ msgstr ""
+#~ "Ваш ІМТ становить {}.\n"
+#~ "\n"
+#~ "Ваш ІМТ вказує на те, що у вас ожиріння.\n"
+#~ "\n"
+#~ "Важливо проконсультуватися з лікарем або дієтологом, щоб оцінити стан "
+#~ "вашого здоров'я та визначити шляхи здорового схуднення і зниження ризиків "
+#~ "для здоров'я."

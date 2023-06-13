@@ -27,7 +27,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon calculates the body mass index."""),
 	# version
-	"addon_version": "2023.3.1",
+	"addon_version": "2023.3.2",
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support
@@ -56,8 +56,8 @@ addon_info = {
 # For example to include all files with a ".py" extension from the "globalPlugins" dir of your add-on
 # the list can be written as follows:
 # pythonSources = ["addon/globalPlugins/*.py"]
-# For more information on SCons Glob expressions please take a look at:
 # https://scons.org/doc/production/HTML/scons-user/apd.html
+# For more information on SCons Glob expressions please take a look at:
 mainPaht = os.path.join("addon", "globalPlugins", "BMI")
 pythonSources = [
     os.path.join("addon", "*.py"),
