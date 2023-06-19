@@ -36,9 +36,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 
 		# Translators: Add-on title in the tools menu.
-		self.calculate = self.toolsMenu.Append(wx.ID_ANY, _("&Calculate your BMI..."))
+		self.calculateBMI = self.toolsMenu.Append(wx.ID_ANY, _("&Calculate your BMI..."))
 		gui.mainFrame.sysTrayIcon.Bind(
-			wx.EVT_MENU, self.script_onIMC, self.calculate)
+			wx.EVT_MENU, self.script_activateBMI, self.calculateBMI)
+
+	def onBMI(self, evt):
+		# Translators: Dialog title Body mass Index Calculation.
+		self.dlg = DialogBMI(gui.mainFrame, _(
+			"Calculation of the Body mass Index."))
+		gui.mainFrame.prePopup()
+		self.dlg.Show()
+		self.dlg.CentreOnScreen()
+		gui.mainFrame.postPopup()
 
 	#defining a script with decorator:
 	@script(
@@ -48,18 +57,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		description=_("BMI, This add-on calculates the body mass index."),
 		category=ADDON_SUMMARY
 	)
-	def script_onIMC(self, gesture):
-		# Translators: Dialog title Body mass Index Calculation.
-		self.dlg = DialogBMI(gui.mainFrame, _(
-			"Calculation of the Body mass Index."))
-		gui.mainFrame.prePopup()
-		self.dlg.Show()
-		self.dlg.CentreOnScreen()
-		gui.mainFrame.postPopup()
+	def script_activateBMI(self, gesture):
+		wx.CallAfter(self.onBMI, None)
 
 	# This terminate function is necessary when creating new menus.
 	def terminate(self):
 		try:
-			self.toolsMenu.Remove(self.urlsListItem)
+			self.toolsMenu.Remove(self.calculateBMI)
 		except Exception:
 			pass
