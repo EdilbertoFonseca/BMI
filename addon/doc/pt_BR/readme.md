@@ -17,7 +17,7 @@ Aqui estão as instruções passo a passo para instalar o Add-on IMC no NVDA:
 2. Pressione enter sobre o add-on que você baixou.
 3. Siga as instruções na tela para instalar o Add-on.
 4. Reinicie o NVDA.
-5. Pressione "NVDA + N" para abrir o menu de configurações e verificar se o Add-on IMC está listado na lista de plugins.
+5. Pressione "NVDA + N" para abrir o menu de ferramentas "F" e verificar na opção Gerir complementos "C" se o Add-on IMC está listado na lista de plugins.
 
 Agora você está pronto para usar o Add-on IMC e calcular seu Índice de Massa Corporal diretamente do NVDA. Certifique-se de verificar a documentação do Add-on para obter informações adicionais sobre como usá-lo e personalizá-lo de acordo com suas necessidades.
 
@@ -29,12 +29,12 @@ Não há instruções sobre como configurar o add-on, seu uso é simples.
 
 Pressione "alt+windows+i", ou use o menu do NVDA (NVDA+N), Ferramentas, Calcule seu IMC, para chamar o complemento. Será exibida um diálogo com dois campos:
 
-1. Altura, onde deverá ser selecionado ou digitado a altura .
-2. Peso, onde deverá ser selecionado ou digitado o peso.
+1. Altura, onde deverá ser selecionado ou digitado a altura  em centímetros "CM".
+2. Peso, onde deverá ser selecionado ou digitado o peso em quilograma "KG".
 
-A pós ter preenchido todos os campos basta acionar o botão calcular, pelo atalho "alt+C", ou pressionar enter.
+A pós ter preenchido todos os campos basta acionar o botão calcular, pelo atalho "alt+A", ou pressionar enter.
 
-O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diálogo o cursor será posicionado novamente no campo altura.
+O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diálogo o cursor será posicionado no botão OK. Precionando o enter o cursor será posicionado no campo altura.
 
 ## Teclas de atalho ##
 
@@ -44,11 +44,6 @@ O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diá
 * “alt+L: Limpa os campos e posiciona o cursor no campo altura.
 * “alt+C”: Encerra o diálogo, pode ser usado também o escape.
 
-## Licença
-
-Este arquivo é coberto pela GNU General Public License.
-Veja o arquivo [COPYING ](https://github.com/EdilbertoFonseca/IMC/blob/master/COPYING.txt) para maiores detalhes.
-
 ## Agradecimentos
 
-A Rui Fontes, pela colaboração e orientação durante o desenvolvimento do addon.
+Agradecimentos especiais aos colaboradores Rui fontes, Noelia e Dalen que ajudaram a tornar esta versão possível.

@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 import os.path
+import time
 
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
@@ -27,7 +28,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon calculates the body mass index."""),
 	# version
-	"addon_version": "2023.3.2",
+	"addon_version": time.strftime("%Y.%m.%d"),
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support

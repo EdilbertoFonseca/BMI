@@ -2,7 +2,8 @@
 
 # Calculate your body mass with this add-on.
 # Author: Edilberto Fonseca.
-# Thanks: To Rui Fontes, for his collaboration and guidance during the development of the addon.
+# Thanks: Special thanks to the contributors Rui Fonte, Noelia and Dalen
+# who have helped make this version possible.
 # Creation date: 08/11/2022.
 
 # Standard NVDA imports.
@@ -22,10 +23,12 @@ ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 # Module required to carry out the translations.
 addonHandler.initTranslation()
 
+
 def disableInSecureMode(decoratedCls):
 	if globalVars.appArgs.secure:
 		return globalPluginHandler.GlobalPlugin
 	return decoratedCls
+
 
 @disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -36,14 +39,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 
 		# Translators: Add-on title in the tools menu.
-		self.calculate = self.toolsMenu.Append(wx.ID_ANY, _("&Calculate your BMI..."))
+		self.calculate = self.toolsMenu.Append(
+			wx.ID_ANY, _("&Calculate your BMI..."))
 		gui.mainFrame.sysTrayIcon.Bind(
 			wx.EVT_MENU, self.script_onIMC, self.calculate)
 
-	#defining a script with decorator:
+	# defining a script with decorator:
 	@script(
 		gesture="kb:Windows+alt+I",
-
+		
 		# Translators: Text displayed in NVDA help.
 		description=_("BMI, This add-on calculates the body mass index."),
 		category=ADDON_SUMMARY
