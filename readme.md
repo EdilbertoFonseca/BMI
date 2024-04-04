@@ -2,6 +2,8 @@
 
 * Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
 * Creation date: 08/11/2022.
+* License: [gpl 2.0][1]
+* Review date: 03/18/2024.
 
 ## Introduction
 
@@ -13,11 +15,14 @@ Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body
 
 Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
 
-1. Download the Add-on installation file [BMI](https://github.com/EdilbertoFonseca/BMI) from a trusted website or the official page of NVDA.
+1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
+<br>
+Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
+<br>
 2. Press enter on the add-on you downloaded.
 3. Follow the on-screen instructions to install the Add-on.
 4. Restart NVDA.
-5. Press "NVDA + N" to open the "T" tools menu and check in the option Manage add-ons "A" if the BMI Add-on is listed in the list of plugins.
+5. Press "NVDA + N" to open the "T" tools menu and verify that the IMC Add-on is listed in the tools list.
 
 You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA. Be sure to check out the Add-on's documentation for additional information on how to use it and customize it to your needs.
 
@@ -44,6 +49,13 @@ NVDA will verbalize a dialog with the result of the calculation. At the end of t
 * “alt+L: Clears the fields and positions the cursor in the height field.
 * “alt+C”: Closes the dialog box, escape can also be used.
 
+## License
+
+This add-on is covered by the GNU General Public License [GPL v2][1].
+
 ## Thanks
 
 Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
+
+[1]: https://www.gnu.org/licenses/gpl-2.0.html
+[2]: https://github.com/EdilbertoFonseca/BMI
