@@ -16,9 +16,7 @@ Bem-vindo ao Add-on IMC! Este é um plug-in desenvolvido para ajudar na determin
 Aqui estão as instruções passo a passo para instalar o Add-on IMC no NVDA:
 
 1. Baixe o arquivo de instalação do  Add-on a partir da Loja de complementos ou da página oficial do [IMC][2].
-<br>
 Observação: Caso o add-on for baixado da loja a instalação acontece automaticamente. Do contrario siga as orientações abaixo.
-?<br>
 2. Pressione enter sobre o add-on que você baixou.
 3. Siga as instruções na tela para instalar o Add-on.
 4. Reinicie o NVDA.
@@ -41,7 +39,7 @@ A pós ter preenchido todos os campos basta acionar o botão calcular, pelo atal
 
 O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diálogo o cursor será posicionado no botão OK. Precionando o enter o cursor será posicionado no campo altura.
 
-## Teclas de atalho ##
+## Teclas de atalho
 
 ### Diálogo principal
 
