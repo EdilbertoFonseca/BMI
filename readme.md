@@ -16,9 +16,7 @@ Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body
 Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
 
 1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
-<br>
 Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
-<br>
 2. Press enter on the add-on you downloaded.
 3. Follow the on-screen instructions to install the Add-on.
 4. Restart NVDA.
@@ -41,7 +39,7 @@ After filling in all the fields, just press the calculate button, using the "alt
 
 NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
 
-## Hotkeys ##
+## Hotkeys
 
 ### main dialog
 
