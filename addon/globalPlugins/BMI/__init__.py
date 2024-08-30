@@ -47,7 +47,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# defining a script with decorator:
 	@script(
 		gesture="kb:Windows+alt+I",
-		
+
 		# Translators: Text displayed in NVDA help.
 		description=_("BMI, This add-on calculates the body mass index."),
 		category=ADDON_SUMMARY

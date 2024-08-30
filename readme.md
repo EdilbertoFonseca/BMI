@@ -57,5 +57,11 @@ This add-on is covered by the GNU General Public License [GPL v2][1].
 
 Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
 
+### Translators
+
+* **Portuguese (Brazil)** by Edilberto Fonseca.
+* **Russian (Russia)** by Danil Kostenkov.
+* **Ukrainian (Ukraine)** by VovaMobile.
+
 [1]: https://www.gnu.org/licenses/gpl-2.0.html
 [2]: https://github.com/EdilbertoFonseca/BMI

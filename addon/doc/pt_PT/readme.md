@@ -53,5 +53,11 @@ O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diá
 
 Agradecimentos especiais aos colaboradores Rui fontes, Noelia e Dalen que ajudaram a tornar esta versão possível.
 
+### Tradutores
+
+* português (Brasil) por Edilberto Fonseca.
+* russo (Rússia) por Danil Kostenkov.
+* ucraniano (Ucrânia) por VovaMobile.
+
 [1]: https://www.gnu.org/licenses/gpl-2.0.html
 [2]: https://github.com/EdilbertoFonseca/BMI
