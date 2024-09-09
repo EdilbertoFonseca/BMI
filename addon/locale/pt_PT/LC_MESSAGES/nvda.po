@@ -5,18 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'BMI' '2023.2.1'\n"
+"Project-Id-Version: 'BMI' '2024.5.16'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2023-07-27 15:05-0300\n"
-"PO-Revision-Date: 2023-07-27 16:09-0300\n"
+"PO-Revision-Date: 2024-09-09 08:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
-"Language: pt_BR\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: addon\globalPlugins\BMI\__init__.py:43
 msgid "&Calculate your BMI..."
@@ -34,12 +35,12 @@ msgstr "Cálculo do Índice de maça Corporal."
 #. Translators: spin height label.
 #: addon\globalPlugins\BMI\main.py:50
 msgid "Enter or select your height in centimeters: "
-msgstr "Digite ou selecione sua altura em centímetro: "
+msgstr "Introduza ou selecione a sua altura em centímetros: "
 
 #. Translators: Spin Weight label.
 #: addon\globalPlugins\BMI\main.py:61
 msgid "Enter or select your weight in kilograms: "
-msgstr "Digite ou selecione seu peso em quilogramas: "
+msgstr "Introduza ou selecione o seu peso em quilogramas: "
 
 #: addon\globalPlugins\BMI\main.py:69
 msgid "C&alculate"
