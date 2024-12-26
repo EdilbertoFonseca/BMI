@@ -27,7 +27,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon calculates the body mass index."""),
 	# version
-	"addon_version": "2024.6.16",
+	"addon_version": "2024.6.17",
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support

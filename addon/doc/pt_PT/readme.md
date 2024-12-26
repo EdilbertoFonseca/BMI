@@ -1,10 +1,10 @@
 # Cálculo do Índice de Massa Corporal (IMC)
 
 * Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* Versão: 2024.6.16
+* Versão: 2024.6.17
 * Data de criação: 08/11/2022.
 * Licença: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* Data de revisão: 23/12/2024
+* Data de revisão: 26/12/2024
 
 ## Introdução
 
