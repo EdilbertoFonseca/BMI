@@ -1,26 +1,40 @@
 # -*- coding: UTF-8 -*-
 
+# Description:
 # Calculate your body mass with this add-on.
-# Author: Edilberto Fonseca.
-# Thanks: Special thanks to the contributors Rui Fonte, Noelia and Dalen
+
+# Thanks:
+# Special thanks to the contributors Rui Fonte, Noelia and Dalen
 # who have helped make this version possible.
+
+# Author: Edilberto Fonseca
+# Email: <edilberto.fonseca@outlook.com>
+# Copyright (C) 2022-2025 Edilberto Fonseca
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
+
 # Creation date: 08/11/2022.
 
 # Standard NVDA imports.
-import globalPluginHandler
+import logging
+
 import addonHandler
-from scriptHandler import script
-import gui
+import globalPluginHandler
 import globalVars
+import gui
 import wx
+from scriptHandler import script
 
 # Imports from the BMI module.
 from .main import DialogBMI
 
+# Configuring the log
+logging.basicConfig(level=logging.ERROR)
+
 # Get the add-on summary contained in the manifest.
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
-# Module required to carry out the translations.
+# Initializes the translation
 addonHandler.initTranslation()
 
 
@@ -69,5 +83,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"""
 		try:
 			self.toolsMenu.Remove(self.calculate)
-		except Exception:
-			pass
+		except Exception as e:
+			logging.error("Error removing menu option 'Calculate your BMI...': %s", e)

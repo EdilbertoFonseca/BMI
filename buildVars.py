@@ -27,7 +27,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon calculates the body mass index."""),
 	# version
-	"addon_version": "2024.5.16",
+	"addon_version": "2024.6.16",
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support
@@ -37,7 +37,7 @@ addon_info = {
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
-	"addon_minimumNVDAVersion": "2021.3",
+	"addon_minimumNVDAVersion": "2023.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
 	"addon_lastTestedNVDAVersion": "2024.2",
 	# Add-on update channel (default is None, denoting stable releases,
@@ -60,8 +60,8 @@ addon_info = {
 # For more information on SCons Glob expressions please take a look at:
 mainPaht = os.path.join("addon", "globalPlugins", "BMI")
 pythonSources = [
-    os.path.join("addon", "*.py"),
-    os.path.join(mainPaht, "*.py"),
+	os.path.join("addon", "*.py"),
+	os.path.join(mainPaht, "*.py"),
 ]
 
 # Files that contain strings for translation. Usually your python sources

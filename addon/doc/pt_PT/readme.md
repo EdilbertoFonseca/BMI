@@ -1,55 +1,60 @@
-# (IMC) Cálculo do índice de maça corporal
+# Cálculo do Índice de Massa Corporal (IMC)
 
-* Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
-* Data da criação: 11/08/2022.
-* Licença: [gpl 2.0][1]
-* Data da revisão: 18/03/2024.
+* Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* Versão: 2024.6.16
+* Data de criação: 08/11/2022.
+* Licença: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* Data de revisão: 23/12/2024
 
 ## Introdução
 
-Bem-vindo ao Add-on IMC! Este é um plug-in desenvolvido para ajudar na determinação do Índice de Massa Corporal (IMC), que é uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Addon, você pode calcular facilmente seu IMC, fornecendo sua altura e peso. Além disso, também oferecemos uma classificação detalhada dos resultados, para que você possa entender melhor sua situação e tomar as medidas necessárias para alcançar e manter uma boa saúde.
+Bem-vindo ao Add-on IMC! Este é um plug-in desenvolvido para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Add-on, pode calcular facilmente o seu IMC fornecendo a sua altura e peso.
 
- Observação: Para uma interpretação adequada do IMC, é recomendável considerar outros fatores, como a composição corporal, a distribuição de gordura, a idade, o sexo e a saúde geral da pessoa. É sempre recomendável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e para obter orientações adequadas sobre a saúde e o peso.
+Nota: Para uma interpretação adequada do IMC, é recomendado considerar outros fatores, como composição corporal, distribuição de gordura, idade, género e saúde geral da pessoa. É sempre aconselhável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e obter orientação adequada sobre saúde e peso.
 
 ## Instalação
 
 Aqui estão as instruções passo a passo para instalar o Add-on IMC no NVDA:
 
-1. Baixe o arquivo de instalação do  Add-on a partir da Loja de complementos ou da página oficial do [IMC][2].
-Observação: Caso o add-on for baixado da loja a instalação acontece automaticamente. Do contrario siga as orientações abaixo.
-2. Pressione enter sobre o add-on que você baixou.
-3. Siga as instruções na tela para instalar o Add-on.
+1. Faça o download do ficheiro de instalação do Add-on na Loja de Add-ons ou na página oficial do [IMC](https://github.com/EdilbertoFonseca/BMI).
+   Nota: Se o add-on for descarregado da loja, a instalação acontece automaticamente. Caso contrário, siga as orientações abaixo.
+2. Prima Enter no add-on que descarregou.
+3. Siga as instruções no ecrã para instalar o Add-on.
 4. Reinicie o NVDA.
-5. Pressione "NVDA + N" para abrir o menu de ferramentas "F" e verificar se o Add-on IMC está listado na lista de ferramentas.
+5. Prima `NVDA+N` para abrir o menu de "ferramentas" e verifique se o Add-on IMC está listado na lista de ferramentas.
 
-Agora você está pronto para usar o Add-on IMC e calcular seu Índice de Massa Corporal diretamente do NVDA. Certifique-se de verificar a documentação do Add-on para obter informações adicionais sobre como usá-lo e personalizá-lo de acordo com suas necessidades.
+Agora está pronto para usar o Add-on IMC e calcular o seu Índice de Massa Corporal diretamente no NVDA.
 
-## Configuração
+## Definições
 
-Não há instruções sobre como configurar o add-on, seu uso é simples.
+Não há instruções sobre como configurar o add-on, pois o seu uso é simples.
 
-## Uso
+## Utilização
 
-Pressione "alt+windows+i", ou use o menu do NVDA (NVDA+N), Ferramentas, Calcule seu IMC, para chamar o complemento. Será exibida um diálogo com dois campos:
+Prima `alt+windows+I`, ou use o menu do NVDA `NVDA+N`, Ferramentas, Calcular o seu IMC, para invocar o add-on. Aparecerá uma caixa de diálogo com dois campos:
 
-1. Altura, onde deverá ser selecionado ou digitado a altura  em centímetros "CM".
-2. Peso, onde deverá ser selecionado ou digitado o peso em quilograma "KG".
+1. Altura, onde a altura em centímetros "CM" deve ser selecionada ou inserida.
+2. Peso, onde o peso em quilogramas "KG" deve ser selecionado ou inserido.
 
-A pós ter preenchido todos os campos basta acionar o botão calcular, pelo atalho "alt+A", ou pressionar enter.
+Depois de preencher todos os campos, basta pressionar o botão de calcular, utilizando o atalho `Alt+A`, ou pressionar Enter no botão de calcular.
 
-O NVDA verbalizará um diálogo com o resultado do cálculo. Ao término do diálogo o cursor será posicionado no botão OK. Precionando o enter o cursor será posicionado no campo altura.
+O NVDA verbalizará uma caixa de diálogo com o resultado do cálculo. No final da caixa de diálogo, o cursor estará posicionado no botão OK. Ao pressionar Enter, o cursor será reposicionado no campo de altura.
 
 ## Teclas de atalho
 
 ### Diálogo principal
 
-* “alt+A”: Efetua o cálculo.
-* “alt+L: Limpa os campos e posiciona o cursor no campo altura.
-* “alt+C”: Encerra o diálogo, pode ser usado também o escape.
+* `Alt+A`: Realiza o cálculo.
+* `Alt+L`: Limpa os campos e posiciona o cursor no campo de altura.
+* `Alt+C`: Fecha a caixa de diálogo, o atalho Esc também pode ser utilizado.
 
 ## Agradecimentos
 
-Agradecimentos especiais aos colaboradores Rui fontes, Noelia e Dalen que ajudaram a tornar esta versão possível.
+Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar esta versão possível.
 
-[1]: https://www.gnu.org/licenses/gpl-2.0.html
-[2]: https://github.com/EdilbertoFonseca/BMI
+## Tradutores
+
+* **Português (Brasil), pt_BR**: Por Edilberto Fonseca.
+* **Português (Portugal), pt_PT**: Por Edilberto Fonseca.
+* **Russo, ru**: Por Danil Kostenkov.
+* **Turco, tr**: Por Umut KORKMAZ
