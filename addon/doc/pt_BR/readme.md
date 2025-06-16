@@ -1,14 +1,16 @@
 # Cálculo do Índice de Massa Corporal (IMC)
 
-* Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* Versão: 2024.6.17
-* Data de criação: 08/11/2022.
-* Licença: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* Data de revisão: 26/12/2024
+* **Autor**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
+* **Data de criação**: 11/08/2022.
+* **Versão**: 2025.7.18
+* **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Data da revisão**: 21/05/2025
 
 ## Introdução
 
 Bem-vindo ao Add-on IMC! Este é um plug-in projetado para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Add-on, você pode calcular facilmente o seu IMC fornecendo sua altura e peso.
+
+Além do cálculo do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal baseado na altura e uma classificação detalhada conforme os parâmetros da Organização Mundial da Saúde (OMS), fornecendo orientações personalizadas para sua saúde.
 
 Nota: Para uma interpretação adequada do IMC, é recomendado considerar outros fatores, como composição corporal, distribuição de gordura, idade, sexo e saúde geral da pessoa. É sempre recomendável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e obter orientações adequadas sobre saúde e peso.
 
@@ -38,23 +40,31 @@ Pressione `alt+windows+I`, ou use o menu do NVDA `NVDA+N`, Ferramentas, Calcular
 
 Após preencher todos os campos, basta pressionar o botão de calcular, utilizando o atalho `Alt+A`, ou pressionar Enter no botão de calcular.
 
-O NVDA verbalizará um diálogo com o resultado do cálculo. Ao final do diálogo, o cursor estará posicionado no botão OK. Ao pressionar Enter, o cursor será reposicionado no campo de altura.
+O NVDA verbalizará um diálogo com:
+
+* O resultado do cálculo do seu IMC atual.
+* Sua classificação detalhada conforme os parâmetros da OMS (abaixo do peso, peso normal, sobrepeso, obesidade grau I, II ou III).
+* O valor estimado do seu IMC ideal baseado na sua altura.
+* Uma mensagem orientativa ressaltando a importância de fatores adicionais para a avaliação da saúde.
+
+Ao final do diálogo, o cursor estará posicionado no botão OK. Ao pressionar Enter, o cursor será reposicionado no campo de altura.
 
 ## Teclas de atalho
 
-### diálogo principal
+### Diálogo principal
 
 * `Alt+A`: Realiza o cálculo.
 * `Alt+L`: Limpa os campos e posiciona o cursor no campo de altura.
+* `Alt+H`: Exibe o histórico dos cálculos.
 * `Alt+C`: Fecha a caixa de diálogo, o atalho Esc também pode ser usado.
 
 ## Agradecimentos
 
-Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar esta versão possível.
+Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar este projeto possível.
 
 ## Tradutores
 
-* **Português (Brasil), pt_BR**: Por Edilberto Fonseca.
-* **Português (Portugal), pt_PT**: Por Edilberto Fonseca.
+* **Português (Brasil), pt\_BR**: Por Edilberto Fonseca.
+* **Português (Portugal), pt\_PT**: Por Edilberto Fonseca.
 * **Russo, ru**: Por Danil Kostenkov.
-* **Turco, tr**: Por Umut KORKMAZ
+* **Turco, tr**: Por Umut KORKMAZ.

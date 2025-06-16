@@ -1,60 +1,70 @@
-# (BMI) Calculation of the body mass index
+# Body Mass Index (BMI) Calculation
 
-* Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* Version: 2024.6.17
-* Creation date: 08/11/2022.
-* License: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* Review date: 26/12/2024
+* **Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
+* **Creation Date**: 08/11/2022
+* **Version**: 2025.7.18
+* **License**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Last Revised**: 21/05/2025
 
 ## Introduction
 
-Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body Mass Index (BMI), which is an international measurement used to assess a person's body fat level. With this Addon you can easily calculate your BMI by providing your height and weight.
+Welcome to the BMI Add-on! This is a plug-in designed to help determine Body Mass Index (BMI), an international measure used to assess a person’s body fat level. With this add-on, you can easily calculate your BMI by entering your height and weight.
 
- Note: For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat distribution, age, gender and general health of the person. It is always recommended to consult a health professional, such as a doctor or nutritionist, for a more accurate assessment and to obtain proper guidance on health and weight.
+In addition to BMI calculation, this new version offers extra features such as ideal BMI calculation based on height and a detailed classification according to the World Health Organization (WHO) guidelines, providing personalized health recommendations.
+
+Note: For a proper interpretation of BMI, it's important to consider other factors such as body composition, fat distribution, age, sex, and overall health. It is always advisable to consult a healthcare professional, such as a doctor or nutritionist, for a more accurate assessment and appropriate health and weight guidance.
 
 ## Installation
 
-Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
+Here are the step-by-step instructions to install the BMI Add-on in NVDA:
 
-1. Download the Add-on installation file from the Add-on Store or [BMI](https://github.com/EdilbertoFonseca/BMI) official page.
-   Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
-2. Press enter on the add-on you downloaded.
-3. Follow the on-screen instructions to install the Add-on.
+1. Download the Add-on installation file from the Add-ons Store or from the official [BMI page](https://github.com/EdilbertoFonseca/BMI).
+   Note: If the add-on is downloaded from the store, installation will occur automatically. Otherwise, follow the instructions below.
+2. Press Enter on the downloaded add-on file.
+3. Follow the on-screen instructions to complete the installation.
 4. Restart NVDA.
-5. Press `NVDA+N` to open the "tools menu and verify that the IMC Add-on is listed in the tools list.
+5. Press `NVDA+N` to open the "Tools" menu and check if the BMI Add-on is listed among the tools.
 
-You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA.
+You're now ready to use the BMI Add-on and calculate your Body Mass Index directly in NVDA.
 
 ## Settings
 
-There are no instructions on how to configure the add-on, its use is simple.
+There are no configuration instructions for the add-on, as its use is straightforward.
 
 ## Usage
 
-Press `Alt+windows+I`, or use NVDA's menu `NVDA+N`, Tools, Calculate Your BMI, to invoke the add-on. A dialog with two fields will appear:
+Press `Alt+Windows+I`, or use the NVDA menu `NVDA+N`, Tools > Calculate your BMI, to launch the add-on. A dialog with two input fields will appear:
 
-1. Height, where the height in centimeters "CM" must be selected or entered.
-2. Weight, where the weight in kilograms "KG" must be selected or entered.
+1. Height – where your height in centimeters (CM) should be selected or entered.
+2. Weight – where your weight in kilograms (KG) should be selected or entered.
 
-After filling in all the fields, just press the calculate button, using the `Alt+A` shortcut, or press enter on the calculate button.
+After filling in all fields, press the Calculate button using the shortcut `Alt+A`, or press Enter on the calculate button.
 
-NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
+NVDA will read out a dialog containing:
 
-## Hotkeys
+* The result of your current BMI calculation.
+* Your detailed classification according to WHO parameters (underweight, normal weight, overweight, obesity grade I, II, or III).
+* The estimated value of your ideal BMI based on your height.
+* A guidance message emphasizing the importance of additional factors in health assessment.
 
-### main dialog
+At the end of the dialog, the cursor will be positioned on the OK button. Pressing Enter will reposition the cursor to the height field.
 
-* `Alt+A`: Performs the calculation.
-* `Alt+L`: Clears the fields and positions the cursor in the height field.
-* `Alt+C`: Closes the dialog box, escape can also be used.
+## Keyboard Shortcuts
 
-## Thanks
+### Main Dialog
 
-Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
+* `Alt+A`: Performs the BMI calculation.
+* `Alt+L`: Clears the fields and places the cursor in the height field.
+* `Alt+H`: Displays the calculation history.
+* `Alt+C`: Closes the dialog (you can also use the Esc key).
+
+## Acknowledgments
+
+Special thanks to the contributors Rui Fonte, Noelia, and Dalen, whose help made this project possible.
 
 ## Translators
 
 * **Portuguese (Brazil), pt_BR**: By Edilberto Fonseca.
 * **Portuguese (Portugal), pt_PT**: By Edilberto Fonseca.
 * **Russian, ru**: By Danil Kostenkov.
-* **Turco, tr**: By Umut KORKMAZ
+* **Turkish, tr**: By Umut KORKMAZ.

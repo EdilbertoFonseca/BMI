@@ -16,20 +16,16 @@
 # Creation date: 08/11/2022.
 
 # Standard NVDA imports.
-import logging
-
 import addonHandler
 import globalPluginHandler
 import globalVars
 import gui
 import wx
+from logHandler import log
 from scriptHandler import script
 
 # Imports from the BMI module.
 from .main import DialogBMI
-
-# Configuring the log
-logging.basicConfig(level=logging.ERROR)
 
 # Get the add-on summary contained in the manifest.
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
@@ -65,7 +61,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		gesture="kb:Windows+alt+I",
 		# Translators: Text displayed in NVDA help.
-		description=_("BMI, This add-on calculates the body mass index."),
+		description=_("BMI - This add-on calculates the body mass index."),
 		category=ADDON_SUMMARY
 	)
 	def script_onBMI(self, gesture):
@@ -84,4 +80,4 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		try:
 			self.toolsMenu.Remove(self.calculate)
 		except Exception as e:
-			logging.error("Error removing menu option 'Calculate your BMI...': %s", e)
+			log.error("Error removing menu option 'Calculate your BMI...': %s", e)
