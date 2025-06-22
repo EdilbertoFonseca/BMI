@@ -3,9 +3,7 @@
 # Description:
 # Calculate your body mass with this add-on.
 
-# Thanks:
-# Special thanks to the contributors Rui Fonte, Noelia and Dalen
-# who have helped make this version possible.
+# Special thanks to the contributors Rui Fonte, Noelia, and Dalen, whose help made this project possible.
 
 # Author: Edilberto Fonseca
 # Email: <edilberto.fonseca@outlook.com>
@@ -25,7 +23,7 @@ from logHandler import log
 from scriptHandler import script
 
 # Imports from the BMI module.
-from .main import DialogBMI
+from .main import BMIDialog
 
 # Get the add-on summary contained in the manifest.
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
@@ -66,7 +64,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	)
 	def script_onBMI(self, gesture):
 		# Translators: Dialog title Body mass Index Calculation.
-		self.dlg = DialogBMI(gui.mainFrame, _(
+		self.dlg = BMIDialog(gui.mainFrame, _(
 			"Calculation of the Body mass Index."))
 		gui.mainFrame.prePopup()
 		self.dlg.Show()
