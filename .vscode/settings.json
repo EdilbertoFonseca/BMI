@@ -14,5 +14,15 @@
     ],
     "python.defaultInterpreterPath": "${workspaceFolder}/../nvda/.venv/scripts/python.exe",
     "python.linting.enabled": true,
-    "python.linting.linter": "ruff"
+    "python.linting.linter": "ruff",
+    "conventionalCommits.scopes": [
+        "speech",
+        "braille",
+        "config",
+        "localization",
+        "build",
+        "compat",
+        "docs",
+        "readme"
+    ]
 }

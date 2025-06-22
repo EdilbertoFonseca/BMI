@@ -2,9 +2,9 @@
 
 * **Autor**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
 * **Data de Criação**: 08/11/2022
-* **Versão**: 2025.7.18
+* **Versão**: 2025.7.19
 * **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Última Revisão**: 21/05/2025
+* **Última Revisão**: 22/06/2025
 
 ## Introdução
 
@@ -60,7 +60,7 @@ No final da janela, o cursor será posicionado no botão OK. Ao pressionar Enter
 
 ## Agradecimentos
 
-Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar esta versão possível.
+Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar este projeto possível.
 
 ## Tradutores
 
