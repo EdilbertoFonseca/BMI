@@ -26,7 +26,7 @@ All significant changes to this project will be documented in this file.
 
 ## [2024.4.15] - 2024-04-15
 
-### Added
+### New Features
 
 - Added **Russian localization**.
 - Updated documentation.
@@ -35,7 +35,7 @@ All significant changes to this project will be documented in this file.
 
 ## [2024.3.6] - 2024-03-06
 
-### Changed
+### Updated
 
 - Structural and code updates in preparation for new features.
 
@@ -43,7 +43,7 @@ All significant changes to this project will be documented in this file.
 
 ## [2024.1] - 2024-01-26
 
-### Added
+### New Features
 
 - Initial new features for the 2024 release cycle.
 
@@ -51,6 +51,6 @@ All significant changes to this project will be documented in this file.
 
 ## [2023.3.2] - 2023-06-21
 
-### Fixed
+### Bug Fixes
 
 - Fixed translation string error in the description.

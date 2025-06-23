@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Description:
-# Calculate your body mass with this add-on.
+# Description: Calculate your body mass with this add-on.
 
 # Special thanks to the contributors Rui Fonte, Noelia, and Dalen, whose help made this project possible.
 
@@ -156,7 +155,7 @@ Please consult a healthcare provider for guidance.
         else:
             msg = _("""Your BMI is {}.
 
-You are obese.
+Your BMI indicates that you are in the obese range.
 
 It is important to consult a doctor to reduce health risks through safe weight loss.
 

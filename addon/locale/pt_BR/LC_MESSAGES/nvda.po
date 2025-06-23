@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'BMI' '2025.7.19'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2025-06-22 01:12-0300\n"
-"PO-Revision-Date: 2025-06-22 01:17-0300\n"
+"POT-Creation-Date: 2025-06-23 08:59-0300\n"
+"PO-Revision-Date: 2025-06-23 09:00-0300\n"
 "Last-Translator: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language-Team: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language: pt_BR\n"
@@ -18,56 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.6\n"
 
-#: addon\globalPlugins\BMI\__init__.py:56
+#: addon\globalPlugins\BMI\__init__.py:54
 msgid "&Calculate your BMI..."
 msgstr "&Calcule seu IMC..."
 
 #. Translators: Text displayed in NVDA help.
-#: addon\globalPlugins\BMI\__init__.py:64
+#: addon\globalPlugins\BMI\__init__.py:62
 msgid "BMI - This add-on calculates the body mass index."
 msgstr "IMC - Este add-on calcula o índice de massa corporal."
 
-#: addon\globalPlugins\BMI\__init__.py:70
+#: addon\globalPlugins\BMI\__init__.py:68
 msgid "Calculation of the Body mass Index."
 msgstr "Cálculo do Índice de maça Corporal."
 
-#: addon\globalPlugins\BMI\main.py:58
+#: addon\globalPlugins\BMI\main.py:55
 msgid "Enter or select your height in centimeters: "
 msgstr "Digite ou selecione sua altura em centímetro: "
 
-#: addon\globalPlugins\BMI\main.py:63
+#: addon\globalPlugins\BMI\main.py:60
 msgid "Enter or select your weight in kilograms: "
 msgstr "Digite ou selecione seu peso em quilogramas: "
 
-#: addon\globalPlugins\BMI\main.py:68
+#: addon\globalPlugins\BMI\main.py:65
 msgid "C&alculate"
 msgstr "C&alcular"
 
-#: addon\globalPlugins\BMI\main.py:73
+#: addon\globalPlugins\BMI\main.py:70
 msgid "C&lear"
 msgstr "&Limpar"
 
-#: addon\globalPlugins\BMI\main.py:78
+#: addon\globalPlugins\BMI\main.py:75
 msgid "&History"
 msgstr "&Histórico"
 
-#: addon\globalPlugins\BMI\main.py:83
+#: addon\globalPlugins\BMI\main.py:80
 msgid "&Cancel"
 msgstr "&Cancelar"
 
-#: addon\globalPlugins\BMI\main.py:97
+#: addon\globalPlugins\BMI\main.py:94
 msgid "Height and weight must be greater than zero."
 msgstr "A altura e o peso devem ser maiores que zero."
 
-#: addon\globalPlugins\BMI\main.py:103 addon\globalPlugins\BMI\main.py:192
+#: addon\globalPlugins\BMI\main.py:100 addon\globalPlugins\BMI\main.py:189
 msgid "Attention"
 msgstr "Atenção"
 
-#: addon\globalPlugins\BMI\main.py:109
+#: addon\globalPlugins\BMI\main.py:106
 msgid "Ideal weight range for your height: {} kg to {} kg."
 msgstr "Faixa de peso ideal para sua altura: {} kg a {} kg."
 
-#: addon\globalPlugins\BMI\main.py:112
+#: addon\globalPlugins\BMI\main.py:109
 msgid ""
 "Observation:\n"
 "\n"
@@ -85,7 +85,7 @@ msgstr ""
 "É sempre recomendável consultar um profissional de saúde para obter "
 "orientação adequada sobre saúde e peso."
 
-#: addon\globalPlugins\BMI\main.py:119
+#: addon\globalPlugins\BMI\main.py:116
 msgid ""
 "Your BMI is {}.\n"
 "\n"
@@ -109,7 +109,7 @@ msgstr ""
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\main.py:129
+#: addon\globalPlugins\BMI\main.py:126
 msgid ""
 "Your BMI is {}.\n"
 "\n"
@@ -131,7 +131,7 @@ msgstr ""
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\main.py:139
+#: addon\globalPlugins\BMI\main.py:136
 msgid ""
 "Your BMI is {}.\n"
 "\n"
@@ -155,7 +155,7 @@ msgstr ""
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\main.py:149
+#: addon\globalPlugins\BMI\main.py:146
 msgid ""
 "Your BMI is {}.\n"
 "\n"
@@ -177,11 +177,11 @@ msgstr ""
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\main.py:159
+#: addon\globalPlugins\BMI\main.py:156
 msgid ""
 "Your BMI is {}.\n"
 "\n"
-"You are obese.\n"
+"Your BMI indicates that you are in the obese range.\n"
 "\n"
 "It is important to consult a doctor to reduce health risks through safe "
 "weight loss.\n"
@@ -192,7 +192,7 @@ msgid ""
 msgstr ""
 "Seu IMC é {}.\n"
 "\n"
-"Você é obeso.\n"
+"Seu IMC indica que você está na faixa de obesidade.\n"
 "\n"
 "É importante consultar um médico para reduzir os riscos à saúde por meio de "
 "uma perda de peso segura.\n"
@@ -201,20 +201,20 @@ msgstr ""
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\main.py:205
+#: addon\globalPlugins\BMI\main.py:202
 msgid "No history found."
 msgstr "Nenhum histórico encontrado."
 
-#: addon\globalPlugins\BMI\main.py:205 addon\globalPlugins\BMI\main.py:212
-#: addon\globalPlugins\BMI\main.py:224 addon\globalPlugins\BMI\main.py:227
+#: addon\globalPlugins\BMI\main.py:202 addon\globalPlugins\BMI\main.py:209
+#: addon\globalPlugins\BMI\main.py:221 addon\globalPlugins\BMI\main.py:224
 msgid "History"
 msgstr "Histórico"
 
-#: addon\globalPlugins\BMI\main.py:212
+#: addon\globalPlugins\BMI\main.py:209
 msgid "The history is empty."
 msgstr "O histórico está vazio."
 
-#: addon\globalPlugins\BMI\main.py:216
+#: addon\globalPlugins\BMI\main.py:213
 msgid ""
 "Last 10 BMI calculations:\n"
 "\n"
@@ -222,11 +222,11 @@ msgstr ""
 "Últimos 10 cálculos de IMC:\n"
 "\n"
 
-#: addon\globalPlugins\BMI\main.py:220
+#: addon\globalPlugins\BMI\main.py:217
 msgid "Date: {} | Height: {} cm | Weight: {} kg | BMI: {}\n"
 msgstr "Data: {} | Altura: {} cm | Peso: {} kg | IMC: {}\n"
 
-#: addon\globalPlugins\BMI\main.py:227
+#: addon\globalPlugins\BMI\main.py:224
 msgid "Error reading history: {}"
 msgstr "Erro ao ler o histórico: {}"
 
