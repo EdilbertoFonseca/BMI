@@ -19,11 +19,10 @@ sys.dont_write_bytecode = True
 # Bytecode should not be written for build vars module to keep the repository root folder clean.
 import buildVars  # NOQA: E402
 
-
-# Ação personalizada para gerar o changelog
+# Personalized action to generate Changelog
 def gerar_changelog_action(target, source, env):
 	output = str(target[0])
-	generate_changelog.gerar_changelog(arquivo=output)
+	generate_changelog.generate_changelog(file_name=output)
 	return None
 
 def md2html(source, dest):

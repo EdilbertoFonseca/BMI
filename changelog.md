@@ -1,56 +1,89 @@
-# Changelog
+# 📋 Changelog
 
-All significant changes to this project will be documented in this file.
+## v2025.7.18 — 2025-06-16
 
-## [2025.7.18] - 2025-05-21
+### 🔸 Release
 
-### Added
+* Release: Version 2025.7.18 — `Edilberto Fonseca` on 2025-06-16
 
-- Compatibility with **NVDA 2025.1** screen reader.
-- Calculation of the **estimated ideal BMI** based on user height.
-- **Consultation history**: you can now review your **last 10 searches** using the shortcut **Alt + H**.
+## v2024.6.17 — 2024-12-26
 
----
+### 🔸 Others
 
-## [2024.5.16] - 2024-09-09
+* Fixes error in description translation string. — `Edilberto Fonseca` on 2024-12-26
 
-### Fixed
+## v2024.6.16 — 2024-12-26
 
-- Fixed translation string error in the description.
+### 🔸 Others
 
-### Changed
+* Updates headers in the source code and the README.md file — `Edilberto Fonseca` on 2024-12-26
 
-- Updated headers in source code and the `README.md` file.
+## v2024.5.16 — 2024-09-09
 
----
+### 🔸 Release
 
-## [2024.4.15] - 2024-04-15
+* Release: Version 2024.5.16 — `Edilberto Fonseca` on 2024-09-09
 
-### New Features
+### 🔸 Others
 
-- Added **Russian localization**.
-- Updated documentation.
+* Merge remote-tracking branch 'origin' into stable — `Edilberto Fonseca` on 2024-09-06
+* l10n updates — `NVDA translation automation` on 2024-09-06
+* Repository update — `EdilbertoFonseca` on 2024-04-30
+* Add workflow to — `Noelia Ruiz Martínez` on 2024-04-27
+* 2024.04.15 — `EdilbertoFonseca` on 2024-04-15
+* Addition of Russian localization and documentation — `Kostenkov-2021` on 2024-04-09
+* Updated the readme.md file — `EdilbertoFonseca` on 2024-04-04
+* 2024.1 — `EdilbertoFonseca` on 2024-03-26
+* 2024.3.6 — `Edilberto Fonseca` on 2024-03-06
+* 2023.3.2 — `Edilberto Fonseca` on 2023-06-21
+* Revert "New version" — `Edilberto Fonseca` on 2023-06-20
+* New version — `EdilbertoFonseca` on 2023-06-19
 
----
+## 2024.04.15 — 2024-04-15
 
-## [2024.3.6] - 2024-03-06
+### 🔸 Others
 
-### Updated
+* 2024.04.15 — `EdilbertoFonseca` on 2024-04-15
+* Merge branch 'master' of https://github.com/EdilbertoFonseca/BMI — `EdilbertoFonseca` on 2024-04-09
+* Merge pull request #2 from Kostenkov-2021/master — `Edilberto Fonseca` on 2024-04-09
+* Addition of Russian localization and documentation — `Kostenkov-2021` on 2024-04-09
+* Merge branch 'master' into 2024.1 — `EdilbertoFonseca` on 2024-04-04
+* Updated the readme.md file — `EdilbertoFonseca` on 2024-04-04
+* 2024.1 — `EdilbertoFonseca` on 2024-03-26
 
-- Structural and code updates in preparation for new features.
+## v2024.3.18 — 2024-03-18
 
----
+### 🔸 Others
 
-## [2024.1] - 2024-01-26
+* Update readme.md — `Edilberto Fonseca` on 2024-03-18
+* 2024.03.18 — `Edilberto Fonseca` on 2024-03-18
 
-### New Features
+## v2024.3.6 — 2024-03-06
 
-- Initial new features for the 2024 release cycle.
+### 🔸 Others
 
----
+* 2024.3.6 — `Edilberto Fonseca` on 2024-03-06
 
-## [2023.3.2] - 2023-06-21
+## v2023.3.2 — 2023-06-21
 
-### Bug Fixes
+### 🔸 Others
 
-- Fixed translation string error in the description.
+* 2023.3.2 — `Edilberto Fonseca` on 2023-06-21
+* Revert "Create sh.exe.stackdump" — `Edilberto Fonseca` on 2023-06-20
+* Revert "New version" — `Edilberto Fonseca` on 2023-06-20
+* New version — `EdilbertoFonseca` on 2023-06-19
+* Create sh.exe.stackdump — `Edilberto Fonseca` on 2023-06-14
+* Version 2023.3.2 - Feature introduction and bug fixes — `EdilbertoFonseca` on 2023-06-13
+* Merge branch 'master' of https://github.com/EdilbertoFonseca/IMC — `Edilberto Fonseca` on 2023-06-12
+* Source code revision update — `EdilbertoFonseca` on 2023-06-12
+* Merge pull request #1 from VovaMobile/ukrtrans — `Edilberto Fonseca` on 2023-06-12
+* Ukrainian translation — `VovaMobile` on 2023-05-25
+
+## v2023.2.1 — 2023-05-22
+
+### 🔸 Others
+
+* Modified files: readme.md, main.py — `EdilbertoFonseca` on 2023-05-22
+* Updates have been made to the source code, and some labels have been rewritten. — `EdilbertoFonseca` on 2023-05-22
+* Initial commit — `Edilberto Fonseca` on 2023-05-18
+
