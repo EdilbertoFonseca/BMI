@@ -7,17 +7,17 @@ import codecs
 import gettext
 import os
 import os.path
-import zipfile
 import sys
-import generate_changelog
+import zipfile
 
 # Add-on localization exchange facility and the template requires Python 3.10.
 # For best practice, use Python 3.11 or later to align with NVDA development.
-EnsurePythonVersion(3, 10)
+# EnsurePythonVersion(3, 10)
 sys.dont_write_bytecode = True
 
-# Bytecode should not be written for build vars module to keep the repository root folder clean.
+# Bytecode should not be written for buildVars and generate_changelog modules to keep the repository root folder clean.
 import buildVars  # NOQA: E402
+import generate_changelog  # NOQA: E402
 
 # Personalized action to generate Changelog
 def gerar_changelog_action(target, source, env):
@@ -27,48 +27,48 @@ def gerar_changelog_action(target, source, env):
 
 def md2html(source, dest):
 	import markdown
-
 	# Use extensions if defined.
 	mdExtensions = buildVars.markdownExtensions
-	lang = os.path.basename(os.path.dirname(source)).replace("_", "-")
+	lang = os.path.basename(os.path.dirname(source)).replace('_', '-')
 	localeLang = os.path.basename(os.path.dirname(source))
+	
 	try:
-		_ = gettext.translation(
-			"nvda", localedir=os.path.join("addon", "locale"), languages=[localeLang]
-		).gettext
+		_ = gettext.translation("nvda", localedir=os.path.join("addon", "locale"), languages=[localeLang]).gettext
 		summary = _(buildVars.addon_info["addon_summary"])
 	except Exception:
 		summary = buildVars.addon_info["addon_summary"]
+	
 	title = "{addonSummary} {addonVersion}".format(
 		addonSummary=summary, addonVersion=buildVars.addon_info["addon_version"]
 	)
+	
 	headerDic = {
-		'[[!meta title="': "# ",
-		'"]]': " #",
+		"[[!meta title=\"": "# ",
+		"\"]]": " #",
 	}
+	
 	with codecs.open(source, "r", "utf-8") as f:
 		mdText = f.read()
 		for k, v in headerDic.items():
-			mdText = mdText.replace(k, v, 1)
+			mdText = mdText.replace(k, v)  #Replacing all occurrences
 		htmlText = markdown.markdown(mdText, extensions=mdExtensions)
-	# Optimization: build resulting HTML text in one go instead of writing parts separately.
-	docText = "\n".join(
-		[
-			"<!DOCTYPE html>",
-			f'<html lang="{lang}">',
-			"<head>",
-			'<meta charset="UTF-8">',
-			'<meta name="viewport" content="width=device-width, initial-scale=1.0">',
-			'<link rel="stylesheet" type="text/css" href="../style.css" media="screen">',
-			f"<title>{title}</title>",
-			"</head>\n<body>",
-			htmlText,
-			"</body>\n</html>",
-		]
-	)
+	
+	# Generating the full html
+	docText = "\n".join([
+		"<!DOCTYPE html>",
+		f"<html lang=\"{lang}\">",
+		"<head>",
+		"<meta charset=\"UTF-8\">",
+		"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+		"<link rel=\"stylesheet\" type=\"text/css\" href=\"../style.css\" media=\"screen\">",
+		f"<title>{title}</title>",
+		"</head>\n<body>",
+		htmlText,
+		"</body>\n</html>"
+	])
+	
 	with codecs.open(dest, "w", "utf-8") as f:
 		f.write(docText)
-
 
 def mdTool(env):
 	mdAction = env.Action(
@@ -298,11 +298,14 @@ env.Depends(pot, i18nFiles)
 mergePot = env.gettextMergePotFile("${addon_name}-merge.pot", i18nFiles, **gettextvars)
 env.Alias("mergePot", mergePot)
 env.Depends(mergePot, i18nFiles)
+
+# Generate changelog from git history
 changelog = env.Command("changelog.md", [], gerar_changelog_action)
 env.Alias("changelog", changelog)
 
 # Generate Manifest path
 manifest = env.NVDAManifest(os.path.join("addon", "manifest.ini"), os.path.join("manifest.ini.tpl"))
+
 # Ensure manifest is rebuilt if buildVars is updated.
 env.Depends(manifest, "buildVars.py")
 env.Depends(addon, manifest)

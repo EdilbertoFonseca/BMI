@@ -1,5 +1,20 @@
 # 📋 Changelog
 
+## v2025.7.19 — 2025-06-23
+
+### 🐛 Bug Fixes
+
+* fix(sconstruct): correct bug in generate_changelog_action function — `Edilberto Fonseca` on 2025-06-23
+* fix(compat): ensure compatibility with NVDA versions without csv by using JSON — `Edilberto Fonseca` on 2025-06-22
+
+### ✨ New Features
+
+* feat(sconstruct): added Changelog creation — `Edilberto Fonseca` on 2025-06-23
+
+### 📝 Documentation
+
+* docs(readme): Updates version, review date and corrects writing errors — `Edilberto Fonseca` on 2025-06-22
+
 ## v2025.7.18 — 2025-06-16
 
 ### 🔸 Release
@@ -44,7 +59,7 @@
 ### 🔸 Others
 
 * 2024.04.15 — `EdilbertoFonseca` on 2024-04-15
-* Merge branch 'master' of https://github.com/EdilbertoFonseca/BMI — `EdilbertoFonseca` on 2024-04-09
+* Merge branch 'master' of <https://github.com/EdilbertoFonseca/BMI> — `EdilbertoFonseca` on 2024-04-09
 * Merge pull request #2 from Kostenkov-2021/master — `Edilberto Fonseca` on 2024-04-09
 * Addition of Russian localization and documentation — `Kostenkov-2021` on 2024-04-09
 * Merge branch 'master' into 2024.1 — `EdilbertoFonseca` on 2024-04-04
@@ -74,7 +89,7 @@
 * New version — `EdilbertoFonseca` on 2023-06-19
 * Create sh.exe.stackdump — `Edilberto Fonseca` on 2023-06-14
 * Version 2023.3.2 - Feature introduction and bug fixes — `EdilbertoFonseca` on 2023-06-13
-* Merge branch 'master' of https://github.com/EdilbertoFonseca/IMC — `Edilberto Fonseca` on 2023-06-12
+* Merge branch 'master' of <https://github.com/EdilbertoFonseca/IMC> — `Edilberto Fonseca` on 2023-06-12
 * Source code revision update — `EdilbertoFonseca` on 2023-06-12
 * Merge pull request #1 from VovaMobile/ukrtrans — `Edilberto Fonseca` on 2023-06-12
 * Ukrainian translation — `VovaMobile` on 2023-05-25
@@ -86,4 +101,3 @@
 * Modified files: readme.md, main.py — `EdilbertoFonseca` on 2023-05-22
 * Updates have been made to the source code, and some labels have been rewritten. — `EdilbertoFonseca` on 2023-05-22
 * Initial commit — `Edilberto Fonseca` on 2023-05-18
-
