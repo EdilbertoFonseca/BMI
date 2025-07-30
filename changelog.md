@@ -1,4 +1,19 @@
-# 📋 Changelog
+# Changelog
+
+## v2025.7.19 — 2025-06-23
+
+### Bug Fixes
+
+* fix(sconstruct): correct bug in generate_changelog_action function — `Edilberto Fonseca` on 2025-06-23
+* fix(compat): ensure compatibility with NVDA versions without csv by using JSON — `Edilberto Fonseca` on 2025-06-22
+
+### New Features
+
+* feat(sconstruct): added Changelog creation — `Edilberto Fonseca` on 2025-06-23
+
+### Documentation
+
+* docs(readme): Updates version, review date and corrects writing errors — `Edilberto Fonseca` on 2025-06-22
 
 ## v2025.7.19 — 2025-06-23
 
@@ -17,29 +32,29 @@
 
 ## v2025.7.18 — 2025-06-16
 
-### 🔸 Release
+### Release
 
 * Release: Version 2025.7.18 — `Edilberto Fonseca` on 2025-06-16
 
 ## v2024.6.17 — 2024-12-26
 
-### 🔸 Others
+### Others
 
 * Fixes error in description translation string. — `Edilberto Fonseca` on 2024-12-26
 
 ## v2024.6.16 — 2024-12-26
 
-### 🔸 Others
+### Others
 
 * Updates headers in the source code and the README.md file — `Edilberto Fonseca` on 2024-12-26
 
 ## v2024.5.16 — 2024-09-09
 
-### 🔸 Release
+### Release
 
 * Release: Version 2024.5.16 — `Edilberto Fonseca` on 2024-09-09
 
-### 🔸 Others
+### Others
 
 * Merge remote-tracking branch 'origin' into stable — `Edilberto Fonseca` on 2024-09-06
 * l10n updates — `NVDA translation automation` on 2024-09-06
@@ -56,7 +71,7 @@
 
 ## 2024.04.15 — 2024-04-15
 
-### 🔸 Others
+### Others
 
 * 2024.04.15 — `EdilbertoFonseca` on 2024-04-15
 * Merge branch 'master' of <https://github.com/EdilbertoFonseca/BMI> — `EdilbertoFonseca` on 2024-04-09
@@ -68,20 +83,20 @@
 
 ## v2024.3.18 — 2024-03-18
 
-### 🔸 Others
+### Others
 
 * Update readme.md — `Edilberto Fonseca` on 2024-03-18
 * 2024.03.18 — `Edilberto Fonseca` on 2024-03-18
 
 ## v2024.3.6 — 2024-03-06
 
-### 🔸 Others
+### Others
 
 * 2024.3.6 — `Edilberto Fonseca` on 2024-03-06
 
 ## v2023.3.2 — 2023-06-21
 
-### 🔸 Others
+### Others
 
 * 2023.3.2 — `Edilberto Fonseca` on 2023-06-21
 * Revert "Create sh.exe.stackdump" — `Edilberto Fonseca` on 2023-06-20
@@ -96,7 +111,7 @@
 
 ## v2023.2.1 — 2023-05-22
 
-### 🔸 Others
+### Others
 
 * Modified files: readme.md, main.py — `EdilbertoFonseca` on 2023-05-22
 * Updates have been made to the source code, and some labels have been rewritten. — `EdilbertoFonseca` on 2023-05-22
