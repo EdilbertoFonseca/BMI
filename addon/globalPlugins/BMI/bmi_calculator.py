@@ -1,16 +1,24 @@
 # -*- coding: UTF-8 -*-
 
 """
-BMI calculator logic and message handler.
+Description: BMI calculator logic and message handler.
 
 This module provides functions to calculate the Body Mass Index (BMI)
 and return appropriate messages based on the user's gender and BMI value.
 """
 
+# Author: Edilberto Fonseca
+# Email: <edilberto.fonseca@outlook.com>
+# Copyright (C) 2025 Edilberto Fonseca
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
+
+# Date of creation 11/08/2022.
+
 import addonHandler
 from typing import Optional
 
-# Initializes the translation
+# Initialize translation support
 addonHandler.initTranslation()
 
 def validate_inputs(height: float, weight: float) -> Optional[str]:

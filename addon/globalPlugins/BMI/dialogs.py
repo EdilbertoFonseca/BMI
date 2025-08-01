@@ -1,8 +1,16 @@
 # -*- coding: UTF-8 -*-
 
 """
-GUI dialogs for the BMI calculator add-on.
+Description: GUI dialogs for the BMI calculator add-on.
 """
+
+# Author: Edilberto Fonseca
+# Email: <edilberto.fonseca@outlook.com>
+# Copyright (C) 2025 Edilberto Fonseca
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
+
+# Date of creation 11/08/2022.
 
 import addonHandler
 import wx
@@ -14,9 +22,8 @@ from datetime import datetime
 from .bmi_calculator import validate_inputs, calculate_bmi
 from .history_manager import save_to_history, load_history
 
-# Initializes the translation
+# Initialize translation support
 addonHandler.initTranslation()
-
 
 class BMIDialog(wx.Dialog):
 	"""Main dialog for BMI calculation."""

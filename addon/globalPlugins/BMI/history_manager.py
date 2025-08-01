@@ -1,8 +1,16 @@
 # -*- coding: UTF-8 -*-
 
 """
-Handles saving and loading BMI calculation history in JSON format.
+Description: Handles saving and loading BMI calculation history in JSON format.
 """
+
+# Author: Edilberto Fonseca
+# Email: <edilberto.fonseca@outlook.com>
+# Copyright (C) 2025 Edilberto Fonseca
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
+
+# Date of creation 11/08/2022.
 
 import json
 import os
@@ -12,7 +20,7 @@ import addonHandler
 
 from logHandler import log
 
-# Initializes the translation
+# Initialize translation support
 addonHandler.initTranslation()
 
 # Path to the history file

@@ -1,11 +1,19 @@
 # -*- coding: UTF-8 -*-
 
 """
-NVDA Add-on initialization for the BMI calculator.
+ Description: NVDA Add-on initialization for the BMI calculator.
 
-This file integrates the add-on into NVDA, adding a menu item,
-keyboard shortcut, and secure-mode check.
+ This file integrates the add-on into NVDA, adding a menu item,
+ keyboard shortcut, and secure-mode check.
 """
+
+# Author: Edilberto Fonseca
+# Email: <edilberto.fonseca@outlook.com>
+# Copyright (C) 2025 Edilberto Fonseca
+# This file is covered by the GNU General Public License.
+# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
+
+# Date of creation 11/08/2022.
 
 import addonHandler
 import globalPluginHandler
