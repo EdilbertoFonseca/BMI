@@ -2,15 +2,15 @@
 
 * **Autor**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
 * **Data de Criação**: 08/11/2022
-* **Versão**: 2025.7.19
+* **Versão**: 2025.8.19
 * **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Última Revisão**: 22/06/2025
+* **Última Revisão**: 01/08/2025
 
 ## Introdução
 
 Bem-vindo ao Add-on do IMC! Este é um plug-in desenvolvido para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este add-on, pode calcular facilmente o seu IMC inserindo a sua altura e peso.
 
-Além do cálculo do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal com base na altura e uma classificação detalhada de acordo com as diretrizes da Organização Mundial da Saúde (OMS), fornecendo recomendações personalizadas de saúde.
+Para além do cálculo tradicional do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal com base na altura e uma classificação detalhada de acordo com os critérios da Organização Mundial da Saúde (OMS), proporcionando orientações personalizadas para a sua saúde. Agora, o add-on também guarda os 10 últimos cálculos efectuados, que podem ser acedidos rapidamente através do atalho Alt+H.
 
 Nota: Para uma interpretação correta do IMC, é importante considerar outros fatores, como composição corporal, distribuição de gordura, idade, sexo e saúde geral. É sempre aconselhável consultar um profissional de saúde, como médico ou nutricionista, para uma avaliação mais precisa e orientações adequadas sobre saúde e peso.
 
@@ -18,12 +18,10 @@ Nota: Para uma interpretação correta do IMC, é importante considerar outros f
 
 Aqui estão as instruções passo a passo para instalar o Add-on do IMC no NVDA:
 
-1. Faça o download do ficheiro de instalação do Add-on a partir da Loja de Add-ons ou da página oficial do [IMC](https://github.com/EdilbertoFonseca/BMI).  
-   Nota: Se o add-on for descarregado a partir da loja, a instalação ocorrerá automaticamente. Caso contrário, siga as instruções abaixo.
-2. Pressione Enter sobre o ficheiro do add-on descarregado.
-3. Siga as instruções no ecrã para concluir a instalação.
-4. Reinicie o NVDA.
-5. Pressione `NVDA+N` para abrir o menu "Ferramentas" e verifique se o Add-on do IMC está listado entre as ferramentas.
+1. No NVDA, abra o menu Ferramentas e procure pela Loja de Extra.
+2. No separador Extras Disponíveis, navegue até ao campo Procurar.
+3. Pesquise por "BMI". Nos resultados, prima Enter ou Aplicar, e de seguida, seleccione Instalar.
+4. Reinicie o NVDA para aplicar as alterações.
 
 Agora está pronto para utilizar o Add-on do IMC e calcular o seu Índice de Massa Corporal diretamente no NVDA.
 

@@ -1,19 +1,12 @@
 # -*- coding: UTF-8 -*-
 
-# Description:
-# Calculate your body mass with this add-on.
+"""
+NVDA Add-on initialization for the BMI calculator.
 
-# Special thanks to the contributors Rui Fonte, Noelia, and Dalen, whose help made this project possible.
+This file integrates the add-on into NVDA, adding a menu item,
+keyboard shortcut, and secure-mode check.
+"""
 
-# Author: Edilberto Fonseca
-# Email: <edilberto.fonseca@outlook.com>
-# Copyright (C) 2022-2025 Edilberto Fonseca
-# This file is covered by the GNU General Public License.
-# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
-
-# Creation date: 08/11/2022.
-
-# Standard NVDA imports.
 import addonHandler
 import globalPluginHandler
 import globalVars
@@ -22,60 +15,53 @@ import wx
 from logHandler import log
 from scriptHandler import script
 
-# Imports from the BMI module.
-from .main import BMIDialog
+# Import the dialog display function
+from .main import show_bmi_dialog
 
-# Get the add-on summary contained in the manifest.
+# Get the add-on summary from the manifest
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
-# Initializes the translation
+# Initialize translation support
 addonHandler.initTranslation()
 
 
-def disableInSecureMode(decoratedCls):
-	"""
-	Decorator to disable the plugin in secure mode.
-	"""
+def disable_in_secure_mode(decorated_cls):
+	"""Disables the plugin if NVDA is in secure mode."""
 	if globalVars.appArgs.secure:
 		return globalPluginHandler.GlobalPlugin
-	return decoratedCls
+	return decorated_cls
 
 
-@disableInSecureMode
+@disable_in_secure_mode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	"""Global plugin to add the BMI calculator to the Tools menu and shortcut system."""
 
-	# Creating the constructor of the newly created GlobalPlugin class.
 	def __init__(self):
+		"""Constructor for the global plugin."""
 		super(GlobalPlugin, self).__init__()
-		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
+		self.tools_menu = gui.mainFrame.sysTrayIcon.toolsMenu
 
-		# Translators: Add-on title in the tools menu.
-		self.calculate = self.toolsMenu.Append(
-			wx.ID_ANY, _("&Calculate your BMI..."))
+		# Translators: Add-on title in the Tools menu.
+		self.menu_item = self.tools_menu.Append(
+			wx.ID_ANY, _("&Calculate your BMI...")
+		)
 		gui.mainFrame.sysTrayIcon.Bind(
-			wx.EVT_MENU, self.script_onBMI, self.calculate)
+			wx.EVT_MENU, self.script_on_bmi_dialog, self.menu_item
+		)
 
-	# defining a script with decorator:
 	@script(
 		gesture="kb:Windows+alt+I",
-		# Translators: Text displayed in NVDA help.
-		description=_("BMI - This add-on calculates the body mass index."),
+		# Translators: Text displayed in NVDA's input gesture dialog.
+		description=_("BMI - This add-on calculates the Body Mass Index."),
 		category=ADDON_SUMMARY
 	)
-	def script_onBMI(self, gesture):
-		# Translators: Dialog title Body mass Index Calculation.
-		self.dlg = BMIDialog(gui.mainFrame, _(
-			"Calculation of the Body mass Index."))
-		gui.mainFrame.prePopup()
-		self.dlg.Show()
-		self.dlg.CentreOnScreen()
-		gui.mainFrame.postPopup()
+	def script_on_bmi_dialog(self, gesture):
+		"""Triggered by shortcut or menu item to display the BMI dialog."""
+		show_bmi_dialog()
 
 	def terminate(self):
-		"""
-		This terminate function is necessary when creating new menus.
-		"""
+		"""Removes the Tools menu entry when the add-on is unloaded."""
 		try:
-			self.toolsMenu.Remove(self.calculate)
+			self.tools_menu.Remove(self.menu_item)
 		except Exception as e:
-			log.error("Error removing menu option 'Calculate your BMI...': %s", e)
+			log.error("Error removing menu item 'Calculate your BMI...': %s", e)

@@ -2,15 +2,15 @@
 
 * **Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
 * **Creation Date**: 08/11/2022
-* **Version**: 2025.7.19
+* **Version**: 2025.8.19
 * **License**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Last Revised**: 22/06/2025
+* **Last Revised**: 01/08/2025
 
 ## Introduction
 
 Welcome to the BMI Add-on! This is a plug-in designed to help determine Body Mass Index (BMI), an international measure used to assess a person’s body fat level. With this add-on, you can easily calculate your BMI by entering your height and weight.
 
-In addition to BMI calculation, this new version offers extra features such as ideal BMI calculation based on height and a detailed classification according to the World Health Organization (WHO) guidelines, providing personalized health recommendations.
+In addition to the traditional BMI calculation, this new version offers additional features, such as calculating the ideal BMI based on height and providing a detailed classification according to the criteria of the World Health Organization (WHO), offering personalized health guidance. The add-on now also saves the last 10 calculations, which can be quickly accessed using the Alt+H shortcut.
 
 Note: For a proper interpretation of BMI, it's important to consider other factors such as body composition, fat distribution, age, sex, and overall health. It is always advisable to consult a healthcare professional, such as a doctor or nutritionist, for a more accurate assessment and appropriate health and weight guidance.
 
@@ -18,12 +18,10 @@ Note: For a proper interpretation of BMI, it's important to consider other facto
 
 Here are the step-by-step instructions to install the BMI Add-on in NVDA:
 
-1. Download the Add-on installation file from the Add-ons Store or from the official [BMI page](https://github.com/EdilbertoFonseca/BMI).
-   Note: If the add-on is downloaded from the store, installation will occur automatically. Otherwise, follow the instructions below.
-2. Press Enter on the downloaded add-on file.
-3. Follow the on-screen instructions to complete the installation.
-4. Restart NVDA.
-5. Press `NVDA+N` to open the "Tools" menu and check if the BMI Add-on is listed among the tools.
+1. In NVDA, open the **Tools** menu and look for the **Add-on Store**.
+2. In the **Available Add-ons** tab, navigate to the **Search** field.
+3. Search for "BMI". In the results, press **Enter** or **Apply**, then select **Install**.
+4. Restart NVDA to apply the changes.
 
 You're now ready to use the BMI Add-on and calculate your Body Mass Index directly in NVDA.
 
