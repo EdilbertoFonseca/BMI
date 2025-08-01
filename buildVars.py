@@ -27,7 +27,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This add-on calculates the Body Mass Index. Shortcut: Windows+Alt+I."""),
 	# version
-	"addon_version": "2025.7.19",
+	"addon_version": "2025.8.19",
 	# Author(s)
 	"addon_author": "Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support
