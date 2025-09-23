@@ -4,12 +4,18 @@ on:
   push:
     tags: ["*"]
     # To build on main/master branch, uncomment the following line:
-    # branches: [ main , master ]
+    branches: [ main , master ]
 
   pull_request:
     branches: [ main, master ]
 
   workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  deployments: write
 
 jobs:
   build:
