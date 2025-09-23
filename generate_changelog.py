@@ -105,7 +105,7 @@ def generate_changelog(file_name="CHANGELOG.md"):
 						f.write(f"{entry}\n")
 					f.write("\n")
 
-		print(f"✅ Changelog generated in '{file_name}'.")
+		print(f"Changelog generated in '{file_name}'.")
 
 	except Exception as e:
 		print(f"❌ Failed to generate changelog: {e}")
