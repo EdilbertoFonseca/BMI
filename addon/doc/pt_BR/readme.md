@@ -11,7 +11,7 @@
 Bem-vindo ao Add-on IMC! Este é um plug-in projetado para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Add-on, você pode calcular facilmente o seu IMC fornecendo sua altura e peso.
 
 Além do cálculo tradicional do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal com base na altura e uma classificação detalhada conforme os critérios da Organização Mundial da Saúde (OMS), proporcionando orientações personalizadas para sua saúde. Agora, o add-on também salva os 10 últimos cálculos realizados, que podem ser acessados rapidamente pelo atalho Alt+H.
- 
+
 Nota: Para uma interpretação adequada do IMC, é recomendado considerar outros fatores, como composição corporal, distribuição de gordura, idade, sexo e saúde geral da pessoa. É sempre recomendável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e obter orientações adequadas sobre saúde e peso.
 
 ## Instalação
