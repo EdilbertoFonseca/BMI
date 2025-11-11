@@ -14,6 +14,7 @@ Description: Main entry point to open the BMI calculation dialog.
 
 import addonHandler
 import gui
+
 from .dialogs import BMIDialog
 
 # Initialize translation support

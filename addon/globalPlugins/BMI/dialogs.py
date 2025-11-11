@@ -12,18 +12,19 @@ Description: GUI dialogs for the BMI calculator add-on.
 
 # Date of creation 11/08/2022.
 
-import addonHandler
-import wx
-import gui
-from gui import guiHelper
-
 from datetime import datetime
 
-from .bmi_calculator import validate_inputs, calculate_bmi
-from .history_manager import save_to_history, load_history
+import addonHandler
+import gui
+import wx
+from gui import guiHelper
+
+from .bmi_calculator import calculate_bmi, validate_inputs
+from .history_manager import load_history, save_to_history
 
 # Initialize translation support
 addonHandler.initTranslation()
+
 
 class BMIDialog(wx.Dialog):
 	"""Main dialog for BMI calculation."""

@@ -15,9 +15,9 @@ Description: Handles saving and loading BMI calculation history in JSON format.
 import json
 import os
 from datetime import datetime
-from typing import List, Dict, Optional
-import addonHandler
+from typing import Dict, List, Optional
 
+import addonHandler
 from logHandler import log
 
 # Initialize translation support

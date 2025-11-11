@@ -15,8 +15,9 @@ and return appropriate messages based on the user's gender and BMI value.
 
 # Date of creation 11/08/2022.
 
-import addonHandler
 from typing import Optional
+
+import addonHandler
 
 # Initialize translation support
 addonHandler.initTranslation()
