@@ -1,68 +1,59 @@
-# Cálculo do Índice de Massa Corporal (IMC)
+# (IMC) Cálculo do índice de massa corporal
 
-* **Autor**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
-* **Data de Criação**: 08/11/2022
-* **Versão**: 2025.8.19
-* **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Última Revisão**: 01/08/2025
+* Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
+* Data de criação: 08/11/2022.
+* Licença: [gpl 2.0][1]
+* Data de revisão: 18/03/2024.
 
 ## Introdução
 
-Bem-vindo ao Add-on do IMC! Este é um plug-in desenvolvido para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este add-on, pode calcular facilmente o seu IMC inserindo a sua altura e peso.
+Bem-vindo ao suplemento IMC! Este é um plug-in concebido para ajudar a determinar o Índice de Massa Corporal (IMC), que é uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este complemento, pode calcular facilmente o seu IMC fornecendo a sua altura e peso. Além disso, também oferecemos uma classificação dos resultados, para que possa compreender melhor a sua situação e tomar as medidas necessárias para alcançar e manter uma boa saúde.
 
-Para além do cálculo tradicional do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal com base na altura e uma classificação detalhada de acordo com os critérios da Organização Mundial da Saúde (OMS), proporcionando orientações personalizadas para a sua saúde. Agora, o add-on também guarda os 10 últimos cálculos efectuados, que podem ser acedidos rapidamente através do atalho Alt+H.
-
-Nota: Para uma interpretação correta do IMC, é importante considerar outros fatores, como composição corporal, distribuição de gordura, idade, sexo e saúde geral. É sempre aconselhável consultar um profissional de saúde, como médico ou nutricionista, para uma avaliação mais precisa e orientações adequadas sobre saúde e peso.
+ Nota: Para uma interpretação correta do IMC, recomenda-se que sejam considerados outros factores, como a composição corporal, a distribuição da gordura, a idade, o sexo e o estado geral de saúde da pessoa. Recomenda-se sempre a consulta de um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais exacta e para obter orientações adequadas sobre saúde e peso.
 
 ## Instalação
 
-Aqui estão as instruções passo a passo para instalar o Add-on do IMC no NVDA:
+Eis as instruções passo a passo para instalar a extensão IMC no NVDA:
 
-1. No NVDA, abra o menu Ferramentas e procure pela Loja de Extra.
-2. No separador Extras Disponíveis, navegue até ao campo Procurar.
-3. Pesquise por "BMI". Nos resultados, prima Enter ou Aplicar, e de seguida, seleccione Instalar.
-4. Reinicie o NVDA para aplicar as alterações.
+1. Transfira o ficheiro de instalação do complemento a partir da Loja de complementos ou da página oficial do [BMI][1].
+Nota: Se o suplemento for descarregado da loja, a instalação ocorre automaticamente. Caso contrário, siga as diretrizes abaixo.
+2. Prima enter no add-on que descarregou.
+3. Siga as instruções no ecrã para instalar o Add-on.
+4. Reinicie o NVDA.
+5. Prima "NVDA + N" para abrir o menu de ferramentas "T" e verifique se o suplemento IMC está listado na lista de ferramentas.
 
-Agora está pronto para utilizar o Add-on do IMC e calcular o seu Índice de Massa Corporal diretamente no NVDA.
+Está agora pronto para utilizar o suplemento IMC e calcular o seu índice de massa corporal diretamente a partir do NVDA. Não se esqueça de consultar a documentação do suplemento para obter informações adicionais sobre como utilizá-lo e personalizá-lo de acordo com as suas necessidades.
 
-## Definições
+## Configurações
 
-Não há instruções de configuração para o add-on, pois o seu uso é simples e direto.
+Não existem instruções sobre como configurar o add-on, a sua utilização é simples.
 
 ## Utilização
 
-Pressione `Alt+Windows+I`, ou use o menu do NVDA `NVDA+N`, Ferramentas > Calcular o seu IMC, para iniciar o add-on. Aparecerá uma janela com dois campos de entrada:
+Prima "alt+windows+i", ou utilize o menu do NVDA (NVDA+N), Ferramentas, Calcular o seu IMC, para invocar o suplemento. Aparecerá uma caixa de diálogo com dois campos:
 
-1. Altura – onde a sua altura em centímetros (CM) deve ser selecionada ou inserida.
-2. Peso – onde o seu peso em quilogramas (KG) deve ser selecionado ou inserido.
+1. Altura, onde a altura em centímetros "CM" deve ser selecionada ou introduzida.
+2. Peso, onde o peso em quilogramas "KG" deve ser selecionado ou introduzido.
 
-Após preencher todos os campos, pressione o botão Calcular utilizando o atalho `Alt+A`, ou pressione Enter sobre o botão de calcular.
+Depois de preencher todos os campos, basta premir o botão de cálculo, utilizando o atalho "alt+A", ou premir enter no botão de cálculo.
 
-O NVDA lerá uma janela com o seguinte:
+O NVDA verbalizará uma caixa de diálogo com o resultado do cálculo. No final da caixa de diálogo, o cursor será posicionado no botão OK. Premindo enter, o cursor será posicionado no campo da altura.
 
-* O resultado do cálculo do seu IMC atual.
-* A sua classificação detalhada de acordo com os parâmetros da OMS (baixo peso, peso normal, sobrepeso, obesidade grau I, II ou III).
-* O valor estimado do seu IMC ideal com base na sua altura.
-* Uma mensagem de orientação enfatizando a importância de fatores adicionais na avaliação de saúde.
+## Teclas de atalho
 
-No final da janela, o cursor será posicionado no botão OK. Ao pressionar Enter, o cursor será reposicionado para o campo de altura.
+### Diálogo principal
 
-## Atalhos de Teclado
+* "alt+A": Efectua o cálculo.
+* "Alt+L: Limpa os campos e posiciona o cursor no campo da altura.
+* "alt+C": Fecha a caixa de diálogo, também pode ser utilizado o escape.
 
-### Janela Principal
+## Licença
 
-* `Alt+A`: Realiza o cálculo do IMC.
-* `Alt+L`: Limpa os campos e coloca o cursor no campo da altura.
-* `Alt+H`: Exibe o histórico de cálculos.
-* `Alt+C`: Fecha a janela (também pode usar a tecla Esc).
+Este add-on está coberto pela Licença Pública Geral GNU [GPL v2][1].
 
-## Agradecimentos
+## Obrigado
 
-Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar este projeto possível.
+Um agradecimento especial aos colaboradores Rui Fonte, Noelia e Dalen que ajudaram a tornar esta versão possível.
 
-## Tradutores
-
-* **Português (Brasil), pt_BR**: Por Edilberto Fonseca.  
-* **Português (Portugal), pt_PT**: Por Edilberto Fonseca.  
-* **Russo, ru**: Por Danil Kostenkov.  
-* **Turco, tr**: Por Umut KORKMAZ.
+[1]: https://www.gnu.org/licenses/gpl-2.0.html
+[2]: https://github.com/EdilbertoFonseca/BMI

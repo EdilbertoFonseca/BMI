@@ -5,56 +5,56 @@ msgstr ""
 "POT-Creation-Date: 2025-10-20 02:34+0000\n"
 "PO-Revision-Date: 2025-10-27 01:01\n"
 "Last-Translator: \n"
-"Language-Team: Turkish\n"
-"Language: tr_TR\n"
+"Language-Team: Finnish\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: tr\n"
+"X-Crowdin-Language: fi\n"
 "X-Crowdin-File: BMI.pot\n"
 "X-Crowdin-File-ID: 300\n"
 
 #: addon/globalPlugins/BMI/__init__.py:43
 msgid "&Calculate your BMI..."
-msgstr "VKİ'ni hesapla..."
+msgstr "&Laske kehonpainoindeksi..."
 
 #. Translators: Text displayed in NVDA help.
 #: addon/globalPlugins/BMI/__init__.py:52
 msgid "BMI, This add-on calculates the body mass index."
-msgstr "VKİ, Bu eklenti vücut kitle indeksini hesaplar."
+msgstr "Tämä lisäosa laskee kehonpainoindeksin."
 
 #: addon/globalPlugins/BMI/__init__.py:58
 msgid "Calculation of the Body mass Index."
-msgstr "Vücut Kitle İndeksinizi hesaplayın."
+msgstr "Kehonpainoindeksin laskeminen."
 
 #. Translators: spin height label.
 #: addon/globalPlugins/BMI/main.py:50
 msgid "Enter or select your height in centimeters: "
-msgstr "Boyunuzu santimetre cinsinden girin veya seçin: "
+msgstr "Syötä tai valitse pituutesi senttimetreinä: "
 
 #. Translators: Spin Weight label.
 #: addon/globalPlugins/BMI/main.py:61
 msgid "Enter or select your weight in kilograms: "
-msgstr "Kilonuzu kilogram cinsinden girin veya seçin: "
+msgstr "Syötä tai valitse painosi kilogrammoina: "
 
 #: addon/globalPlugins/BMI/main.py:69
 msgid "C&alculate"
-msgstr "Hes&apla"
+msgstr "&Laske"
 
 #: addon/globalPlugins/BMI/main.py:74
 msgid "C&lean"
-msgstr "Temiz&le"
+msgstr "T&yhjennä"
 
 #: addon/globalPlugins/BMI/main.py:79
 msgid "&Cancel"
-msgstr "İ&ptal"
+msgstr "&Peruuta"
 
 #: addon/globalPlugins/BMI/main.py:101
 msgid "Atention"
-msgstr "Uyarı"
+msgstr "Huomio"
 
 #: addon/globalPlugins/BMI/main.py:106
 msgid "Your BMI is {}.\n\n"
@@ -66,15 +66,15 @@ msgid "Your BMI is {}.\n\n"
 "distribution, age, gender and general health of the person.\n"
 "It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
 " accurate assessment and proper guidance on health and weight."
-msgstr "VKİ'niz {}.\n\n"
-"VKİ'niz zayıf olduğunuzu gösteriyor.\n\n"
-"Sağlığınızı değerlendirmek, sağlıklı bir şekilde kilo vermenin ve sağlık risklerini azaltmanın\n"
-"yollarını belirlemek için bir doktora veya beslenme uzmanına danışmanız önemlidir.\n\n"
-"Gözlem:\n"
-"VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı,\n"
-"yaş, cinsiyet ve kişinin genel sağlığı gibi diğer faktörlerin de göz önünde bulundurulması önerilir.\n"
-"Sağlık ve kilo konusunda daha doğru bir değerlendirme ve uygun rehberlik için her zaman bir doktor\n"
-"veya beslenme uzmanı gibi bir sağlık uzmanına danışmanız önerilir."
+msgstr "Kehonpainoindeksisi on {}.\n\n"
+"Tulos osoittaa, että olet alipainoinen.\n\n"
+"On suositeltavaa keskustella lääkärin tai ravitsemusterapeutin\n"
+"kanssa terveytesi arvioimiseksi ja terveellisten painonlisäyskeinojen löytämiseksi.\n\n"
+"Huomautus:\n"
+"Kehonpainoindeksin oikea tulkinta vaatii myös muiden tekijöiden huomioon ottamista, kuten kehon koostumus, rasvan\n"
+"jakautuminen, ikä, sukupuoli ja yleinen terveydentila.\n"
+"On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin puoleen saadaksesi tarkemman\n"
+"arvion ja ohjeet terveyteen ja painoon liittyen."
 
 #: addon/globalPlugins/BMI/main.py:120
 msgid "Your BMI is {}.\n\n"
@@ -85,14 +85,14 @@ msgid "Your BMI is {}.\n\n"
 "distribution, age, gender and general health of the person.\n"
 "It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
 " accurate assessment and proper guidance on health and weight."
-msgstr "VKİ'niz {}.\n\n"
-"VKİ'niz sağlıklı bir kiloda olduğunuzu gösteriyor.\n\n"
-"Dengeli bir diyet uygulayarak ve düzenli olarak fiziksel aktivite yaparak bunu sürdürün.\n\n"
-"Gözlem:\n"
-"VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı,\n"
-"yaş, cinsiyet ve kişinin genel sağlığı gibi diğer faktörlerin de göz önünde bulundurulması önerilir.\n"
-"Sağlık ve kilo konusunda daha doğru bir değerlendirme ve uygun rehberlik için her zaman bir doktor\n"
-"veya beslenme uzmanı gibi bir sağlık uzmanına danışmanız önerilir."
+msgstr "Kehonpainoindeksisi on {}.\n\n"
+"Tulos osoittaa, että olet normaalipainoinen.\n\n"
+"Jatka samaan malliin ylläpitämällä tasapainoista ruokavaliota ja harrastamalla säännöllisesti liikuntaa.\n\n"
+"Huomautus:\n"
+"Kehonpainoindeksin oikea tulkinta vaatii myös muiden tekijöiden huomioon ottamista, kuten kehon koostumus, rasvan\n"
+"jakautuminen, ikä, sukupuoli ja yleinen terveydentila.\n"
+"On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin puoleen saadaksesi tarkemman\n"
+"arvion ja ohjeet terveyteen ja painoon liittyen."
 
 #: addon/globalPlugins/BMI/main.py:133
 msgid "Your BMI is {}.\n\n"
@@ -104,15 +104,15 @@ msgid "Your BMI is {}.\n\n"
 "distribution, age, gender and general health of the person.\n"
 "It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
 " accurate assessment and proper guidance on health and weight."
-msgstr "VKİ'niz {}.\n\n"
-"VKİ'niz aşırı kilolu olduğunuzu gösteriyor.\n\n"
-"Sağlığınızı değerlendirmek, sağlıklı bir şekilde kilo vermenin ve sağlık risklerini azaltmanın\n"
-"yollarını belirlemek için bir doktora veya beslenme uzmanına danışmanız önemlidir.\n\n"
-"Gözlem:\n"
-"VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı,\n"
-"yaş, cinsiyet ve kişinin genel sağlığı gibi diğer faktörlerin de göz önünde bulundurulması önerilir.\n"
-"Sağlık ve kilo konusunda daha doğru bir değerlendirme ve uygun rehberlik için her zaman bir doktor\n"
-"veya beslenme uzmanı gibi bir sağlık uzmanına danışmanız önerilir."
+msgstr "Kehonpainoindeksisi on {}.\n\n"
+"Tulos osoittaa, että olet ylipainoinen.\n\n"
+"On tärkeää keskustella lääkärin tai ravitsemusterapeutin\n"
+"kanssa terveytesi arvioimiseksi ja terveellisten painonpudotuskeinojen löytämiseksi.\n\n"
+"Huomautus:\n"
+"Kehonpainoindeksin oikea tulkinta vaatii myös muiden tekijöiden huomioon ottamista, kuten kehon koostumus, rasvan\n"
+"jakautuminen, ikä, sukupuoli ja yleinen terveydentila.\n"
+"On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin puoleen saadaksesi tarkemman\n"
+"arvion ja ohjeet terveyteen ja painoon liittyen."
 
 #: addon/globalPlugins/BMI/main.py:147
 msgid "Your BMI is {}.\n\n"
@@ -124,15 +124,15 @@ msgid "Your BMI is {}.\n\n"
 "distribution, age, gender and general health of the person.\n"
 "It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
 " accurate assessment and proper guidance on health and weight."
-msgstr "VKİ'niz {}.\n\n"
-"VKİ'niz aşırı kilolu olduğunuzu gösteriyor.\n\n"
-"Sağlığınızı değerlendirmek, sağlıklı bir şekilde kilo vermenin ve sağlık risklerini azaltmanın\n"
-"yollarını belirlemek için bir doktora veya beslenme uzmanına danışmanız önemlidir.\n\n"
-"Gözlem:\n"
-"VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı,\n"
-"yaş, cinsiyet ve kişinin genel sağlığı gibi diğer faktörlerin de göz önünde bulundurulması önerilir.\n"
-"Sağlık ve kilo konusunda daha doğru bir değerlendirme ve uygun rehberlik için her zaman bir doktor\n"
-"veya beslenme uzmanı gibi bir sağlık uzmanına danışmanız önerilir."
+msgstr "Kehonpainoindeksisi on {}.\n\n"
+"Tulos osoittaa, että olet ylipainoinen.\n\n"
+"On tärkeää keskustella lääkärin tai ravitsemusterapeutin\n"
+"kanssa terveytesi arvioimiseksi ja terveellisten painonpudotuskeinojen löytämiseksi.\n\n"
+"Huomautus:\n"
+"Kehonpainoindeksin oikea tulkinta vaatii myös muiden tekijöiden huomioon ottamista, kuten kehon koostumus, rasvan\n"
+"jakautuminen, ikä, sukupuoli ja yleinen terveydentila.\n"
+"On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin puoleen saadaksesi tarkemman\n"
+"arvion ja ohjeet terveyteen ja painoon liittyen."
 
 #: addon/globalPlugins/BMI/main.py:161
 msgid "Your BMI is {}.\n\n"
@@ -144,31 +144,31 @@ msgid "Your BMI is {}.\n\n"
 "distribution, age, gender and general health of the person.\n"
 "It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
 " accurate assessment and proper guidance on health and weight."
-msgstr "VKİ'niz {}.\n\n"
-"VKİ'niz obez olduğunuzu gösteriyor.\n\n"
-"Sağlığınızı değerlendirmek, sağlıklı bir şekilde kilo vermenin ve sağlık risklerini azaltmanın\n"
-"yollarını belirlemek için bir doktora veya beslenme uzmanına danışmanız önemlidir.\n\n"
-"Gözlem:\n"
-"VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı,\n"
-"yaş, cinsiyet ve kişinin genel sağlığı gibi diğer faktörlerin de göz önünde bulundurulması önerilir.\n"
-"Sağlık ve kilo konusunda daha doğru bir değerlendirme ve uygun rehberlik için her zaman bir doktor\n"
-"veya beslenme uzmanı gibi bir sağlık uzmanına danışmanız önerilir."
+msgstr "Kehonpainoindeksisi on {}.\n\n"
+"Tulos osoittaa, että olet lihava.\n\n"
+"On tärkeää keskustella lääkärin tai ravitsemusterapeutin\n"
+"kanssa terveytesi arvioimiseksi, painonpudotuskeinojen löytämiseksi sekä terveysriskien vähentämiseksi.\n\n"
+"Huomautus:\n"
+"Kehonpainoindeksin oikea tulkinta vaatii myös muiden tekijöiden huomioon ottamista, kuten kehon koostumus, rasvan\n"
+"jakautuminen, ikä, sukupuoli ja yleinen terveydentila.\n"
+"On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin puoleen saadaksesi tarkemman\n"
+"arvion ja ohjeet terveyteen ja painoon liittyen."
 
 #. Translators: Notification message informing the user of the BMI calculation result.
 #: addon/globalPlugins/BMI/main.py:175
 msgid "Attention"
-msgstr "Uyarı"
+msgstr "Huomio"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:26
 msgid "Calculate your BMI"
-msgstr "VKİ'ni Hesapla"
+msgstr "Kehonpainoindeksin laskeminen"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:29
 msgid "This addon calculates the body mass index."
-msgstr "Bu eklenti vücut kitle indeksini hesaplar."
+msgstr "Tämä lisäosa laskee kehonpainoindeksin."
 
