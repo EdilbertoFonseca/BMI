@@ -1,50 +1,78 @@
 # -*- coding: UTF-8 -*-
 
 """
-Description: BMI calculator logic and message handler.
+Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+Copyright: (C) 2025 Edilberto Fonseca
 
-This module provides functions to calculate the Body Mass Index (BMI)
-and return appropriate messages based on the user's gender and BMI value.
+This file is covered by the GNU General Public License.
+See the file COPYING for more details or visit:
+https://www.gnu.org/licenses/gpl-2.0.html
+
+Created on:11/ 08/2022
 """
 
-# Author: Edilberto Fonseca
-# Email: <edilberto.fonseca@outlook.com>
-# Copyright (C) 2025 Edilberto Fonseca
-# This file is covered by the GNU General Public License.
-# See the file COPYING for more details or visit https://www.gnu.org/licenses/gpl-2.0.html.
-
-# Date of creation 11/08/2022.
-
-from typing import Optional
-
 import addonHandler
+from typing import Optional
 
 # Initialize translation support
 addonHandler.initTranslation()
 
-def validate_inputs(height: float, weight: float) -> Optional[str]:
-	"""Validates height and weight values.
 
-	Args:
-		height (float): The user's height in meters.
-		weight (float): The user's weight in kilograms.
-
-	Returns:
-		Optional[str]: An error message if the values are invalid, or None if valid.
+def validate_inputs(height_m: float, weight_kg: float) -> Optional[str]:
 	"""
-	if height <= 0 or weight <= 0:
+	Validate height and weight values before BMI calculation.
+
+	Parameters
+	----------
+	height_m : float
+		Height in meters. Must be greater than zero.
+	weight_kg : float
+		Weight in kilograms. Must be greater than zero.
+
+	Returns
+	-------
+	Optional[str]
+		A translated error message if validation fails, otherwise None.
+
+	Notes
+	-----
+	This function performs simple validation. Additional rules (e.g.,
+	maximum safe limits) can be added if needed.
+	"""
+
+	if height_m <= 0 or weight_kg <= 0:
 		return _("Height and weight must be greater than zero.")
+
 	return None
 
 
-def calculate_bmi(height: float, weight: float) -> float:
-	"""Calculates the Body Mass Index (BMI).
-
-	Args:
-		height (float): The user's height in meters.
-		weight (float): The user's weight in kilograms.
-
-	Returns:
-		float: The calculated BMI value.
+def calculate_bmi(height_m: float, weight_kg: float) -> float:
 	"""
-	return weight / (height ** 2)
+	Calculate Body Mass Index (BMI).
+
+	Parameters
+	----------
+	height_m : float
+		Height in meters. Must be greater than zero.
+	weight_kg : float
+		Weight in kilograms.
+
+	Returns
+	-------
+	float
+		The BMI value.
+
+	Raises
+	------
+	ValueError
+		If height_m is zero or negative.
+
+	Notes
+	-----
+	BMI is defined as: weight (kg) / height (m)^2
+	"""
+
+	if height_m <= 0:
+		raise ValueError("Height must be greater than zero for BMI calculation.")
+
+	return weight_kg / (height_m ** 2)
