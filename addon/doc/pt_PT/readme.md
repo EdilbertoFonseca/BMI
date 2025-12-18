@@ -3,7 +3,7 @@
 * Autor: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
 * Data de criação: 08/11/2022.
 * Licença: [gpl 2.0][1]
-* Data de revisão: 18/03/2024.
+* Data de revisão: 18/12/2024.
 
 ## Introdução
 

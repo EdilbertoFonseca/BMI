@@ -2,9 +2,9 @@
 
 * **Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
 * **Creation Date**: 08/11/2022
-* **Version**: 2025.8.19
+* **Version**: 2026.1.0
 * **License**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* **Last Revised**: 01/08/2025
+* **Last Revised**: 18/12/2025
 
 ## Introduction
 
