@@ -25,7 +25,7 @@ addon_info = AddonInfo(
 
 Shortcut: Windows+Alt+I."""),
 	# version
-	addon_version="2026.1.0",
+	addon_version="2026.2.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""Version compatible with NVDA 2026.1"""),

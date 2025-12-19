@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'BMI' '2026.1.0'\n"
+"Project-Id-Version: 'BMI' '2026.2.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2025-12-18 10:08-0300\n"
-"PO-Revision-Date: 2025-12-18 10:23-0300\n"
+"PO-Revision-Date: 2025-12-19 12:52-0300\n"
 "Last-Translator: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language-Team: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language: pt_BR\n"
