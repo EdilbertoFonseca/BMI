@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'BMI' '2026.2.0'\n"
+"Project-Id-Version: 'BMI' '2026.2.1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2025-12-18 10:08-0300\n"
-"PO-Revision-Date: 2025-12-19 12:52-0300\n"
+"POT-Creation-Date: 2026-05-03 10:37-0300\n"
+"PO-Revision-Date: 2026-05-03 10:41-0300\n"
 "Last-Translator: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language-Team: Edilberto Fonseca <edilberto.fonseca@outlook.com>\n"
 "Language: pt_BR\n"
@@ -16,96 +16,78 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
-#: addon\globalPlugins\BMI\__init__.py:63
-msgid "&Calculate your BMI..."
-msgstr "&Calcule seu IMC..."
-
-#: addon\globalPlugins\BMI\__init__.py:75
-msgid "BMI - Opens the Body Mass Index calculator."
-msgstr "IMC - Abre a calculadora do Índice de Massa Corporal."
-
-#: addon\globalPlugins\BMI\bmi_calculator.py:44
+#: addon\globalPlugins\BMI\bmiCalculator.py:37
 msgid "Height and weight must be greater than zero."
 msgstr "A altura e o peso devem ser maiores que zero."
 
-#: addon\globalPlugins\BMI\dialogs.py:50
+#. translator: Label for height input field
+#: addon\globalPlugins\BMI\main.py:60
 msgid "Enter or select your height in centimeters:"
 msgstr "Digite ou selecione sua altura em centímetro:"
 
-#: addon\globalPlugins\BMI\dialogs.py:58
+#. translator: Label for weight input field
+#: addon\globalPlugins\BMI\main.py:67
 msgid "Enter or select your weight in kilograms:"
 msgstr "Digite ou selecione seu peso em quilogramas:"
 
-#: addon\globalPlugins\BMI\dialogs.py:66
+#: addon\globalPlugins\BMI\main.py:73
 msgid "C&alculate"
 msgstr "C&alcular"
 
-#: addon\globalPlugins\BMI\dialogs.py:71
+#: addon\globalPlugins\BMI\main.py:78
 msgid "C&lear"
 msgstr "&Limpar"
 
-#: addon\globalPlugins\BMI\dialogs.py:76
+#: addon\globalPlugins\BMI\main.py:83
 msgid "&History"
 msgstr "&Histórico"
 
-#: addon\globalPlugins\BMI\dialogs.py:81
+#: addon\globalPlugins\BMI\main.py:88
 msgid "&Cancel"
 msgstr "&Cancelar"
 
-#. Display result
-#: addon\globalPlugins\BMI\dialogs.py:109
-#: addon\globalPlugins\BMI\dialogs.py:152
+#: addon\globalPlugins\BMI\main.py:104 addon\globalPlugins\BMI\main.py:114
+#: addon\globalPlugins\BMI\main.py:155
 msgid "Attention"
 msgstr "Atenção"
 
-#: addon\globalPlugins\BMI\dialogs.py:121
+#. translator: Error message when BMI calculation fails
+#: addon\globalPlugins\BMI\main.py:113
+msgid "Unable to calculate BMI. Please check the values."
+msgstr "Não foi possível calcular o IMC. Verifique os valores."
+
+#: addon\globalPlugins\BMI\main.py:123
 msgid "Ideal weight range for your height: {} kg to {} kg."
 msgstr "Faixa de peso ideal para sua altura: {} kg a {} kg."
 
-#: addon\globalPlugins\BMI\dialogs.py:126
+#: addon\globalPlugins\BMI\main.py:127
 msgid ""
 "Observation:\n"
 "\n"
-"For accurate BMI interpretation, several factors must be considered, "
-"including body composition, fat distribution, age, gender, and overall "
+"For an accurate interpretation of BMI, it is important to consider other "
+"factors such as body composition, fat distribution, age, gender, and overall "
 "health.\n"
-"Consulting a healthcare professional is recommended for proper guidance."
+"It is always recommended to consult a healthcare professional for proper "
+"guidance on health and weight."
 msgstr ""
 "Observação:\n"
 "\n"
-"Para uma interpretação precisa do IMC, é importante considerar outros "
-"fatores, como composição corporal, distribuição de gordura, idade, gênero e "
-"saúde geral.\n"
-"É sempre recomendável consultar um profissional de saúde para obter "
-"orientação adequada sobre saúde e peso."
+"Para uma interpretação precisa do IMC, é importante levar em conta outros "
+"fatores, como a composição corporal, a distribuição de gordura, a idade, o "
+"sexo e o estado geral de saúde.\n"
+"Recomenda-se sempre consultar um profissional de saúde para obter "
+"orientações adequadas sobre saúde e peso."
 
-#: addon\globalPlugins\BMI\dialogs.py:134
-msgid "You are underweight."
-msgstr "Você está abaixo do peso."
-
-#: addon\globalPlugins\BMI\dialogs.py:136
-msgid "You are at a healthy weight."
-msgstr "Você está em seu peso ideal."
-
-#: addon\globalPlugins\BMI\dialogs.py:138
-msgid "You are overweight."
-msgstr "Você está acima do peso."
-
-#: addon\globalPlugins\BMI\dialogs.py:140
-msgid "You are significantly overweight."
-msgstr "Você está acima do peso."
-
-#: addon\globalPlugins\BMI\dialogs.py:142
-msgid "Your BMI indicates obesity."
-msgstr "Você tem obesidade moderada."
-
-#: addon\globalPlugins\BMI\dialogs.py:145
+#: addon\globalPlugins\BMI\main.py:135
 msgid ""
 "Your BMI is {}.\n"
 "\n"
-"{}\n"
+"You are underweight.\n"
+"\n"
+"It is important to consult a doctor or nutritionist to identify healthy ways "
+"to gain weight.\n"
 "\n"
 "{}\n"
 "\n"
@@ -113,22 +95,117 @@ msgid ""
 msgstr ""
 "Seu IMC é {}.\n"
 "\n"
-"{}\n"
+"Você está abaixo do peso.\n"
+"\n"
+"É importante consultar um médico ou nutricionista para identificar maneiras "
+"saudáveis de ganhar peso.\n"
 "\n"
 "{}\n"
 "\n"
 "{}"
 
-#: addon\globalPlugins\BMI\dialogs.py:175
+#: addon\globalPlugins\BMI\main.py:139
+msgid ""
+"Your BMI is {}.\n"
+"\n"
+"You are at a healthy weight.\n"
+"\n"
+"Maintain it with a balanced diet and regular physical activity.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+msgstr ""
+"Seu IMC é {}.\n"
+"\n"
+"Você está com um peso saudável.\n"
+"\n"
+"Mantenha-o com uma dieta balanceada e atividade física regular.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:143
+msgid ""
+"Your BMI is {}.\n"
+"\n"
+"You are overweight.\n"
+"\n"
+"It is important to consult a doctor or nutritionist to identify healthy "
+"weight loss strategies.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+msgstr ""
+"Seu IMC é {}.\n"
+"\n"
+"Você está acima do peso.\n"
+"\n"
+"É importante consultar um médico ou nutricionista para identificar "
+"estratégias saudáveis de perda de peso.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:147
+msgid ""
+"Your BMI is {}.\n"
+"\n"
+"You are significantly overweight.\n"
+"\n"
+"Please consult a healthcare provider for guidance.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+msgstr ""
+"Seu IMC é {}.\n"
+"\n"
+"Você está significativamente acima do peso.\n"
+"\n"
+"Consulte um profissional de saúde para obter orientação.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:151
+msgid ""
+"Your BMI is {}.\n"
+"\n"
+"Your BMI indicates that you are in the obese range.\n"
+"\n"
+"It is important to consult a doctor to reduce health risks through safe "
+"weight loss.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+msgstr ""
+"Seu IMC é {}.\n"
+"\n"
+"Seu IMC indica que você está na faixa de obesidade.\n"
+"\n"
+"É importante consultar um médico para reduzir os riscos à saúde por meio de "
+"uma perda de peso segura.\n"
+"\n"
+"{}\n"
+"\n"
+"{}"
+
+#. translator: Message shown when there is no BMI calculation history available.
+#: addon\globalPlugins\BMI\main.py:173
 msgid "No history found."
 msgstr "Nenhum histórico encontrado."
 
-#: addon\globalPlugins\BMI\dialogs.py:175
-#: addon\globalPlugins\BMI\dialogs.py:190
+#: addon\globalPlugins\BMI\main.py:173 addon\globalPlugins\BMI\main.py:188
 msgid "History"
 msgstr "Histórico"
 
-#: addon\globalPlugins\BMI\dialogs.py:180
+#: addon\globalPlugins\BMI\main.py:177
 msgid ""
 "Last 10 BMI calculations:\n"
 "\n"
@@ -136,15 +213,20 @@ msgstr ""
 "Últimos 10 cálculos de IMC:\n"
 "\n"
 
-#: addon\globalPlugins\BMI\dialogs.py:185
+#: addon\globalPlugins\BMI\main.py:181
 msgid "Date: {} | Height: {} cm | Weight: {} kg | BMI: {}\n"
 msgstr "Data: {} | Altura: {} cm | Peso: {} kg | IMC: {}\n"
 
-#: addon\globalPlugins\BMI\main.py:45
-msgid "An instance of {} is already open."
-msgstr "Uma instância de {} já está aberta."
+#: addon\globalPlugins\BMI\__init__.py:56
+msgid "&Calculate your BMI..."
+msgstr "&Calcule seu IMC..."
 
-#: addon\globalPlugins\BMI\main.py:53
+#. Translators: Text displayed in NVDA's input gesture dialog.
+#: addon\globalPlugins\BMI\__init__.py:67
+msgid "BMI - This add-on calculates the Body Mass Index."
+msgstr "IMC - Este complemento calcula o Índice de Massa Corporal."
+
+#: addon\globalPlugins\BMI\__init__.py:76
 msgid "Calculation of the Body Mass Index."
 msgstr "Cálculo do Índice de maça Corporal."
 
@@ -159,11 +241,11 @@ msgstr "Calcule seu IMC"
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid ""
-"This add-on calculates the Body Mass Index. \n"
+"This add-on calculates the Body Mass Index.\n"
 "\n"
 "Shortcut: Windows+Alt+I."
 msgstr ""
-"Esse add-on calcula o Índice de Massa Corporal.\n"
+"Esse complemento calcula o Índice de Massa Corporal. \n"
 "\n"
 "Atalho: Windows+Alt+I."
 
@@ -173,13 +255,28 @@ msgstr ""
 msgid "Version compatible with NVDA 2026.1"
 msgstr "Versão compatível com NVDA 2026.1"
 
+#~ msgid "BMI - Opens the Body Mass Index calculator."
+#~ msgstr "IMC - Abre a calculadora do Índice de Massa Corporal."
+
+#~ msgid "You are underweight."
+#~ msgstr "Você está abaixo do peso."
+
+#~ msgid "You are at a healthy weight."
+#~ msgstr "Você está em seu peso ideal."
+
+#~ msgid "You are overweight."
+#~ msgstr "Você está acima do peso."
+
+#~ msgid "You are significantly overweight."
+#~ msgstr "Você está acima do peso."
+
+#~ msgid "Your BMI indicates obesity."
+#~ msgstr "Você tem obesidade moderada."
+
 #~ msgid ""
 #~ "Your BMI is {}.\n"
 #~ "\n"
-#~ "You are underweight.\n"
-#~ "\n"
-#~ "It is important to consult a doctor or nutritionist to identify healthy "
-#~ "ways to gain weight.\n"
+#~ "{}\n"
 #~ "\n"
 #~ "{}\n"
 #~ "\n"
@@ -187,102 +284,14 @@ msgstr "Versão compatível com NVDA 2026.1"
 #~ msgstr ""
 #~ "Seu IMC é {}.\n"
 #~ "\n"
-#~ "Você está abaixo do peso.\n"
-#~ "\n"
-#~ "É importante consultar um médico ou nutricionista para identificar "
-#~ "maneiras saudáveis de ganhar peso.\n"
+#~ "{}\n"
 #~ "\n"
 #~ "{}\n"
 #~ "\n"
 #~ "{}"
 
-#~ msgid ""
-#~ "Your BMI is {}.\n"
-#~ "\n"
-#~ "You are at a healthy weight.\n"
-#~ "\n"
-#~ "Maintain it with a balanced diet and regular physical activity.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-#~ msgstr ""
-#~ "Seu IMC é {}.\n"
-#~ "\n"
-#~ "Você está com um peso saudável.\n"
-#~ "\n"
-#~ "Mantenha-o com uma dieta balanceada e atividade física regular.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-
-#~ msgid ""
-#~ "Your BMI is {}.\n"
-#~ "\n"
-#~ "You are overweight.\n"
-#~ "\n"
-#~ "It is important to consult a doctor or nutritionist to identify healthy "
-#~ "weight loss strategies.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-#~ msgstr ""
-#~ "Seu IMC é {}.\n"
-#~ "\n"
-#~ "Você está acima do peso.\n"
-#~ "\n"
-#~ "É importante consultar um médico ou nutricionista para identificar "
-#~ "estratégias saudáveis de perda de peso.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-
-#~ msgid ""
-#~ "Your BMI is {}.\n"
-#~ "\n"
-#~ "You are significantly overweight.\n"
-#~ "\n"
-#~ "Please consult a healthcare provider for guidance.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-#~ msgstr ""
-#~ "Seu IMC é {}.\n"
-#~ "\n"
-#~ "Você está significativamente acima do peso.\n"
-#~ "\n"
-#~ "Consulte um profissional de saúde para obter orientação.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-
-#~ msgid ""
-#~ "Your BMI is {}.\n"
-#~ "\n"
-#~ "Your BMI indicates that you are in the obese range.\n"
-#~ "\n"
-#~ "It is important to consult a doctor to reduce health risks through safe "
-#~ "weight loss.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
-#~ msgstr ""
-#~ "Seu IMC é {}.\n"
-#~ "\n"
-#~ "Seu IMC indica que você está na faixa de obesidade.\n"
-#~ "\n"
-#~ "É importante consultar um médico para reduzir os riscos à saúde por meio "
-#~ "de uma perda de peso segura.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ "{}"
+#~ msgid "An instance of {} is already open."
+#~ msgstr "Uma instância de {} já está aberta."
 
 #~ msgid ""
 #~ "Changelog for the add-on version.\n"

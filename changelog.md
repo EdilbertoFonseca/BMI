@@ -1,1 +1,5 @@
-Updated the version number to 2026.2.0 in buildVars.py, readme.md, and the Portuguese documentation. Also updated revision dates and translation metadata to reflect the new release.
+# Changelog
+
+- Initial release of the BMI stable channel
+- Internal refactoring and modifications
+- Updated project template: integrated pyright, pre-commit, and ruff

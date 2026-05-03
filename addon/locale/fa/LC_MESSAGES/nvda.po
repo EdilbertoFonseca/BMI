@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2026-03-30 03:56+0000\n"
+"PO-Revision-Date: 2026-04-06 01:47\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: BMI.pot\n"
+"X-Crowdin-File-ID: 300\n"
+
+#: addon/globalPlugins/BMI/__init__.py:43
+msgid "&Calculate your BMI..."
+msgstr ""
+
+#. Translators: Text displayed in NVDA help.
+#: addon/globalPlugins/BMI/__init__.py:52
+msgid "BMI, This add-on calculates the body mass index."
+msgstr ""
+
+#: addon/globalPlugins/BMI/__init__.py:58
+msgid "Calculation of the Body mass Index."
+msgstr ""
+
+#. Translators: spin height label.
+#: addon/globalPlugins/BMI/main.py:50
+msgid "Enter or select your height in centimeters: "
+msgstr ""
+
+#. Translators: Spin Weight label.
+#: addon/globalPlugins/BMI/main.py:61
+msgid "Enter or select your weight in kilograms: "
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:69
+msgid "C&alculate"
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:74
+msgid "C&lean"
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:79
+msgid "&Cancel"
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:101
+msgid "Atention"
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:106
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are underweight.\n\n"
+"It's important to consult a doctor or nutritionist\n"
+"to evaluate your health and identify ways to gain weight in a healthy way.\n\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat\n"
+"distribution, age, gender and general health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
+" accurate assessment and proper guidance on health and weight."
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:120
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are at a healthy weight.\n\n"
+"Keep it up by maintaining a balanced diet and regularly engaging in physical activity.\n\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat\n"
+"distribution, age, gender and general health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
+" accurate assessment and proper guidance on health and weight."
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:133
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are overweight.\n\n"
+"It's important to consult a doctor or nutritionist\n"
+"to evaluate your health and identify ways to lose weight in a healthy way.\n\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat\n"
+"distribution, age, gender and general health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
+" accurate assessment and proper guidance on health and weight."
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:147
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are overweight.\n\n"
+"It's important to consult a doctor or nutritionist\n"
+" to evaluate your health and identify ways to lose weight in a healthy way.\n\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat\n"
+"distribution, age, gender and general health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
+" accurate assessment and proper guidance on health and weight."
+msgstr ""
+
+#: addon/globalPlugins/BMI/main.py:161
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are obese.\n\n"
+"It's important to consult a doctor or nutritionist\n"
+"to evaluate your health and identify ways to lose weight in a healthy way and reduce health risks.\n\n"
+"Observation:\n"
+"For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat\n"
+"distribution, age, gender and general health of the person.\n"
+"It is always recommended to consult a healthcare professional, such as a physician or nutritionist, for a more\n"
+" accurate assessment and proper guidance on health and weight."
+msgstr ""
+
+#. Translators: Notification message informing the user of the BMI calculation result.
+#: addon/globalPlugins/BMI/main.py:175
+msgid "Attention"
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:26
+msgid "Calculate your BMI"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:29
+msgid "This addon calculates the body mass index."
+msgstr ""
+

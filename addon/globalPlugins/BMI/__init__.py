@@ -2,11 +2,17 @@
 
 """
 Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-Copyright: (C) 2025 Edilberto Fonseca
+Copyright: (C) 2025 - 2026 Edilberto Fonseca
 
 This file is covered by the GNU General Public License.
 See the file COPYING for more details or visit:
 https://www.gnu.org/licenses/gpl-2.0.html
+
+-------------------------------------------------------------------------
+AI DISCLOSURE / NOTA DE IA:
+This project utilizes AI for code refactoring and logic suggestions.
+All AI-generated code was manually reviewed and tested by the author.
+-------------------------------------------------------------------------
 
 Created on: 11/08/2022.
 """
@@ -19,73 +25,63 @@ import wx
 from logHandler import log
 from scriptHandler import script
 
-# Import function that displays the dialog (now modal)
-from .main import show_bmi_dialog
+from .main import BMIDialog
+
+# Get the add-on summary from the manifest
+ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
 # Initialize translation support
 addonHandler.initTranslation()
 
-# Load add-on summary (for Input Gestures dialog localization)
-ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 
-
-def disable_in_secure_mode(cls):
-	"""
-	Decorator that disables the plugin entirely in NVDA Secure Mode.
-	Necessário para impedir que janelas ou scripts sejam executados
-	em ambientes restritos, conforme o guia de desenvolvimento.
-	"""
+def disableInSecureMode(decorated_cls):
+	"""Disables the plugin if NVDA is in secure mode."""
 	if globalVars.appArgs.secure:
 		return globalPluginHandler.GlobalPlugin
-	return cls
+	return decorated_cls
 
 
-@disable_in_secure_mode
+@disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	"""
-	Global plugin que adiciona o item 'Calculate BMI' ao menu Ferramentas
-	e registra o atalho global configurado.
-	"""
+	"""Global plugin to add the BMI calculator to the Tools menu and shortcut system."""
 
 	def __init__(self):
-		super().__init__()
+		"""Constructor for the global plugin."""
+		super(GlobalPlugin, self).__init__()
+		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 
-		# Localização robusta do menu Ferramentas
-		try:
-			self.tools_menu = gui.mainFrame.sysTrayIcon.toolsMenu
-		except Exception as error:
-			log.error(f"BMI Add-on: Tools menu not found: {error}")
-			return
-
-		# Criar o item do menu
-		self.menu_item = self.tools_menu.Append(
+		# Translators: Add-on title in the Tools menu.
+		self.menuItem = self.toolsMenu.Append(
 			wx.ID_ANY,
-			_("&Calculate your BMI...")
+			_("&Calculate your BMI..."),
 		)
-
-		# Vincular ação ao item
 		gui.mainFrame.sysTrayIcon.Bind(
 			wx.EVT_MENU,
-			self.script_open_bmi_dialog,
-			self.menu_item
+			self.script_onBMIDialog,
+			self.menuItem,
 		)
 
 	@script(
-		gesture="kb:Windows+Alt+I",
-		description=_("BMI - Opens the Body Mass Index calculator."),
-		category=ADDON_SUMMARY
+		gesture="kb:Windows+alt+I",
+		# Translators: Text displayed in NVDA's input gesture dialog.
+		description=_("BMI - This add-on calculates the Body Mass Index."),
+		category=ADDON_SUMMARY,
 	)
-	def script_open_bmi_dialog(self, gesture):
-		"""Invoked by menu or gesture to open the BMI dialog."""
-		wx.CallAfter(show_bmi_dialog)
+	def script_onBMIDialog(self, gesture):
+		"""Triggered by shortcut or menu item to display the BMI dialog."""
+		wx.CallAfter(self.onBMIDialog)
+
+	def onBMIDialog(self):
+		"""Displays the BMI calculation dialog."""
+		dlg = BMIDialog(gui.mainFrame, _("Calculation of the Body Mass Index."))
+		gui.mainFrame.prePopup()
+		dlg.CentreOnScreen()
+		dlg.Show()
+		gui.mainFrame.postPopup()
 
 	def terminate(self):
-		"""
-		Remove o item de menu ao descarregar o add-on, conforme
-		solicitado pelo guia de desenvolvimento do NVDA.
-		"""
+		"""Removes the Tools menu entry when the add-on is unloaded."""
 		try:
-			if hasattr(self, "tools_menu") and self.menu_item:
-				self.tools_menu.Remove(self.menu_item)
-		except Exception as error:
-			log.error(f"Failed to remove BMI menu item: {error}")
+			self.toolsMenu.Remove(self.menuItem)
+		except Exception as e:
+			log.error("Error removing menu item 'Calculate your BMI...': %s", e)
