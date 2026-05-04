@@ -1,11 +1,30 @@
+# NVDA Addon - Build Artifacts
+
+# Documentation
 addon/doc/*.css
 addon/doc/en/
-*_docHandler.py
 *.html
-manifest.ini
+
+# Translations
 *.mo
 *.pot
+
+# Python
 *.py[co]
+__pycache__/
+*.egg-info/      # Ignore Python package metadata
+BMI.egg-info/
+
+# Addon-specific files
+*_docHandler.py
+manifest.ini
 *.nvda-addon
+
+# Build/versionamento
 .sconsign.dblite
 /[0-9]*.[0-9]*.[0-9]*.json
+
+# Virtual Environments
+.venv/
+venv/
+env/

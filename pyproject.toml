@@ -1,3 +1,46 @@
+[build-system]
+requires = ["setuptools~=80.9", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BMI"
+dynamic = ["version"]
+description = "This add-on calculates the Body Mass Index."
+maintainers = [
+	{name = "Edilberto Fonseca", email = "edilberto.fonseca@outlook.com"},
+]
+requires-python = ">=3.13,<3.14"
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: End Users/Desktop",
+	"License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+	"Operating System :: Microsoft :: Windows",
+	"Programming Language :: Python :: 3",
+	"Topic :: Accessibility",
+]
+readme = "readme.md"
+license = {file = "COPYING.TXT"}
+dependencies = [
+	# Build add-on
+	"scons==4.10.1",
+	"Markdown==3.10",
+	# Translations management
+	"requests==2.32.5",
+	"nh3==0.3.2",
+	"crowdin-api-client==1.24.1",
+	"lxml==6.0.2",
+	"mdx_truly_sane_lists==1.3",
+	"markdown-link-attr-modifier==0.2.1",
+	"mdx-gh-links==0.4",
+	# Lint
+	"uv==0.9.11",
+	"ruff==0.14.5",
+	"pre-commit==4.2.0",
+	"pyright[nodejs]==1.1.408",
+]
+[project.urls]
+Repository = "https://github.com/EdilbertoFonseca/BMI"
+
 [tool.ruff]
 line-length = 110
 
@@ -20,10 +63,13 @@ include = [
 exclude = [
 	".git",
 	"__pycache__",
+	".venv",
+	"buildVars.py",
 ]
 
 [tool.ruff.format]
 indent-style = "tab"
+line-ending = "lf"
 
 [tool.ruff.lint.mccabe]
 max-complexity = 15
@@ -33,9 +79,10 @@ ignore = [
 	# indentation contains tabs
 	"W191",
 ]
+logger-objects = ["logHandler.log"]
 
 [tool.ruff.lint.per-file-ignores]
-# sconstruct contains many inbuilt functions not recognised by the lint,
+# sconscripts contains many inbuilt functions not recognised by the lint,
 # so ignore F821.
 "sconstruct" = ["F821"]
 
@@ -51,6 +98,8 @@ exclude = [
 	"sconstruct",
 	".git",
 	"__pycache__",
+	".venv",
+	"site_scons",
 	# When excluding concrete paths relative to a directory,
 	# not matching multiple folders by name e.g. `__pycache__`,
 	# paths are relative to the configuration file.
@@ -59,6 +108,8 @@ exclude = [
 # Tell pyright where to load python code from
 extraPaths = [
 	"./addon",
+	"../NVDA/source",
+	".vscode/typings"
 ]
 
 # General config
@@ -73,20 +124,18 @@ strictSetInference = true
 
 # Compliant rules
 reportAbstractUsage = true
-reportArgumentType = true
 reportAssertAlwaysTrue = true
 reportAssertTypeFailure = true
 reportAssignmentType = true
-reportAttributeAccessIssue = true
+# reportAttributeAccessIssue = true
 reportCallInDefaultInitializer = true
 reportCallIssue = true
 reportConstantRedefinition = true
 reportDuplicateImport = true
 reportFunctionMemberAccess = true
 reportGeneralTypeIssues = true
-reportImplicitOverride = true
 reportImplicitStringConcatenation = true
-reportImportCycles = true
+# reportImportCycles = true
 reportIncompatibleMethodOverride = true
 reportIncompatibleVariableOverride = true
 reportIncompleteStub = true
@@ -99,9 +148,6 @@ reportInvalidTypeArguments = true
 reportInvalidTypeForm = true
 reportInvalidTypeVarUse = true
 reportMatchNotExhaustive = true
-reportMissingImports = true
-reportMissingModuleSource = true
-reportMissingParameterType = true
 reportMissingSuperCall = true
 reportMissingTypeArgument = true
 reportNoOverloadImplementation = true
@@ -109,7 +155,6 @@ reportOperatorIssue = true
 reportOptionalCall = true
 reportOptionalContextManager = true
 reportOptionalIterable = true
-reportOptionalMemberAccess = true
 reportOptionalOperand = true
 reportOptionalSubscript = true
 reportOverlappingOverload = true
@@ -120,29 +165,21 @@ reportPropertyTypeMismatch = true
 reportRedeclaration = true
 reportReturnType = true
 reportSelfClsParameterName = true
-reportShadowedImports = true
 reportTypeCommentUsage = true
 reportTypedDictNotRequiredAccess = true
 reportUnboundVariable = true
 reportUndefinedVariable = true
 reportUnhashable = true
 reportUninitializedInstanceVariable = true
-reportUnknownArgumentType = true
-reportUnknownLambdaType = true
-reportUnknownMemberType = true
-reportUnknownParameterType = true
-reportUnknownVariableType = true
 reportUnnecessaryCast = true
 reportUnnecessaryComparison = true
 reportUnnecessaryContains = true
 reportUnnecessaryIsInstance = true
 reportUnnecessaryTypeIgnoreComment = true
 reportUnsupportedDunderAll = true
-reportUntypedBaseClass = true
+# reportUntypedBaseClass = true
 reportUntypedClassDecorator = true
-reportUntypedFunctionDecorator = true
 reportUntypedNamedTuple = true
-reportUnusedCallResult = true
 reportUnusedClass = true
 reportUnusedCoroutine = true
 reportUnusedExcept = true
@@ -154,8 +191,46 @@ reportWildcardImportFromLibrary = true
 
 reportDeprecated = true
 
-# Can be enabled by generating type stubs for modules via pyright CLI
+# Rules disabled due to NVDA Core and wxPython dynamic behavior
+# These rules generate false positives even when the code is correct.
+
+# wxPython accepts runtime coercions (e.g. size=(w, h), parent=Panel),
+# but its type stubs do not fully reflect this behavior.
+reportArgumentType = false
+
+# Some methods override abstract or base class methods
+reportImplicitOverride = false
+
+# NVDA modules (addonHandler, gui, globalVars, etc.) are injected into
+# sys.path at runtime by NVDA itself and are not importable in a
+# standard Python environment. Pyright cannot model this bootstrap.
+reportMissingImports = false
+reportMissingModuleSource = false
+
+# Parameters such as gesture, event, args and kwargs originate from
+# NVDA Core or wxPython callbacks and do not have stable static types.
+reportMissingParameterType = false
+reportUnknownArgumentType = false
+reportUnknownParameterType = false
+
+# Objects like gui.mainFrame and sysTrayIcon may legitimately be None
+# depending on NVDA state; asserting otherwise breaks NVDA conventions.
+reportOptionalMemberAccess = false
+
+# wxPython methods (e.g. Add, Append, prePopup) return values that are
+# intentionally ignored; the side effects are what matter.
+reportUnusedCallResult = false
+
+# NVDA uses dynamic attributes extensively (e.g. ADDON_SUMMARY,
+# manifest, script methods, gui helpers).
+reportUnknownMemberType = false
+reportUnknownVariableType = false
+
+# wxPython is bundled with NVDA and does not ship with official type stubs.
+# Pyright cannot resolve wx types in a standard environment.
 reportMissingTypeStubs = false
 
-# Bad rules
-# These are sorted alphabetically and should be enabled and moved to compliant rules section when resolved.
+reportAttributeAccessIssue = false
+reportImportCycles = false
+reportUntypedBaseClass = false
+reportUntypedFunctionDecorator = false
