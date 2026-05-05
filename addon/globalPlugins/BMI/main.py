@@ -124,10 +124,12 @@ class BMIDialog(wx.Dialog):
 
 		# translator: General observation about BMI results, shown in the result dialog.
 		observation = _(
-			"Observation:\n\n"
-			+ "For an accurate interpretation of BMI, it is important to consider other factors such as "
-			+ "body composition, fat distribution, age, gender, and overall health.\n"
-			+ "It is always recommended to consult a healthcare professional for proper guidance on health and weight.",
+			"""Observation:
+
+For an accurate interpretation of BMI, it is important to consider other factors such as
+body composition, fat distribution, age, gender, and overall health.
+
+It is always recommended to consult a healthcare professional for proper guidance on health and weight.""",
 		)
 
 		if bmi < 18.5:
