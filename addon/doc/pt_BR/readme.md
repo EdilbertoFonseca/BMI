@@ -1,59 +1,68 @@
-# (BMI) Calculation of the body mass index
+# Cálculo do Índice de Massa Corporal (IMC)
 
-* Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
-* Creation date: 08/11/2022.
-* License: [gpl 2.0][1]
-* Review date: 03/18/2024.
+* **Autor**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
+* **Data de criação**: 11/08/2022.
+* **Versão**: 2026.2.1
+* **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Data da revisão**: 04/05/2026
 
-## Introduction
+## Introdução
 
-Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body Mass Index (BMI), which is an international measurement used to assess a person's body fat level. With this Addon you can easily calculate your BMI by providing your height and weight. In addition, we also offer a ranking of the results, so that you can better understand your situation and take the necessary steps to achieve and maintain good health.
+Bem-vindo ao Add-on IMC! Este é um plug-in projetado para ajudar a determinar o Índice de Massa Corporal (IMC), uma medida internacional utilizada para avaliar o nível de gordura corporal de uma pessoa. Com este Add-on, você pode calcular facilmente o seu IMC fornecendo sua altura e peso.
 
- Note: For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat distribution, age, gender and general health of the person. It is always recommended to consult a health professional, such as a doctor or nutritionist, for a more accurate assessment and to obtain proper guidance on health and weight.
+Além do cálculo tradicional do IMC, esta nova versão oferece funcionalidades adicionais, como o cálculo do IMC ideal com base na altura e uma classificação detalhada conforme os critérios da Organização Mundial da Saúde (OMS), proporcionando orientações personalizadas para sua saúde. Agora, o add-on também salva os 10 últimos cálculos realizados, que podem ser acessados rapidamente pelo atalho Alt+H.
 
-## Installation
+Nota: Para uma interpretação adequada do IMC, é recomendado considerar outros fatores, como composição corporal, distribuição de gordura, idade, sexo e saúde geral da pessoa. É sempre recomendável consultar um profissional de saúde, como um médico ou nutricionista, para uma avaliação mais precisa e obter orientações adequadas sobre saúde e peso.
 
-Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
+## Instalação
 
-1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
-Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
-2. Press enter on the add-on you downloaded.
-3. Follow the on-screen instructions to install the Add-on.
-4. Restart NVDA.
-5. Press "NVDA + N" to open the "T" tools menu and verify that the IMC Add-on is listed in the tools list.
+Aqui estão as instruções passo a passo para instalar o Add-on IMC no NVDA:
 
-You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA. Be sure to check out the Add-on's documentation for additional information on how to use it and customize it to your needs.
+1. No NVDA, abra o menu **Ferramentas** e procure pela **Loja de Complementos**.
+2. Na guia **Complementos Disponíveis**, navegue até o campo **Procurar**.
+3. Busque por "BMI". Nos resultados, pressione **Enter** ou **Aplicar**, e em seguida, escolha **Instalar**.
+4. Reinicie o NVDA para aplicar as alterações.
 
-## Settings
+Agora você está pronto para usar o Add-on IMC e calcular seu Índice de Massa Corporal diretamente no NVDA.
 
-There are no instructions on how to configure the add-on, its use is simple.
+## Configurações
 
-## Usage
+Não há instruções sobre como configurar o add-on, pois seu uso é simples.
 
-Press "alt+windows+i", or use NVDA's menu (NVDA+N), Tools, Calculate Your BMI, to invoke the add-on. A dialog with two fields will appear:
+## Uso
 
-1. Height, where the height in centimeters "CM" must be selected or entered.
-2. Weight, where the weight in kilograms "KG" must be selected or entered.
+Pressione `alt+windows+I`, ou use o menu do NVDA `NVDA+N`, Ferramentas, Calcular seu IMC, para invocar o add-on. Um diálogo com dois campos aparecerá:
 
-After filling in all the fields, just press the calculate button, using the "alt+A" shortcut, or press enter on the calculate button.
+1. Altura, onde a altura em centímetros "CM" deve ser selecionada ou inserida.
+2. Peso, onde o peso em quilogramas "KG" deve ser selecionado ou inserido.
 
-NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
+Após preencher todos os campos, basta pressionar o botão de calcular, utilizando o atalho `Alt+A`, ou pressionar Enter no botão de calcular.
 
-## Hotkeys
+O NVDA verbalizará um diálogo com:
 
-### main dialog
+* O resultado do cálculo do seu IMC atual.
+* Sua classificação detalhada conforme os parâmetros da OMS (abaixo do peso, peso normal, sobrepeso, obesidade grau I, II ou III).
+* O valor estimado do seu IMC ideal baseado na sua altura.
+* Uma mensagem orientativa ressaltando a importância de fatores adicionais para a avaliação da saúde.
 
-* “alt+A”: Performs the calculation.
-* “alt+L: Clears the fields and positions the cursor in the height field.
-* “alt+C”: Closes the dialog box, escape can also be used.
+Ao final do diálogo, o cursor estará posicionado no botão OK. Ao pressionar Enter, o cursor será reposicionado no campo de altura.
 
-## License
+## Teclas de atalho
 
-This add-on is covered by the GNU General Public License [GPL v2][1].
+### Diálogo principal
 
-## Thanks
+* `Alt+A`: Realiza o cálculo.
+* `Alt+L`: Limpa os campos e posiciona o cursor no campo de altura.
+* `Alt+H`: Exibe o histórico dos cálculos.
+* `Alt+C`: Fecha a caixa de diálogo, o atalho Esc também pode ser usado.
 
-Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
+## Agradecimentos
 
-[1]: https://www.gnu.org/licenses/gpl-2.0.html
-[2]: https://github.com/EdilbertoFonseca/BMI
+Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, que ajudaram a tornar este projeto possível.
+
+## Tradutores
+
+* **Português (Brasil), pt\_BR**: Por Edilberto Fonseca.
+* **Português (Portugal), pt\_PT**: Por Edilberto Fonseca.
+* **Russo, ru**: Por Danil Kostenkov.
+* **Turco, tr**: Por Umut KORKMAZ.
