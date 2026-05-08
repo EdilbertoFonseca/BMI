@@ -1,60 +1,59 @@
-# Обчислення ІМТ (Індекс маси тіла)
+# (BMI) Calculation of the body mass index
 
-* Автор: Еділберто Фонсека <edilberto.fonseca@outlook.com>.
-* Дата створення: 08/11/2022.
-* Ліцензія: [GPL 2.0][1]
-* Дата перевірки: 18.03.2024.
+* Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
+* Creation date: 08/11/2022.
+* License: [gpl 2.0][1]
+* Review date: 03/18/2024.
 
-## Вступ
+## Introduction
 
-Ласкаво просимо до додатка ІМТ! Це плагін призначений для допомоги в обчисленні Індексу маси тіла (ІМТ), який є міжнародним показником, що використовується для оцінки рівня жиру у людини. За допомогою цього додатка ви можете легко розрахувати свій ІМТ, вказавши ваш ріст та вагу. Крім того, ми також пропонуємо ранжування результатів, щоб ви могли краще зрозуміти свою ситуацію і вжити необхідні кроки для досягнення і підтримання доброго здоров'я.
+Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body Mass Index (BMI), which is an international measurement used to assess a person's body fat level. With this Addon you can easily calculate your BMI by providing your height and weight. In addition, we also offer a ranking of the results, so that you can better understand your situation and take the necessary steps to achieve and maintain good health.
 
- Примітка: Для правильного тлумачення ІМТ рекомендується враховувати інші фактори, такі як склад тіла, розподіл жиру, вік, стать та загальний стан здоров'я людини. Рекомендується завжди звертатися до фахівця зі здоров'я, такого як лікар або дієтолог, для більш точної оцінки та отримання належної консультації з питань здоров'я та ваги.
+ Note: For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat distribution, age, gender and general health of the person. It is always recommended to consult a health professional, such as a doctor or nutritionist, for a more accurate assessment and to obtain proper guidance on health and weight.
 
-## Встановлення
+## Installation
 
-Ось поетапні інструкції щодо встановлення додатка ІМТ в NVDA:
+Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
 
-1. Завантажте файл встановлення додатка з магазину додатків або [офіційної сторінки ІМТ][1].
-Примітка: Якщо додаток завантажений з магазину, встановлення відбудеться автоматично. В іншому випадку дотримуйтесь наведених нижче вказівок.
-2. Натисніть "Enter" на завантаженому вами додатку.
-3. Дотримуйтесь інструкцій на екрані для встановлення додатка.
-4. Перезапустіть NVDA.
-5. Натисніть "NVDA + N", щоб відкрити меню "Інструменти" і перевірте, що додаток ІМТ вказаний у списку інструментів.
+1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
+Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
+2. Press enter on the add-on you downloaded.
+3. Follow the on-screen instructions to install the Add-on.
+4. Restart NVDA.
+5. Press "NVDA + N" to open the "T" tools menu and verify that the IMC Add-on is listed in the tools list.
 
-Тепер ви готові використовувати додаток ІМТ і розрахувати свій Індекс маси тіла безпосередньо з NVDA. Обов'язково ознайомтеся з документацією додатка для додаткової інформації щодо його використання та налаштування під ваші потреби.
+You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA. Be sure to check out the Add-on's documentation for additional information on how to use it and customize it to your needs.
 
-## Налаштування
+## Settings
 
-Не має інструкцій щодо налаштування додатка, його використання просте.
+There are no instructions on how to configure the add-on, its use is simple.
 
-## Використання
+## Usage
 
-Натисніть "Alt + Windows + I" або використайте меню NVDA (NVDA + N), Інструменти, Розрахувати ваш ІМТ, щоб запустити додаток. З'явиться діалогове вікно з двома полями:
+Press "alt+windows+i", or use NVDA's menu (NVDA+N), Tools, Calculate Your BMI, to invoke the add-on. A dialog with two fields will appear:
 
-1. Ріст, де необхідно вибрати або ввести ріст у сантиметрах "см".
-2. Вага, де необхідно вибрати або ввести вагу в кілограмах "кг".
+1. Height, where the height in centimeters "CM" must be selected or entered.
+2. Weight, where the weight in kilograms "KG" must be selected or entered.
 
-Після заповнення всіх полів просто натисніть кнопку розрахунку, використовуючи скорочення "Alt + A", або натисніть "Enter" на кнопці розрахунку.
+After filling in all the fields, just press the calculate button, using the "alt+A" shortcut, or press enter on the calculate button.
 
-NVDA проголосить діалогове вікно з результатом розрахунку. В кінці діалогу курсор буде розміщений на кнопці "ОК". Натиснувши "Enter", курсор буде розміщений у полі висоти.
+NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
 
-## Гарячі клавіші
+## Hotkeys
 
-### Головний діалог
+### main dialog
 
-* "Alt + A": Виконує розрахунок.
-* "Alt + L": Очищає поля та розміщує курсор у полі висоти.
-* "Alt + C": Закриває діалогове вікно, також можна використовувати "
-...закрити" кнопку "Escape".
+* “alt+A”: Performs the calculation.
+* “alt+L: Clears the fields and positions the cursor in the height field.
+* “alt+C”: Closes the dialog box, escape can also be used.
 
-## Ліцензія
+## License
 
-Цей додаток покритий Ліцензією GNU Загального Публічного Ліцензії [GPL v2][1].
+This add-on is covered by the GNU General Public License [GPL v2][1].
 
-## Подяки
+## Thanks
 
-Особлива подяка учасникам Rui Fonte, Noelia та Dalen, які допомогли зробити цю версію можливою.
+Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
 
 [1]: https://www.gnu.org/licenses/gpl-2.0.html
 [2]: https://github.com/EdilbertoFonseca/BMI
