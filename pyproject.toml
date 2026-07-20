@@ -8,6 +8,7 @@ dynamic = ["version"]
 description = "This add-on calculates the Body Mass Index."
 maintainers = [
 	{name = "Edilberto Fonseca", email = "edilberto.fonseca@outlook.com"},
+	{name = "NV Access", email = "info@nvaccess.org"},
 ]
 requires-python = ">=3.13,<3.14"
 classifiers = [
@@ -33,7 +34,7 @@ dependencies = [
 	"markdown-link-attr-modifier==0.2.1",
 	"mdx-gh-links==0.4",
 	# Lint
-	"uv==0.9.11",
+	"uv==0.11.15",
 	"ruff==0.14.5",
 	"pre-commit==4.2.0",
 	"pyright[nodejs]==1.1.408",
@@ -107,13 +108,15 @@ exclude = [
 	# paths are relative to the configuration file.
 	"addon/globalPlugins/SIRA/lib",
 	"addon/globalPlugins/SIRA/lib64",
+	".github/scripts",
 ]
 
 # Tell pyright where to load python code from
 extraPaths = [
 	"./addon",
 	"../NVDA/source",
-	".vscode/typings"
+	".vscode/typings",
+	"../nvda/source"
 ]
 
 # General config
@@ -238,3 +241,34 @@ reportAttributeAccessIssue = false
 reportImportCycles = false
 reportUntypedBaseClass = false
 reportUntypedFunctionDecorator = false
+venvPath = ".venv"
+venv = "."
+reportUnknownLambdaType = true
+
+[dependency-groups]
+# Build add-on
+build = [
+	"scons==4.10.1",
+	"Markdown==3.10",
+]
+# Translations management
+l10n = [
+	"nh3==0.3.2",
+	"crowdin-api-client==1.24.1",
+	"lxml==6.0.2",
+	"mdx_truly_sane_lists==1.3",
+	"markdown-link-attr-modifier==0.2.1",
+	"mdx-gh-links==0.4",
+]
+# Lint
+lint = [
+	"uv==0.11.15",
+	"ruff==0.14.5",
+	"prek==0.4.8",
+	"pyright[nodejs]==1.1.408",
+]
+dev = [
+	{ include-group = "build" },
+	{ include-group = "l10n" },
+	{ include-group = "lint" },
+]

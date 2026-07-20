@@ -4,12 +4,13 @@ on:
   push:
     tags: ["*"]
     # To build on main/master branch, uncomment the following line:
-    branches: [ main , master ]
+    # branches: [ main , master ]
 
   pull_request:
     branches: [ main, master ]
 
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   build:
@@ -33,7 +34,7 @@ jobs:
         uv sync
 
     - name: Code checks
-      run: export SKIP=no-commit-to-branch; uv run pre-commit run --all-files
+      run: export PREK_SKIP=no-commit-to-branch; uv run prek run --all-files
 
     - name: building addon
       run: uv run scons && uv run scons pot
@@ -80,5 +81,4 @@ jobs:
           *.pot
         body_path: changelog.md
         fail_on_unmatched_files: true
-
         prerelease: ${{ contains(github.ref, '-') }}
