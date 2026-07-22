@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/EdilbertoFonseca/BMI/827e3ace06c77ce68158cb331caa7962fa8bf5a7/readme.md">
+<skeleton>
+# $(ID:0cb7a36d-d9f5-4ecb-8759-3b1422f7fcbe)
+
+* $(ID:a14439bb-8821-493f-8ae8-f13cb1322fb9)
+* $(ID:ceaadb5b-7ee8-4f04-a142-93708f25e11c)
+* $(ID:2fd879a1-03eb-4537-8369-eccac239f184)
+* $(ID:d7a57705-e066-4924-8c1b-e4fd97144270)
+* $(ID:d3fa3514-e746-4034-bbec-cacd908ce202)
+
+## $(ID:254a7b84-2b37-4f24-9fa3-fcd7a1686520)
+
+$(ID:606c32c9-df6a-4271-952c-a5389293a6ac)
+
+$(ID:bc6c06da-6691-45e6-8483-ffb3ec8b27a9)
+
+$(ID:8433a158-29fa-400b-b9c4-ac9db76f461d)
+
+## $(ID:2b0bd64b-3130-4a1d-a5e3-9ce69ebe3dfb)
+
+$(ID:d169702b-b8f4-4120-9a90-f2f8e78f05c2)
+
+1. $(ID:1e37942c-07db-4d95-ba6b-38c4bab61f95)
+2. $(ID:174a9414-7bc0-481d-89aa-35f2092f7b32)
+3. $(ID:2f503ea4-9733-4ea1-bc0f-30e1d9ca0991)
+4. $(ID:c3435728-839d-48e8-8e3b-06bd4f70416f)
+
+$(ID:a0fe2e98-1fb1-4ae9-81d9-799802ba53ff)
+
+## $(ID:b334897e-091d-4591-9541-32d0fa828a96)
+
+$(ID:d57ae824-2839-41cf-87b6-b1f29eeb8703)
+
+## $(ID:0b873bc9-cb32-4510-bb4e-010af5ee416e)
+
+$(ID:d8b5c296-7a97-49bd-9191-49616172de89)
+
+1. $(ID:e2255581-bc6e-4566-9d79-8cab41f32d0d)
+2. $(ID:89886c28-8d6a-4288-bd9c-f81ae910e45c)
+
+$(ID:3f5ed9e1-3679-46d0-8259-71ebdc8b67f6)
+
+$(ID:1e6f05ee-d7c6-4492-80d8-0238f3064c3e)
+
+* $(ID:59cb903a-c143-4bc5-821f-80a13e882a10)
+* $(ID:815b3da0-d420-4949-826d-c7302dfff6e4)
+* $(ID:3efda31a-ff0d-46bd-8049-45dcb0662e2d)
+* $(ID:d0923cee-d336-4a43-b751-8ee785d1fb50)
+
+$(ID:7c527929-e83f-4c10-8e40-4a63b10bb3bf)
+
+## $(ID:dccf41f3-c8ae-4298-b67e-eb56e32a156a)
+
+### $(ID:4211fb09-2455-43a2-b74c-8cc08a76fcec)
+
+* $(ID:8f2335ae-d439-4702-a5e1-3ddc1968eb95)
+* $(ID:d6a330bc-8f2d-412e-a058-c56dce9c87a7)
+* $(ID:4395d011-d1d8-4f41-930a-e7c2947d3ae5)
+* $(ID:dc75e619-c7a9-4db8-9268-e43941e65387)
+
+## $(ID:bf94a581-6730-4d1d-8338-5f0e52db456d)
+
+$(ID:0f0daf6e-5a1b-48b6-b98c-3f4c06e77436)
+
+## $(ID:89b00a49-5625-4270-a480-7a67e4054f85)
+
+* $(ID:3e795dbf-6519-46d2-acf2-9df9b1f64888)
+* $(ID:502cf655-0a83-419d-bc45-6a3cc60343ed)
+* $(ID:072b6c80-58df-4235-bdd4-28645beec429)
+* $(ID:09fbf343-d11d-4692-a285-712d2156b5f4)
+
+</skeleton>
+<unit id="0cb7a36d-d9f5-4ecb-8759-3b1422f7fcbe">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Body Mass Index (BMI) Calculation</source>
+</segment>
+</unit>
+<unit id="a14439bb-8821-493f-8ae8-f13cb1322fb9">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)</source>
+</segment>
+</unit>
+<unit id="ceaadb5b-7ee8-4f04-a142-93708f25e11c">
+<notes>
+<note appliesTo="source">line: 5</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Creation Date**: 08/11/2022</source>
+</segment>
+</unit>
+<unit id="2fd879a1-03eb-4537-8369-eccac239f184">
+<notes>
+<note appliesTo="source">line: 6</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Version**: 2026.2.1</source>
+</segment>
+</unit>
+<unit id="d7a57705-e066-4924-8c1b-e4fd97144270">
+<notes>
+<note appliesTo="source">line: 7</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**License**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)</source>
+</segment>
+</unit>
+<unit id="d3fa3514-e746-4034-bbec-cacd908ce202">
+<notes>
+<note appliesTo="source">line: 8</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Last Revised**: 04/05/2026</source>
+</segment>
+</unit>
+<unit id="254a7b84-2b37-4f24-9fa3-fcd7a1686520">
+<notes>
+<note appliesTo="source">line: 10</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Introduction</source>
+</segment>
+</unit>
+<unit id="606c32c9-df6a-4271-952c-a5389293a6ac">
+<notes>
+<note appliesTo="source">line: 12</note>
+</notes>
+<segment>
+<source>Welcome to the BMI Add-on! This is a plug-in designed to help determine Body Mass Index (BMI), an international measure used to assess a person’s body fat level. With this add-on, you can easily calculate your BMI by entering your height and weight.</source>
+</segment>
+</unit>
+<unit id="bc6c06da-6691-45e6-8483-ffb3ec8b27a9">
+<notes>
+<note appliesTo="source">line: 14</note>
+</notes>
+<segment>
+<source>In addition to the traditional BMI calculation, this new version offers additional features, such as calculating the ideal BMI based on height and providing a detailed classification according to the criteria of the World Health Organization (WHO), offering personalized health guidance. The add-on now also saves the last 10 calculations, which can be quickly accessed using the Alt+H shortcut.</source>
+</segment>
+</unit>
+<unit id="8433a158-29fa-400b-b9c4-ac9db76f461d">
+<notes>
+<note appliesTo="source">line: 16</note>
+</notes>
+<segment>
+<source>Note: For a proper interpretation of BMI, it's important to consider other factors such as body composition, fat distribution, age, sex, and overall health. It is always advisable to consult a healthcare professional, such as a doctor or nutritionist, for a more accurate assessment and appropriate health and weight guidance.</source>
+</segment>
+</unit>
+<unit id="2b0bd64b-3130-4a1d-a5e3-9ce69ebe3dfb">
+<notes>
+<note appliesTo="source">line: 18</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Installation</source>
+</segment>
+</unit>
+<unit id="d169702b-b8f4-4120-9a90-f2f8e78f05c2">
+<notes>
+<note appliesTo="source">line: 20</note>
+</notes>
+<segment>
+<source>Here are the step-by-step instructions to install the BMI Add-on in NVDA:</source>
+</segment>
+</unit>
+<unit id="1e37942c-07db-4d95-ba6b-38c4bab61f95">
+<notes>
+<note appliesTo="source">line: 22</note>
+<note appliesTo="source">prefix: 1. </note>
+</notes>
+<segment>
+<source>In NVDA, open the **Tools** menu and look for the **Add-on Store**.</source>
+</segment>
+</unit>
+<unit id="174a9414-7bc0-481d-89aa-35f2092f7b32">
+<notes>
+<note appliesTo="source">line: 23</note>
+<note appliesTo="source">prefix: 2. </note>
+</notes>
+<segment>
+<source>In the **Available Add-ons** tab, navigate to the **Search** field.</source>
+</segment>
+</unit>
+<unit id="2f503ea4-9733-4ea1-bc0f-30e1d9ca0991">
+<notes>
+<note appliesTo="source">line: 24</note>
+<note appliesTo="source">prefix: 3. </note>
+</notes>
+<segment>
+<source>Search for "BMI". In the results, press **Enter** or **Apply**, then select **Install**.</source>
+</segment>
+</unit>
+<unit id="c3435728-839d-48e8-8e3b-06bd4f70416f">
+<notes>
+<note appliesTo="source">line: 25</note>
+<note appliesTo="source">prefix: 4. </note>
+</notes>
+<segment>
+<source>Restart NVDA to apply the changes.</source>
+</segment>
+</unit>
+<unit id="a0fe2e98-1fb1-4ae9-81d9-799802ba53ff">
+<notes>
+<note appliesTo="source">line: 27</note>
+</notes>
+<segment>
+<source>You're now ready to use the BMI Add-on and calculate your Body Mass Index directly in NVDA.</source>
+</segment>
+</unit>
+<unit id="b334897e-091d-4591-9541-32d0fa828a96">
+<notes>
+<note appliesTo="source">line: 29</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Settings</source>
+</segment>
+</unit>
+<unit id="d57ae824-2839-41cf-87b6-b1f29eeb8703">
+<notes>
+<note appliesTo="source">line: 31</note>
+</notes>
+<segment>
+<source>There are no configuration instructions for the add-on, as its use is straightforward.</source>
+</segment>
+</unit>
+<unit id="0b873bc9-cb32-4510-bb4e-010af5ee416e">
+<notes>
+<note appliesTo="source">line: 33</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Usage</source>
+</segment>
+</unit>
+<unit id="d8b5c296-7a97-49bd-9191-49616172de89">
+<notes>
+<note appliesTo="source">line: 35</note>
+</notes>
+<segment>
+<source>Press `Alt+Windows+I`, or use the NVDA menu `NVDA+N`, Tools &gt; Calculate your BMI, to launch the add-on. A dialog with two input fields will appear:</source>
+</segment>
+</unit>
+<unit id="e2255581-bc6e-4566-9d79-8cab41f32d0d">
+<notes>
+<note appliesTo="source">line: 37</note>
+<note appliesTo="source">prefix: 1. </note>
+</notes>
+<segment>
+<source>Height – where your height in centimeters (CM) should be selected or entered.</source>
+</segment>
+</unit>
+<unit id="89886c28-8d6a-4288-bd9c-f81ae910e45c">
+<notes>
+<note appliesTo="source">line: 38</note>
+<note appliesTo="source">prefix: 2. </note>
+</notes>
+<segment>
+<source>Weight – where your weight in kilograms (KG) should be selected or entered.</source>
+</segment>
+</unit>
+<unit id="3f5ed9e1-3679-46d0-8259-71ebdc8b67f6">
+<notes>
+<note appliesTo="source">line: 40</note>
+</notes>
+<segment>
+<source>After filling in all fields, press the Calculate button using the shortcut `Alt+A`, or press Enter on the calculate button.</source>
+</segment>
+</unit>
+<unit id="1e6f05ee-d7c6-4492-80d8-0238f3064c3e">
+<notes>
+<note appliesTo="source">line: 42</note>
+</notes>
+<segment>
+<source>NVDA will read out a dialog containing:</source>
+</segment>
+</unit>
+<unit id="59cb903a-c143-4bc5-821f-80a13e882a10">
+<notes>
+<note appliesTo="source">line: 44</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The result of your current BMI calculation.</source>
+</segment>
+</unit>
+<unit id="815b3da0-d420-4949-826d-c7302dfff6e4">
+<notes>
+<note appliesTo="source">line: 45</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Your detailed classification according to WHO parameters (underweight, normal weight, overweight, obesity grade I, II, or III).</source>
+</segment>
+</unit>
+<unit id="3efda31a-ff0d-46bd-8049-45dcb0662e2d">
+<notes>
+<note appliesTo="source">line: 46</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The estimated value of your ideal BMI based on your height.</source>
+</segment>
+</unit>
+<unit id="d0923cee-d336-4a43-b751-8ee785d1fb50">
+<notes>
+<note appliesTo="source">line: 47</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>A guidance message emphasizing the importance of additional factors in health assessment.</source>
+</segment>
+</unit>
+<unit id="7c527929-e83f-4c10-8e40-4a63b10bb3bf">
+<notes>
+<note appliesTo="source">line: 49</note>
+</notes>
+<segment>
+<source>At the end of the dialog, the cursor will be positioned on the OK button. Pressing Enter will reposition the cursor to the height field.</source>
+</segment>
+</unit>
+<unit id="dccf41f3-c8ae-4298-b67e-eb56e32a156a">
+<notes>
+<note appliesTo="source">line: 51</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Keyboard Shortcuts</source>
+</segment>
+</unit>
+<unit id="4211fb09-2455-43a2-b74c-8cc08a76fcec">
+<notes>
+<note appliesTo="source">line: 53</note>
+<note appliesTo="source">prefix: ### </note>
+</notes>
+<segment>
+<source>Main Dialog</source>
+</segment>
+</unit>
+<unit id="8f2335ae-d439-4702-a5e1-3ddc1968eb95">
+<notes>
+<note appliesTo="source">line: 55</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>`Alt+A`: Performs the BMI calculation.</source>
+</segment>
+</unit>
+<unit id="d6a330bc-8f2d-412e-a058-c56dce9c87a7">
+<notes>
+<note appliesTo="source">line: 56</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>`Alt+L`: Clears the fields and places the cursor in the height field.</source>
+</segment>
+</unit>
+<unit id="4395d011-d1d8-4f41-930a-e7c2947d3ae5">
+<notes>
+<note appliesTo="source">line: 57</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>`Alt+H`: Displays the calculation history.</source>
+</segment>
+</unit>
+<unit id="dc75e619-c7a9-4db8-9268-e43941e65387">
+<notes>
+<note appliesTo="source">line: 58</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>`Alt+C`: Closes the dialog (you can also use the Esc key).</source>
+</segment>
+</unit>
+<unit id="bf94a581-6730-4d1d-8338-5f0e52db456d">
+<notes>
+<note appliesTo="source">line: 60</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Acknowledgments</source>
+</segment>
+</unit>
+<unit id="0f0daf6e-5a1b-48b6-b98c-3f4c06e77436">
+<notes>
+<note appliesTo="source">line: 62</note>
+</notes>
+<segment>
+<source>Special thanks to the contributors Rui Fonte, Noelia, and Dalen, whose help made this project possible.</source>
+</segment>
+</unit>
+<unit id="89b00a49-5625-4270-a480-7a67e4054f85">
+<notes>
+<note appliesTo="source">line: 64</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Translators</source>
+</segment>
+</unit>
+<unit id="3e795dbf-6519-46d2-acf2-9df9b1f64888">
+<notes>
+<note appliesTo="source">line: 66</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Portuguese (Brazil), pt_BR**: By Edilberto Fonseca.</source>
+</segment>
+</unit>
+<unit id="502cf655-0a83-419d-bc45-6a3cc60343ed">
+<notes>
+<note appliesTo="source">line: 67</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Portuguese (Portugal), pt_PT**: By Edilberto Fonseca.</source>
+</segment>
+</unit>
+<unit id="072b6c80-58df-4235-bdd4-28645beec429">
+<notes>
+<note appliesTo="source">line: 68</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Russian, ru**: By Danil Kostenkov.</source>
+</segment>
+</unit>
+<unit id="09fbf343-d11d-4692-a285-712d2156b5f4">
+<notes>
+<note appliesTo="source">line: 69</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>**Turkish, tr**: By Umut KORKMAZ.</source>
+</segment>
+</unit>
+</file>
+</xliff>
