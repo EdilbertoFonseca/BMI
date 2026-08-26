@@ -1,59 +1,68 @@
-# (BMI) Calculation of the body mass index
+# Calcul de l'Indice de Masse Corporelle (IMC)
 
-* Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
-* Creation date: 08/11/2022.
-* License: [gpl 2.0][1]
-* Review date: 03/18/2024.
+* **Auteur** : Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
+* **Date de création** : 08/11/2022
+* **Version** : 2026.2.1
+* **Licence** : [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Dernière révision** : 04/05/2026
 
 ## Introduction
 
-Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body Mass Index (BMI), which is an international measurement used to assess a person's body fat level. With this Addon you can easily calculate your BMI by providing your height and weight. In addition, we also offer a ranking of the results, so that you can better understand your situation and take the necessary steps to achieve and maintain good health.
+Bienvenue dans l'extension IMC ! Il s'agit d'un module complémentaire conçu pour aider à déterminer l'Indice de Masse Corporelle (IMC), une mesure internationale utilisée pour évaluer le niveau de graisse corporelle d'une personne. Grâce à cette extension, vous pouvez facilement calculer votre IMC en saisissant votre taille et votre poids.
 
- Note: For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat distribution, age, gender and general health of the person. It is always recommended to consult a health professional, such as a doctor or nutritionist, for a more accurate assessment and to obtain proper guidance on health and weight.
+En plus du calcul traditionnel de l'IMC, cette nouvelle version propose des fonctionnalités supplémentaires, telles que le calcul de l'IMC idéal en fonction de la taille et l'obtention d'une classification détaillée selon les critères de l'Organisation mondiale de la santé (OMS), offrant ainsi des conseils personnalisés en matière de santé. L'extension enregistre désormais également les 10 derniers calculs, auxquels vous pouvez accéder rapidement en utilisant le raccourci Alt+H.
+
+Remarque : Pour une interprétation correcte de l'IMC, il est important de prendre en compte d'autres facteurs tels que la composition corporelle, la répartition des graisses, l'âge, le sexe et l'état de santé général. Il est toujours conseillé de consulter un professionnel de la santé, comme un médecin ou un nutritionniste, pour une évaluation plus précise et des conseils appropriés concernant la santé et le poids.
 
 ## Installation
 
-Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
+Voici les instructions étape par étape pour installer l'extension IMC dans NVDA :
 
-1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
-Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
-2. Press enter on the add-on you downloaded.
-3. Follow the on-screen instructions to install the Add-on.
-4. Restart NVDA.
-5. Press "NVDA + N" to open the "T" tools menu and verify that the IMC Add-on is listed in the tools list.
+1. Dans NVDA, ouvrez le menu **Outils** et cherchez le **Magasin d'extensions**.
+2. Dans l'onglet **Extensions disponibles**, naviguez jusqu'au champ **Rechercher**.
+3. Recherchez « IMC » ou « BMI ». Dans les résultats, appuyez sur **Entrée** ou **Appliquer**, puis sélectionnez **Installer**.
+4. Redémarrez NVDA pour appliquer les modifications.
 
-You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA. Be sure to check out the Add-on's documentation for additional information on how to use it and customize it to your needs.
+Vous êtes maintenant prêt à utiliser l'extension IMC et à calculer votre Indice de Masse Corporelle directement dans NVDA.
 
-## Settings
+## Paramètres
 
-There are no instructions on how to configure the add-on, its use is simple.
+Il n'y a pas d'instructions de configuration pour l'extension, car son utilisation est simple et directe.
 
-## Usage
+## Utilisation
 
-Press "alt+windows+i", or use NVDA's menu (NVDA+N), Tools, Calculate Your BMI, to invoke the add-on. A dialog with two fields will appear:
+Appuyez sur `Alt+Windows+I`, ou utilisez le menu NVDA `NVDA+N`, Outils > Calculer votre IMC, pour lancer l'extension. Une boîte de dialogue comportant deux champs de saisie apparaît :
 
-1. Height, where the height in centimeters "CM" must be selected or entered.
-2. Weight, where the weight in kilograms "KG" must be selected or entered.
+1. Taille – où votre taille en centimètres (CM) doit être sélectionnée ou saisie.
+2. Poids – où votre poids en kilogrammes (KG) doit être sélectionné ou saisi.
 
-After filling in all the fields, just press the calculate button, using the "alt+A" shortcut, or press enter on the calculate button.
+Après avoir rempli tous les champs, appuyez sur le bouton Calculer en utilisant le raccourci `Alt+A`, ou appuyez sur Entrée sur le bouton Calculer.
 
-NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
+NVDA lira une boîte de dialogue contenant :
 
-## Hotkeys
+* Le résultat de votre calcul d'IMC actuel.
+* Votre classification détaillée selon les paramètres de l'OMS (insuffisance pondérale, poids normal, surpoids, obésité de classe I, II ou III).
+* La valeur estimée de votre IMC idéal en fonction de votre taille.
+* Un message d'orientation soulignant l'importance des facteurs supplémentaires dans l'évaluation de la santé.
 
-### main dialog
+À la fin de la boîte de dialogue, le curseur sera positionné sur le bouton OK. Appuyer sur Entrée repositionnera le curseur sur le champ de la taille.
 
-* “alt+A”: Performs the calculation.
-* “alt+L: Clears the fields and positions the cursor in the height field.
-* “alt+C”: Closes the dialog box, escape can also be used.
+## Raccourcis clavier
 
-## License
+### Boîte de dialogue principale
 
-This add-on is covered by the GNU General Public License [GPL v2][1].
+* `Alt+A` : Effectue le calcul de l'IMC.
+* `Alt+L` : Efface les champs et place le curseur dans le champ taille.
+* `Alt+H` : Affiche l'historique des calculs.
+* `Alt+C` : Ferme la boîte de dialogue (vous pouvez également utiliser la touche Échap).
 
-## Thanks
+## Remerciements
 
-Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
+Remerciements particuliers aux contributeurs Rui Fonte, Noelia et Dalen, dont l'aide a rendu ce projet possible.
 
-[1]: https://www.gnu.org/licenses/gpl-2.0.html
-[2]: https://github.com/EdilbertoFonseca/BMI
+## Traducteurs
+
+* **Portuguais (Brésil), pt_BR** : Par Edilberto Fonseca.
+* **Portuguais (Portugal), pt_PT** : Par Edilberto Fonseca.
+* **Russe, ru** : Par Danil Kostenkov.
+* **Turc, tr** : Par Umut KORKMAZ.

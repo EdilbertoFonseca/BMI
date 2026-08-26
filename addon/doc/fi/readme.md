@@ -1,59 +1,68 @@
-# (BMI) Calculation of the body mass index
+# Kehon painoindeksin (BMI) laskeminen
 
-* Author: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
-* Creation date: 08/11/2022.
-* License: [gpl 2.0][1]
-* Review date: 03/18/2024.
+* **Tekijä**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
+* **Luontipäivämäärä**: 08.11.2022
+* **Versio**: 2026.2.1
+* **Lisenssi**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Viimeksi tarkistettu**: 04.05.2026
 
-## Introduction
+## Johdanto
 
-Welcome to the BMI Add-on! This is a plug-in designed to help determine the Body Mass Index (BMI), which is an international measurement used to assess a person's body fat level. With this Addon you can easily calculate your BMI by providing your height and weight. In addition, we also offer a ranking of the results, so that you can better understand your situation and take the necessary steps to achieve and maintain good health.
+Tervetuloa BMI-lisäosan pariin! Tämä on lisäosa, joka on suunniteltu auttamaan kehon painoindeksin (BMI) määrittämisessä. Se on kansainvälinen mittari, jota käytetään henkilön kehon rasvatason arviointiin. Tämän lisäosan avulla voit helposti laskea painoindeksisi syöttämällä pituutesi ja painosi.
 
- Note: For a proper interpretation of BMI, it is recommended to consider other factors such as body composition, fat distribution, age, gender and general health of the person. It is always recommended to consult a health professional, such as a doctor or nutritionist, for a more accurate assessment and to obtain proper guidance on health and weight.
+Perinteisen BMI-laskennan lisäksi tämä uusi versio tarjoaa lisäominaisuuksia, kuten ihanteellisen BMI:n laskemisen pituuden perusteella sekä yksityiskohtaisen luokituksen Maailman terveysjärjestön (WHO) kriteerien mukaan tarjoten henkilökohtaista terveysopastusta. Lisäosa tallentaa nyt myös viimeisimmät 10 laskelmaa, joihin pääsee nopeasti Alt+H-pikanäppäimellä.
 
-## Installation
+Huomautus: BMI:n asianmukaisessa tulkinnassa on tärkeää ottaa huomioon muut tekijät, kuten kehon koostumus, rasvan jakautuminen, ikä, sukupuoli ja yleinen terveydentila. On aina suositeltavaa kääntyä terveydenhuollon ammattilaisen, kuten lääkärin tai ravitsemusterapeutin, puoleen tarkemman arvioinnin ja asianmukaisten terveys- ja paino-ohjeiden saamiseksi.
 
-Here are the step-by-step instructions for installing the BMI Add-on in NVDA:
+## Asennus
 
-1. Download the Add-on installation file from the Add-on Store or [BMI][1] official page.
-Note: If the add-on is downloaded from the store, installation happens automatically. Otherwise, follow the guidelines below.
-2. Press enter on the add-on you downloaded.
-3. Follow the on-screen instructions to install the Add-on.
-4. Restart NVDA.
-5. Press "NVDA + N" to open the "T" tools menu and verify that the IMC Add-on is listed in the tools list.
+Tässä ovat vaiheittaiset ohjeet BMI-lisäosan asentamiseksi NVDA-ruudunlukuohjelmaan:
 
-You are now ready to use the BMI Add-on and calculate your Body Mass Index directly from NVDA. Be sure to check out the Add-on's documentation for additional information on how to use it and customize it to your needs.
+1. Avaa NVDA:ssa **Työkalut**-valikko ja etsi **Lisäosakauppa**.
+2. Siirry **Saatavilla olevat lisäosat** -välilehdellä **Etsi**-kenttään.
+3. Hae sanalla "BMI". Paina tuloksissa **Enter** tai **Käytä** ja valitse sitten **Asenna**.
+4. Käynnistä NVDA uudelleen ottaaksesi muutokset käyttöön.
 
-## Settings
+Olet nyt valmis käyttämään BMI-lisäosaa ja laskemaan kehon painoindeksisi suoraan NVDA:ssa.
 
-There are no instructions on how to configure the add-on, its use is simple.
+## Asetukset
 
-## Usage
+Lisäosalle ei ole konfigurointiohjeita, sillä sen käyttö on yksinkertaista ja suoraviivaista.
 
-Press "alt+windows+i", or use NVDA's menu (NVDA+N), Tools, Calculate Your BMI, to invoke the add-on. A dialog with two fields will appear:
+## Käyttö
 
-1. Height, where the height in centimeters "CM" must be selected or entered.
-2. Weight, where the weight in kilograms "KG" must be selected or entered.
+Paina `Alt+Windows+I` tai käytä NVDA-valikkoa `NVDA+N`, Työkalut > Laske BMI käynnistääksesi lisäosan. Näkyviin tulee valintaikkuna, jossa on kaksi syötekenttää:
 
-After filling in all the fields, just press the calculate button, using the "alt+A" shortcut, or press enter on the calculate button.
+1. Pituus – johon pituutesi senttimetreinä (CM) tulee valita tai syöttää.
+2. Paino – johon painosi kiloina (KG) tulee valita tai syöttää.
 
-NVDA will verbalize a dialog with the result of the calculation. At the end of the dialog, the cursor will be positioned on the OK button. Pressing enter, the cursor will be positioned in the height field.
+Kun olet täyttänyt kaikki kentät, paina Laske-painiketta pikanäppäimellä `Alt+A` tai paina Enter Laske-painikkeen kohdalla.
 
-## Hotkeys
+NVDA lukee valintaikkunan, joka sisältää:
 
-### main dialog
+* Nykyisen BMI-laskelmasi tuloksen.
+* Yksityiskohtaisen luokituksesi WHO:n parametrien mukaan (alipaino, normaali paino, ylipaino, lihavuusaste I, II tai III).
+* Pituuteesi perustuvan arvioidun ihanteellisen BMI-arvon.
+* Ohjeviestin, jossa korostetaan lisätekijöiden merkitystä terveyden arvioinnissa.
 
-* “alt+A”: Performs the calculation.
-* “alt+L: Clears the fields and positions the cursor in the height field.
-* “alt+C”: Closes the dialog box, escape can also be used.
+Valintaikkunan lopussa kurssori on OK-painikkeen kohdalla. Enter-näppäimen painaminen siirtää kursorin takaisin pituuskenttään.
 
-## License
+## Pikanäppäimet
 
-This add-on is covered by the GNU General Public License [GPL v2][1].
+### Päävalintaikkuna
 
-## Thanks
+* `Alt+A`: Suorittaa BMI-laskennan.
+* `Alt+L`: Tyhjentää kentät ja asettaa kursorin pituuskenttään.
+* `Alt+H`: Näyttää laskentahistorian.
+* `Alt+C`: Sulkee valintaikkunan (voit käyttää myös Esc-näppäintä).
 
-Special thanks to the contributors Rui Fonte, Noelia e Dalen who have helped make this version possible.
+## Kiitokset
 
-[1]: https://www.gnu.org/licenses/gpl-2.0.html
-[2]: https://github.com/EdilbertoFonseca/BMI
+Erityiskiitokset avustajille Rui Fonte, Noelia ja Dalen, joiden apu teki tämän projektin mahdolliseksi.
+
+## Kääntäjät
+
+* **Portugali (Brasilia), pt_BR**: Edilberto Fonseca.
+* **Portugali (Portugali), pt_PT**: Edilberto Fonseca.
+* **Venäjä, ru**: Danil Kostenkov.
+* **Turkki, tr**: Umut KORKMAZ.
