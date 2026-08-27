@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/EdilbertoFonseca/BMI/7445f8881480ceeabb4d8723b2189f321079c313/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/EdilbertoFonseca/BMI/154eaef6e5a708148154a623ee53269b23258a91/readme.md">
 <skeleton>
 # $(ID:0cb7a36d-d9f5-4ecb-8759-3b1422f7fcbe)
 
-* $(ID:a14439bb-8821-493f-8ae8-f13cb1322fb9)
-* $(ID:ceaadb5b-7ee8-4f04-a142-93708f25e11c)
+* $(ID:71d00599-1df3-47b1-88d9-3ccaf376f001)
+* $(ID:5c84666b-2775-4d67-b458-43a1dda39c30)
 * $(ID:2fd879a1-03eb-4537-8369-eccac239f184)
 * $(ID:d7a57705-e066-4924-8c1b-e4fd97144270)
 * $(ID:d3fa3514-e746-4034-bbec-cacd908ce202)
@@ -80,22 +80,22 @@ $(ID:0f0daf6e-5a1b-48b6-b98c-3f4c06e77436)
 <source>Body Mass Index (BMI) Calculation</source>
 </segment>
 </unit>
-<unit id="a14439bb-8821-493f-8ae8-f13cb1322fb9">
+<unit id="71d00599-1df3-47b1-88d9-3ccaf376f001">
 <notes>
 <note appliesTo="source">line: 4</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>**Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)</source>
+<source>**Author**: Edilberto Fonseca &lt;edilberto.fonseca@outlook.com&gt;</source>
 </segment>
 </unit>
-<unit id="ceaadb5b-7ee8-4f04-a142-93708f25e11c">
+<unit id="5c84666b-2775-4d67-b458-43a1dda39c30">
 <notes>
 <note appliesTo="source">line: 5</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>**Creation Date**: 08/11/2022</source>
+<source>**Creation Date**: 11/08/2022.</source>
 </segment>
 </unit>
 <unit id="2fd879a1-03eb-4537-8369-eccac239f184">
