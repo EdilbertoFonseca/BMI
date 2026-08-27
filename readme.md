@@ -1,7 +1,7 @@
 # Body Mass Index (BMI) Calculation
 
-* **Author**: Edilberto Fonseca [edilberto.fonseca@outlook.com](mailto:edilberto.fonseca@outlook.com)
-* **Creation Date**: 08/11/2022
+* **Author**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* **Creation Date**: 11/08/2022.
 * **Version**: 2026.2.1
 * **License**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Last Revised**: 04/05/2026
