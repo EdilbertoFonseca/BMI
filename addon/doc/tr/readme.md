@@ -1,59 +1,68 @@
-# (VKİ) Vücut kitle indeksini hesapla
+# Vücut Kitle İndeksi (VKİ) Hesaplaması
 
-* Yazar: Edilberto Fonseca <edilberto.fonseca@outlook.com>.
-* Oluşturma tarihi: 08/11/2022.
-* Lisans: [gpl 2.0][1]
-* İnceleme tarihi: 18.03.2024.
+* **Author**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* **Creation Date**: 11/08/2022.
+* **Sürüm**: 2026.2.1
+* **Lisans**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
+* **Son Güncelleme**: 04/05/2026
 
 ## Giriş
 
-VKİ Eklentisine hoş geldiniz! Bu, bir kişinin vücut yağ seviyesini değerlendirmek için kullanılan uluslararası bir ölçüm olan Vücut Kitle İndeksini (BMI) belirlemeye yardımcı olmak için tasarlanmış bir eklentidir. Bu Eklenti ile boyunuzu ve kilonuzu girerek BMI değerinizi kolayca hesaplayabilirsiniz. Buna ek olarak, durumunuzu daha iyi anlayabilmeniz ve sağlığınızı korumak için gerekli adımları atabilmeniz için sonuçların bir sıralamasını da sunuyoruz.
+VKİ Eklentisine Hoş Geldiniz! Bu, bir kişinin vücut yağ seviyesini değerlendirmek için kullanılan uluslararası bir ölçüt olan Vücut Kitle İndeksini (VKİ) belirlemeye yardımcı olmak amacıyla tasarlanmış bir eklentidir. Bu eklenti ile boyunuzu ve kilonuzu girerek VKİ'nizi kolayca hesaplayabilirsiniz.
 
- Not: VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı, yaş, cinsiyet ve kişinin genel sağlık durumu gibi diğer faktörlerin de göz önünde bulundurulması tavsiye edilir. Daha doğru bir değerlendirme için ve sağlık ile kilo konusunda doğru rehberlik almak için her zaman doktor veya beslenme uzmanı gibi bir sağlık uzmanına danışılması önerilir.
+Geleneksel VKİ hesaplamasına ek olarak bu yeni sürüm, boya dayalı ideal VKİ hesaplama ve Dünya Sağlık Örgütü (DSÖ) kriterlerine göre ayrıntılı bir sınıflandırma sunarak kişiselleştirilmiş sağlık rehberliği sağlama gibi ek özellikler sunar. Eklenti artık Alt+H kısayolu kullanılarak hızla erişilebilen son 10 hesaplamayı da kaydeder.
+
+Not: VKİ'nin doğru bir şekilde yorumlanması için vücut kompozisyonu, yağ dağılımı, yaş, cinsiyet ve genel sağlık durumu gibi diğer faktörlerin de dikkate alınması önemlidir. Daha doğru bir değerlendirme ile uygun sağlık ve kilo rehberliği için her zaman bir doktor veya diyetisyen gibi bir sağlık uzmanına danışmanız önerilir.
 
 ## Kurulum
 
-VKİ Eklentisini NVDA'ya yüklemek için adım adım talimatlar aşağıdaki gibidir:
+VKİ Eklentisini NVDA'ya kurmak için adım adım talimatlar şunlardır:
 
-1. Eklenti kurulum dosyasını Eklenti Mağazasından veya [VKİ][2] resmi sayfasından indirin.
-Not: Eklenti mağazadan indirilirse, kurulum otomatik olarak gerçekleşir. Aksi takdirde, aşağıdaki yönergeleri izleyin.
-2. İndirdiğiniz eklentinin üzerinde enter tuşuna basın.
-3. Eklentiyi yüklemek için ekrandaki talimatları izleyin.
-4. NVDA'yı yeniden başlatın.
-5. NVDA menüsünü açmak için "NVDA + N" ve Araçlar menüsünü aktif etmek için de "r" tuşlarına basın. Ardından, Araçlar menüsünde VKİ'ni Hesapla seçeneğinin olduğundan emin olun.
+1. NVDA'da **Araçlar** menüsünü açın ve **Eklenti Mağazası**'nı arayın.
+2. **Mevcut Eklentiler** sekmesinde **Ara** alanına gidin.
+3. "BMI" veya "VKİ" aramasını yapın. Sonuçlarda **Enter** veya **Uygula**'ya basın, ardından **Kur**'u seçin.
+4. Değişiklikleri uygulamak için NVDA'yı yeniden başlatın.
 
-Artık VKİ Eklentisini kullanmaya ve vücut Kitle İndeksinizi doğrudan NVDA'dan hesaplamaya hazırsınız. Nasıl kullanılacağı ve ihtiyaçlarınıza göre nasıl özelleştirileceği hakkında ek bilgi için Eklentinin belgelerine göz atmayı unutmayın.
+Artık VKİ Eklentisini kullanmaya ve Vücut Kitle İndeksinizi doğrudan NVDA'da hesaplamaya hazırsınız.
 
 ## Ayarlar
 
-Eklentinin nasıl yapılandırılacağına dair herhangi bir talimat yoktur, kullanımı basittir.
+Kullanımı oldukça basit olduğundan eklenti için herhangi bir yapılandırma talimatı yoktur.
 
 ## Kullanım
 
-Eklentiyi çağırmak için "alt+windows+i" tuşlarına basın veya NVDA menüsü (NVDA+N), Araçlar, VKİ'ni Hesapla'yı kullanın. İki alanlı bir iletişim kutusu görünecektir:
+Eklentiyi başlatmak için `Alt+Windows+I` tuşlarına basın veya `NVDA+N` NVDA menüsünü kullanıp Araçlar > VKİ'nizi Hesaplayın seçeneğine gidin. İki giriş alanı içeren bir iletişim kutusu görünecektir:
 
-1. Yükseklik, burada yüksekliğin santimetre cinsinden "CM" seçilmesi veya girilmesi gerekir.
-2. Ağırlık, kilogram cinsinden ağırlığın "KG" seçilmesi veya girilmesi gerekir.
+1. Boy – santimetre (CM) cinsinden boyunuzun seçilmesi veya girilmesi gereken alan.
+2. Kilo – kilogram (KG) cinsinden kilonuzun seçilmesi veya girilmesi gereken alan.
 
-Tüm alanları doldurduktan sonra "alt+A" kısayolunu kullanarak hesapla butonuna basmanız veya hesapla düğmesi üzerinde enter tuşuna basmanız yeterlidir.
+Tüm alanları doldurduktan sonra `Alt+A` kısayolunu kullanarak Hesapla düğmesine basın veya Hesapla düğmesi üzerindeyken Enter tuşuna basın.
 
-NVDA, hesaplamanın sonucunu içeren bir iletişim kutusu açacaktır. İletişim kutusunun sonunda, imleç Tamam düğmesine konumlandırılacaktır. Enter tuşuna basıldığında, imleç yükseklik alanına konumlandırılacaktır.
+NVDA aşağıdakileri içeren bir iletişim kutusunu okuyacaktır:
 
-## Kısayol tuşları
+* Mevcut VKİ hesaplamanızın sonucu.
+* DSÖ parametrelerine göre ayrıntılı sınıflandırmanız (düşük kilolu, normal kilolu, fazla kilolu, I., II. veya III. derece obezite).
+* Boyunuza göre tahmini ideal VKİ değeriniz.
+* Sağlık değerlendirmesinde ek faktörlerin önemini vurgulayan bir rehberlik mesajı.
 
-### ana iletişim kutusu
+İletişim kutusunun sonunda imleç Tamam düğmesi üzerinde konumlanacaktır. Enter tuşuna basılması imleci yeniden boy alanına konumlandıracaktır.
 
-* “alt+A”: Hesaplamayı gerçekleştirir.
-* “alt+L: Alanları temizler ve imleci yükseklik alanına konumlandırır.
-* “alt+P”: İletişim kutusunu kapatır, Escape tuşu da kullanılabilir.
+## Klavye Kısayolları
 
-## Lisans
+### Ana İletişim Kutusu
 
-Bu eklenti, GNU Genel Kamu Lisansı [GPL v2] [1] kapsamındadır.
+* `Alt+A`: VKİ hesaplamasını gerçekleştirir.
+* `Alt+L`: Alanları temizler ve imleci boy alanına yerleştirir.
+* `Alt+H`: Hesaplama geçmişini görüntüler.
+* `Alt+C`: İletişim kutusunu kapatır (Esc tuşunu da kullanabilirsiniz).
 
-## Teşekkür
+## Teşekkürler
 
-Bu sürümün mümkün kılınmasına yardımcı olan Rui Fontes, Noelia e Dalen'e özel teşekkürler.
+Yardımları bu projeyi mümkün kılan katkıda bulunanlar Rui Fonte, Noelia ve Dalen'e özel teşekkürler.
 
-[1]: https://www.gnu.org/licenses/gpl-2.0.html
-[2]: https://github.com/EdilbertoFonseca/BMI
+## Çevirmenler
+
+* **Portekizce (Brezilya), pt_BR**: Edilberto Fonseca tarafından.
+* **Portekizce (Portekiz), pt_PT**: Edilberto Fonseca tarafından.
+* **Rusça, ru**: Danil Kostenkov tarafından.
+* **Türkçe, tr**: Umut KORKMAZ tarafından.

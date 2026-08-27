@@ -3,74 +3,74 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-07-21 13:54+0000\n"
-"PO-Revision-Date: 2026-08-27 08:49\n"
+"PO-Revision-Date: 2026-08-27 13:32\n"
 "Last-Translator: \n"
-"Language-Team: Ukrainian\n"
-"Language: uk_UA\n"
+"Language-Team: Kurmanji (Kurdish)\n"
+"Language: kmr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: uk\n"
+"X-Crowdin-Language: kmr\n"
 "X-Crowdin-File: BMI.pot\n"
 "X-Crowdin-File-ID: 300\n"
 
 #: addon\globalPlugins\BMI\bmiCalculator.py:37
 msgid "Height and weight must be greater than zero."
-msgstr "Зріст і вага повинні бути більше нуля."
+msgstr "Divê bilindahî û giranî ji sifirê mezintir bin."
 
 #. translator: Label for height input field
 #: addon\globalPlugins\BMI\main.py:60
 msgid "Enter or select your height in centimeters:"
-msgstr "Введіть або виберіть ваш зріст у сантиметрах:"
+msgstr "Bilindahiya xwe bi santîmetreyan binivîse an hilbijêre:"
 
 #. translator: Label for weight input field
 #: addon\globalPlugins\BMI\main.py:67
 msgid "Enter or select your weight in kilograms:"
-msgstr "Введіть або виберіть вашу вагу в кілограмах:"
+msgstr "Giraniya xwe bi kîlograman binivîse an hilbijêre:"
 
 #: addon\globalPlugins\BMI\main.py:73
 msgid "C&alculate"
-msgstr "&Розрахувати"
+msgstr "Hesabkirin"
 
 #: addon\globalPlugins\BMI\main.py:78
 msgid "C&lear"
-msgstr "&Очистити"
+msgstr "Zelal"
 
 #: addon\globalPlugins\BMI\main.py:83
 msgid "&History"
-msgstr "&Історія"
+msgstr "&Dîrok"
 
 #: addon\globalPlugins\BMI\main.py:88
 msgid "&Cancel"
-msgstr "Ск&асувати"
+msgstr "&Bişûndekirin"
 
 #: addon\globalPlugins\BMI\main.py:104 addon\globalPlugins\BMI\main.py:114
 #: addon\globalPlugins\BMI\main.py:157
 msgid "Attention"
-msgstr "Увага"
+msgstr "Baldarî"
 
 #. translator: Error message when BMI calculation fails
 #: addon\globalPlugins\BMI\main.py:113
 msgid "Unable to calculate BMI. Please check the values."
-msgstr "Не вдалося розрахувати ІМТ. Будь ласка, перевірте значення."
+msgstr "Nirxa BMI nayê hesabkirin. Ji kerema xwe nirxan kontrol bikin."
 
 #: addon\globalPlugins\BMI\main.py:123
 #, python-brace-format
 msgid "Ideal weight range for your height: {} kg to {} kg."
-msgstr "Діапазон ідеальної ваги для вашого зросту: від {} кг до {} кг."
+msgstr "Rêjeya giraniya îdeal ji bo bilindahiya we: {} kg heta {} kg."
 
 #: addon\globalPlugins\BMI\main.py:127
 msgid "Observation:\n\n"
 "For an accurate interpretation of BMI, it is important to consider other factors such as\n"
 "body composition, fat distribution, age, gender, and overall health.\n\n"
 "It is always recommended to consult a healthcare professional for proper guidance on health and weight."
-msgstr "Примітка:\n\n"
-"Для точної інтерпретації ІМТ важливо враховувати інші фактори, такі як\n"
-"склад тіла, розподіл жиру, вік, стать і загальний стан здоров'я.\n\n"
-"Завжди рекомендується консультуватися з медичним працівником для отримання відповідних рекомендацій щодо здоров'я та ваги."
+msgstr "Çavdêrî:\n\n"
+"Ji bo şîrovekirineke rast a BMI, girîng e ku faktorên din ên wekî\n"
+"pêkhateya laş, belavbûna rûn, temen, zayend û tenduristiya giştî li ber çavan bên girtin.\n\n"
+"Her tim tê pêşniyarkirin ku ji bo rêberiya rast a li ser tenduristî û giraniyê bi pisporek tenduristiyê re şêwir bikin."
 
 #: addon\globalPlugins\BMI\main.py:137
 #, python-brace-format
@@ -79,9 +79,9 @@ msgid "Your BMI is {}.\n\n"
 "It is important to consult a doctor or nutritionist to identify healthy ways to gain weight.\n\n"
 "{}\n\n"
 "{}"
-msgstr "Ваш ІМТ становить {}.\n\n"
-"У вас дефіцит маси тіла.\n\n"
-"Важливо проконсультуватися з лікарем або дієтологом, щоб визначити безпечні способи набору ваги.\n\n"
+msgstr "BMI-ya te {} e.\n\n"
+"Kîloya te kêm e.\n\n"
+"Girîng e ku tu bi bijîşk an xurekparêz re şêwir bikî da ku rêyên saxlem ji bo zêdekirina kîloyan bibînî.\n\n"
 "{}\n\n"
 "{}"
 
@@ -92,9 +92,9 @@ msgid "Your BMI is {}.\n\n"
 "Maintain it with a balanced diet and regular physical activity.\n\n"
 "{}\n\n"
 "{}"
-msgstr "Ваш ІМТ становить {}.\n\n"
-"У вас нормальна вага.\n\n"
-"Підтримуйте її за допомогою збалансованого харчування та регулярної фізичної активності.\n\n"
+msgstr "BMIya te {} e.\n\n"
+"Giraniya te saxlem e.\n\n"
+"Bi parêzek hevseng û çalakiya laşî ya birêkûpêk wê biparêze.\n\n"
 "{}\n\n"
 "{}"
 
@@ -105,9 +105,9 @@ msgid "Your BMI is {}.\n\n"
 "It is important to consult a doctor or nutritionist to identify healthy weight loss strategies.\n\n"
 "{}\n\n"
 "{}"
-msgstr "Ваш ІМТ становить {}.\n\n"
-"У вас надлишкова вага.\n\n"
-"Важливо проконсультуватися з лікарем або дієтологом, щоб визначити безпечні стратегії схуднення.\n\n"
+msgstr "BMI-ya te {} e.\n\n"
+"Zêde giraniya te heye.\n\n"
+"Ji bo diyarkirina stratejiyên kêmkirina kîloyan ên saxlem, girîng e ku tu bi bijîşk an xurekparêz re şêwir bikî.\n\n"
 "{}\n\n"
 "{}"
 
@@ -118,9 +118,9 @@ msgid "Your BMI is {}.\n\n"
 "Please consult a healthcare provider for guidance.\n\n"
 "{}\n\n"
 "{}"
-msgstr "Ваш ІМТ становить {}.\n\n"
-"У вас значна надлишкова вага.\n\n"
-"Будь ласка, зверніться до медичного працівника за консультацією.\n\n"
+msgstr "BMI-ya te {} e.\n\n"
+"Zêde giraniya te zêde ye.\n\n"
+"Ji kerema xwe ji bo rêberiyê bi dabînkerê lênêrîna tenduristiyê re şêwir bikin.\n\n"
 "{}\n\n"
 "{}"
 
@@ -131,61 +131,61 @@ msgid "Your BMI is {}.\n\n"
 "It is important to consult a doctor to reduce health risks through safe weight loss.\n\n"
 "{}\n\n"
 "{}"
-msgstr "Ваш ІМТ становить {}.\n\n"
-"Ваш ІМТ вказує на наявність ожиріння.\n\n"
-"Важливо звернутися до лікаря, щоб зменшити ризики для здоров'я шляхом безпечного схуднення.\n\n"
+msgstr "BMIya te {} e.\n\n"
+"BMIya te nîşan dide ku tu di rêza qelewbûnê de yî.\n\n"
+"Ji bo kêmkirina rîskên tenduristiyê bi rêya kêmkirina kîloyan a ewle, girîng e ku tu bi bijîşk re şêwir bikî.\n\n"
 "{}\n\n"
 "{}"
 
 #. translator: Message shown when there is no BMI calculation history available.
 #: addon\globalPlugins\BMI\main.py:175
 msgid "No history found."
-msgstr "Історію не знайдено."
+msgstr "Dîrok nehat dîtin."
 
 #: addon\globalPlugins\BMI\main.py:175 addon\globalPlugins\BMI\main.py:190
 msgid "History"
-msgstr "Історія"
+msgstr "Dîrok"
 
 #: addon\globalPlugins\BMI\main.py:179
 msgid "Last 10 BMI calculations:\n\n"
-msgstr "Останні 10 розрахунків ІМТ:\n\n"
+msgstr "10 hesabên dawî yên BMI:\n\n"
 
 #: addon\globalPlugins\BMI\main.py:183
 #, python-brace-format
 msgid "Date: {} | Height: {} cm | Weight: {} kg | BMI: {}\n"
-msgstr "Дата: {} | Зріст: {} см | Вага: {} кг | ІМТ: {}\n"
+msgstr "Dîrok: {} | Bilindahî: {} cm | Giranî: {} kg | BMI: {}\n"
 
 #: addon\globalPlugins\BMI\__init__.py:56
 msgid "&Calculate your BMI..."
-msgstr "&Розрахувати ваш ІМТ..."
+msgstr "&BMI-ya xwe hesab bike..."
 
 #. Translators: Text displayed in NVDA's input gesture dialog.
 #: addon\globalPlugins\BMI\__init__.py:67
 msgid "BMI - This add-on calculates the Body Mass Index."
-msgstr "ІМТ - Цей додаток розраховує індекс маси тіла."
+msgstr "BMI - Ev pêvek Îndeksa Girseya Laş hesab dike."
 
 #: addon\globalPlugins\BMI\__init__.py:76
 msgid "Calculation of the Body Mass Index."
-msgstr "Розрахунок індексу маси тіла."
+msgstr "Hesabkirina Îndeksa Giraniya Laş."
 
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
 #: buildVars.py:20
 msgid "Calculate your BMI"
-msgstr "Розрахувати ваш ІМТ"
+msgstr "BMI-ya xwe hesab bike"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:23
 msgid "This add-on calculates the Body Mass Index.\n\n"
 "Shortcut: Windows+Alt+I."
-msgstr "Цей додаток розраховує індекс маси тіла.\n\n"
-"Комбінація клавіш: Windows+Alt+I."
+msgstr "Ev pêvek Îndeksa Giraniya Laş hesab dike.\n\n"
+"Kurterê: Windows+Alt+I."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
 msgid "Version compatible with NVDA 2026.1"
-msgstr "Версія сумісна з NVDA 2026.1"
+msgstr "Versiyonek lihevhatî bi NVDA 2026.1 re"
 
