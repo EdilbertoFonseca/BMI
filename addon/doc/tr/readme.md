@@ -1,7 +1,7 @@
 # Vücut Kitle İndeksi (VKİ) Hesaplaması
 
-* **Author**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* **Creation Date**: 11/08/2022.
+* **Yazar**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* **Oluşturulma Tarihi**: 11/08/2022.
 * **Sürüm**: 2026.2.1
 * **Lisans**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Son Güncelleme**: 04/05/2026

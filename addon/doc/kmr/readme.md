@@ -6,7 +6,7 @@
 * **Lîsans**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Dawîn Guherandin**: 04/05/2026
 
-## Pêşkêş
+## Danasîn
 
 Bi xêr hatin bo Pêveka BMI! Ev pêvekek e ku ji bo destnîşankirina Îndeksa Girseya Laş (BMI) hatîye çêkirin, ku pîvanek navneteweyî ye ku ji bo nirxandina asta rûnê laşê kesekî tê bikar anîn. Bi vê pêvekê, hûn dikarin bi hêsanî BMI-ya xwe bi têketina bilindahî û giraniya xwe hesab bikin.
 

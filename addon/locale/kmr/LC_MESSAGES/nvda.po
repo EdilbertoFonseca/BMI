@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2026-07-21 13:54+0000\n"
-"PO-Revision-Date: 2026-08-27 13:32\n"
+"PO-Revision-Date: 2026-08-28 06:29\n"
 "Last-Translator: \n"
 "Language-Team: Kurmanji (Kurdish)\n"
 "Language: kmr_TR\n"
@@ -33,11 +33,11 @@ msgstr "Giraniya xwe bi kîlograman binivîse an hilbijêre:"
 
 #: addon\globalPlugins\BMI\main.py:73
 msgid "C&alculate"
-msgstr "Hesabkirin"
+msgstr "&Hesabkirin"
 
 #: addon\globalPlugins\BMI\main.py:78
 msgid "C&lear"
-msgstr "Zelal"
+msgstr "&Zelal"
 
 #: addon\globalPlugins\BMI\main.py:83
 msgid "&History"
@@ -45,7 +45,7 @@ msgstr "&Dîrok"
 
 #: addon\globalPlugins\BMI\main.py:88
 msgid "&Cancel"
-msgstr "&Bişûndekirin"
+msgstr "&Betal"
 
 #: addon\globalPlugins\BMI\main.py:104 addon\globalPlugins\BMI\main.py:114
 #: addon\globalPlugins\BMI\main.py:157
@@ -120,7 +120,7 @@ msgid "Your BMI is {}.\n\n"
 "{}"
 msgstr "BMI-ya te {} e.\n\n"
 "Zêde giraniya te zêde ye.\n\n"
-"Ji kerema xwe ji bo rêberiyê bi dabînkerê lênêrîna tenduristiyê re şêwir bikin.\n\n"
+"Ji kerema xwe ji bo rêberiyê bi dabînkerê lênihêrîna tenduristiyê re şêwir bikin.\n\n"
 "{}\n\n"
 "{}"
 
