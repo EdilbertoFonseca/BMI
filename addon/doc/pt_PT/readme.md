@@ -1,7 +1,7 @@
 # Cálculo do Índice de Massa Corporal (IMC)
 
-* **Author**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* **Creation Date**: 11/08/2022.
+* **Autor**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* **Data de Criação**: 11/08/2022.
 * **Versão**: 2026.2.1
 * **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Última Revisão**: 05/04/2026

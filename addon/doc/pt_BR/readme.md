@@ -4,7 +4,7 @@
 * **Data de Criação**: 11/08/2022.
 * **Versão**: 2026.2.1
 * **Licença**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
-* *Última revisão**: 05/04/2026
+* **Última revisão**: 05/04/2026
 
 ## Introdução
 
