@@ -65,4 +65,4 @@ Agradecimentos especiais aos colaboradores Rui Fonte, Noelia e Dalen, cuja ajuda
 * **Português (Brasil), pt\_BR**: Por Edilberto Fonseca.
 * **Português (Portugal), pt\_PT**: Por Edilberto Fonseca.
 * **Russo, ru**: Por Danil Kostenkov.
-* * **Turco, tr**: Por Umut KORKMAZ.
+* **Turco, tr**: Por Umut KORKMAZ.
