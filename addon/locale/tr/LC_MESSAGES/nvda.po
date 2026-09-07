@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-21 13:54+0000\n"
-"PO-Revision-Date: 2026-08-31 03:02\n"
+"POT-Creation-Date: 2026-09-07 02:22+0000\n"
+"PO-Revision-Date: 2026-09-07 02:24\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -185,6 +185,6 @@ msgstr "Bu eklenti vücut kitle indeksini hesaplar."
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
-msgid "Version compatible with NVDA 2026.1"
-msgstr "NVDA 2026.1 ile uyumlu sürüm"
+msgid "The new translation system via Crowdin has been integrated and the localization files have been updated."
+msgstr ""
 
