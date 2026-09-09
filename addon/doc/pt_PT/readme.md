@@ -60,9 +60,12 @@ No final da caixa de diálogo, o cursor ficará posicionado no botão OK. Pressi
 
 Um agradecimento especial aos contribuidores Rui Fonte, Noelia e Dalen, cuja ajuda tornou este projeto possível.
 
-## Tradutores
+## Tradução
 
-* **Português (Brazil), pt_BR**: Por Edilberto Fonseca.
-* **Português, (Portugal), pt_PT**: Por Edilberto Fonseca.
-* **russo, ru**: Por Danil Kostenkov.
-* **turco, tr**: Por Umut KORKMAZ.
+As traduções deste add-on são geridas através do [projeto NVDA Add-ons no Crowdin](https://crowdin.com/project/nvdaaddons).
+
+Para contribuir com uma tradução, crie uma conta no Crowdin, entre na equipa do idioma pretendido, se necessário, e traduza as strings da interface e da documentação diretamente no Crowdin.
+
+Também é possível utilizar o Poedit para trabalhar localmente com ficheiros `.po` e `.xliff`. As traduções concluídas são sincronizadas com o repositório do add-on através do fluxo de localização.
+
+Para esclarecer dúvidas ou obter ajuda, participe na [lista de discussão NVDA Translations](https://groups.io/g/nvda-translations).
