@@ -60,9 +60,12 @@ NVDA прочитає діалогове вікно, яке містить:
 
 Особлива подяка учаснику Rui Fonte, Noelia та Dalen, чия допомога зробила цей проєкт можливим.
 
-## Перекладачі
+## Translation
 
-* **Португальська (Бразилія), pt_BR**: Edilberto Fonseca.
-* **Португальська (Португалія), pt_PT**: Edilberto Fonseca.
-* **Російська, ru**: Данило Костенков (Danil Kostenkov).
-* **Турецька, tr**: Umut KORKMAZ.
+Translations for this add-on are managed through the [NVDA Add-ons Crowdin project](https://crowdin.com/project/nvdaaddons).
+
+To contribute a translation, create a Crowdin account, join the appropriate language team if required, and translate the available interface and documentation strings directly in Crowdin.
+
+You can also use Poedit to work with `.po` and `.xliff` files locally. Completed translations are synchronized to the add-on repository through the localization workflow.
+
+For questions or assistance, please join the [NVDA Translations mailing list](https://groups.io/g/nvda-translations).

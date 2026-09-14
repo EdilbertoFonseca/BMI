@@ -60,9 +60,12 @@ Valintaikkunan lopussa kurssori on OK-painikkeen kohdalla. Enter-näppäimen pai
 
 Erityiskiitokset avustajille Rui Fonte, Noelia ja Dalen, joiden apu teki tämän projektin mahdolliseksi.
 
-## Kääntäjät
+## Translation
 
-* **Portugali (Brasilia), pt_BR**: Edilberto Fonseca.
-* **Portugali (Portugali), pt_PT**: Edilberto Fonseca.
-* **Venäjä, ru**: Danil Kostenkov.
-* **Turkki, tr**: Umut KORKMAZ.
+Translations for this add-on are managed through the [NVDA Add-ons Crowdin project](https://crowdin.com/project/nvdaaddons).
+
+To contribute a translation, create a Crowdin account, join the appropriate language team if required, and translate the available interface and documentation strings directly in Crowdin.
+
+You can also use Poedit to work with `.po` and `.xliff` files locally. Completed translations are synchronized to the add-on repository through the localization workflow.
+
+For questions or assistance, please join the [NVDA Translations mailing list](https://groups.io/g/nvda-translations).
