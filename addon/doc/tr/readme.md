@@ -60,12 +60,12 @@ NVDA aşağıdakileri içeren bir iletişim kutusunu okuyacaktır:
 
 Yardımları bu projeyi mümkün kılan katkıda bulunanlar Rui Fonte, Noelia ve Dalen'e özel teşekkürler.
 
-## Translation
+## Çeviri
 
-Translations for this add-on are managed through the [NVDA Add-ons Crowdin project](https://crowdin.com/project/nvdaaddons).
+Bu eklentiye ait çeviriler [NVDA Add-ons Crowdin projesi](https://crowdin.com/project/nvdaaddons) aracılığıyla yönetilmektedir.
 
-To contribute a translation, create a Crowdin account, join the appropriate language team if required, and translate the available interface and documentation strings directly in Crowdin.
+Çeviriye katkıda bulunmak için bir Crowdin hesabı oluşturun, gerekirse ilgili dil ekibine katılın ve mevcut arayüz ve dokümantasyon metinlerini doğrudan Crowdin'de çevirin.
 
-You can also use Poedit to work with `.po` and `.xliff` files locally. Completed translations are synchronized to the add-on repository through the localization workflow.
+Poedit'i `.po` ve `.xliff` dosyalarıyla yerel olarak çalışmak için de kullanabilirsiniz. Tamamlanan çeviriler, yerelleştirme iş akışı aracılığıyla eklenti deposuna senkronize edilir.
 
-For questions or assistance, please join the [NVDA Translations mailing list](https://groups.io/g/nvda-translations).
+Sorularınız için veya yardıma ihtiyacınız varsa lütfen [NVDA Translations posta listesine](https://groups.io/g/nvda-translations) katılın.

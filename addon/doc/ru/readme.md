@@ -1,7 +1,7 @@
 # Расчёт индекса массы тела (ИМТ)
 
-* **Author**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
-* **Creation Date**: 11/08/2022.
+* **Автор**: Edilberto Fonseca <edilberto.fonseca@outlook.com>
+* **Дата создания**: 11/08/2022.
 * **Версия**: 2026.2.1
 * **Лицензия**: [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 * **Последняя редакция**: 04/05/2026
@@ -60,12 +60,12 @@ NVDA зачитает диалог, содержащий:
 
 Особая благодарность участникам Rui Fonte, Noelia, и Dalen, чья помощь сделала этот проект возможным.
 
-## Translation
+## Перевод
 
-Translations for this add-on are managed through the [NVDA Add-ons Crowdin project](https://crowdin.com/project/nvdaaddons).
+Переводы для этого дополнения управляются через [проект Crowdin NVDA Add-ons](https://crowdin.com/project/nvdaaddons).
 
-To contribute a translation, create a Crowdin account, join the appropriate language team if required, and translate the available interface and documentation strings directly in Crowdin.
+Чтобы внести свой вклад в перевод, создайте учетную запись Crowdin, присоединитесь к соответствующей языковой команде, если это необходимо, и переводите доступные строки интерфейса и документации непосредственно в Crowdin.
 
-You can also use Poedit to work with `.po` and `.xliff` files locally. Completed translations are synchronized to the add-on repository through the localization workflow.
+Вы также можете использовать Poedit для работы с файлами `.po` и `.xliff` локально. Завершенные переводы синхронизируются с репозиторием дополнений в рамках процесса локализации.
 
-For questions or assistance, please join the [NVDA Translations mailing list](https://groups.io/g/nvda-translations).
+Если у вас есть вопросы или вам нужна помощь, пожалуйста, присоединитесь к [списку рассылки NVDA Translations](https://groups.io/g/nvda-translations).
