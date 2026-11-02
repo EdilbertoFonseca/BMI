@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-09-07 02:22+0000\n"
+"PO-Revision-Date: 2026-11-01 10:42\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: BMI.pot\n"
+"X-Crowdin-File-ID: 300\n"
+
+#: addon\globalPlugins\BMI\bmiCalculator.py:37
+msgid "Height and weight must be greater than zero."
+msgstr "Größe und Gewicht müssen größer als null sein."
+
+#. translator: Label for height input field
+#: addon\globalPlugins\BMI\main.py:60
+msgid "Enter or select your height in centimeters:"
+msgstr "Geben Sie Ihre Körpergröße in Zentimetern ein oder wählen Sie sie aus:"
+
+#. translator: Label for weight input field
+#: addon\globalPlugins\BMI\main.py:67
+msgid "Enter or select your weight in kilograms:"
+msgstr "Geben Sie Ihr Gewicht in Kilogramm ein oder wählen Sie es aus:"
+
+#: addon\globalPlugins\BMI\main.py:73
+msgid "C&alculate"
+msgstr "Be&rechnen"
+
+#: addon\globalPlugins\BMI\main.py:78
+msgid "C&lear"
+msgstr "&Löschen"
+
+#: addon\globalPlugins\BMI\main.py:83
+msgid "&History"
+msgstr "&Verlauf"
+
+#: addon\globalPlugins\BMI\main.py:88
+msgid "&Cancel"
+msgstr "&Abbrechen"
+
+#: addon\globalPlugins\BMI\main.py:104 addon\globalPlugins\BMI\main.py:114
+#: addon\globalPlugins\BMI\main.py:157
+msgid "Attention"
+msgstr "Aufmerksamkeit"
+
+#. translator: Error message when BMI calculation fails
+#: addon\globalPlugins\BMI\main.py:113
+msgid "Unable to calculate BMI. Please check the values."
+msgstr "Der BMI konnte nicht berechnet werden. Bitte überprüfen Sie die Werte."
+
+#: addon\globalPlugins\BMI\main.py:123
+#, python-brace-format
+msgid "Ideal weight range for your height: {} kg to {} kg."
+msgstr "Idealer Gewichtsbereich für Ihre Größe: {} kg bis {} kg."
+
+#: addon\globalPlugins\BMI\main.py:127
+msgid "Observation:\n\n"
+"For an accurate interpretation of BMI, it is important to consider other factors such as\n"
+"body composition, fat distribution, age, gender, and overall health.\n\n"
+"It is always recommended to consult a healthcare professional for proper guidance on health and weight."
+msgstr "Beobachtung:\n\n"
+"Für eine genaue Interpretation des BMI ist es wichtig, weitere Faktoren wie Körperzusammensetzung, Fettverteilung, Alter, Geschlecht und den allgemeinen Gesundheitszustand zu berücksichtigen.\n\n"
+"Es wird immer empfohlen, medizinisches Fachpersonal für eine angemessene Beratung zu Gesundheit und Gewicht zu konsultieren."
+
+#: addon\globalPlugins\BMI\main.py:137
+#, python-brace-format
+msgid "Your BMI is {}.\n\n"
+"You are underweight.\n\n"
+"It is important to consult a doctor or nutritionist to identify healthy ways to gain weight.\n\n"
+"{}\n\n"
+"{}"
+msgstr "Ihr BMI beträgt {}.\n\n"
+"Sie haben Untergewicht.\n\n"
+"Es ist wichtig, einen Arzt oder Ernährungsberater zu konsultieren, um gesunde Wege zur Gewichtszunahme zu finden.\n"
+"{}\n\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:141
+#, python-brace-format
+msgid "Your BMI is {}.\n\n"
+"You are at a healthy weight.\n\n"
+"Maintain it with a balanced diet and regular physical activity.\n\n"
+"{}\n\n"
+"{}"
+msgstr "Ihr BMI beträgt {}.\n\n"
+"Sie haben ein gesundes Gewicht.\n\n"
+"Halten Sie dieses ggute Gewicht mit einer ausgewogenen Ernährung und regelmäßiger körperlicher Aktivität.\n\n"
+"{}\n\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:145
+#, python-brace-format
+msgid "Your BMI is {}.\n\n"
+"You are overweight.\n\n"
+"It is important to consult a doctor or nutritionist to identify healthy weight loss strategies.\n\n"
+"{}\n\n"
+"{}"
+msgstr "Ihr BMI beträgt {}.\n\n"
+"Sie sind übergewichtig.\n\n"
+"Es ist wichtig, einen Arzt oder Ernährungsberater zu konsultieren, um gesunde Strategien zur Gewichtsabnahme zu ermitteln.\n\n"
+"{}\n\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:149
+#, python-brace-format
+msgid "Your BMI is {}.\n\n"
+"You are significantly overweight.\n\n"
+"Please consult a healthcare provider for guidance.\n\n"
+"{}\n\n"
+"{}"
+msgstr "Ihr BMI beträgt {}.\n\n"
+"Sie sind stark übergewichtig.\n\n"
+"Bitte wenden Sie sich für eine Beratung an medizinisches Fachpersonal.\n\n"
+"{}\n\n"
+"{}"
+
+#: addon\globalPlugins\BMI\main.py:153
+#, python-brace-format
+msgid "Your BMI is {}.\n\n"
+"Your BMI indicates that you are in the obese range.\n\n"
+"It is important to consult a doctor to reduce health risks through safe weight loss.\n\n"
+"{}\n\n"
+"{}"
+msgstr "Ihr BMI beträgt {}.\n\n"
+"Ihr BMI deutet darauf hin, dass Sie sich im Bereich der Adipositas befinden.\n\n"
+"Es ist wichtig, einen Arzt zu konsultieren, um gesundheitliche Risiken durch eine sichere Gewichtsabnahme zu senken.\n\n"
+"{}\n\n"
+"{}"
+
+#. translator: Message shown when there is no BMI calculation history available.
+#: addon\globalPlugins\BMI\main.py:175
+msgid "No history found."
+msgstr "Keinen Verlauf gefunden."
+
+#: addon\globalPlugins\BMI\main.py:175 addon\globalPlugins\BMI\main.py:190
+msgid "History"
+msgstr "Verlauf"
+
+#: addon\globalPlugins\BMI\main.py:179
+msgid "Last 10 BMI calculations:\n\n"
+msgstr "Die letzten 10 BMI-Berechnungen:\n\n"
+
+#: addon\globalPlugins\BMI\main.py:183
+#, python-brace-format
+msgid "Date: {} | Height: {} cm | Weight: {} kg | BMI: {}\n"
+msgstr "Datum: {} | Größe: {} cm | Gewicht: {} kg | BMI: {}\n"
+
+#: addon\globalPlugins\BMI\__init__.py:56
+msgid "&Calculate your BMI..."
+msgstr "&Berechnen Sie Ihren BMI..."
+
+#. Translators: Text displayed in NVDA's input gesture dialog.
+#: addon\globalPlugins\BMI\__init__.py:67
+msgid "BMI - This add-on calculates the Body Mass Index."
+msgstr "BMI – Berechnet den Body-Mass-Index."
+
+#: addon\globalPlugins\BMI\__init__.py:76
+msgid "Calculation of the Body Mass Index."
+msgstr "Berechnung des Body-Mass-Indexes."
+
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:20
+msgid "Calculate your BMI"
+msgstr "Berechnen Sie Ihren BMI"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "This add-on calculates the Body Mass Index.\n\n"
+"Shortcut: Windows+Alt+I."
+msgstr "Berechnet den Body-Mass-Index.\n\n"
+"Tastenkombination: Windows+Alt+I."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:30
+msgid "The new translation system via Crowdin has been integrated and the localization files have been updated."
+msgstr "Das neue Übersetzungssystem über Crowdin wurde integriert und die Sprachdateien wurden aktualisiert."
+
