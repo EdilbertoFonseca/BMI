@@ -24,10 +24,14 @@ addon_info = AddonInfo(
 
 Shortcut: Windows+Alt+I."""),
 	# version
-	addon_version="2026.2.2",
+	addon_version="2026.2.3",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_("""The new translation system via Crowdin has been integrated and the localization files have been updated."""),
+	addon_changelog=_("""# Changelog
+
+- Incremented addonversion to 2026.2.3
+- Update minimum and tested NVDA versions
+- Announced the new Crowdin-based translation system and refreshed localization files"""),
 	# Author(s)
 	addon_author="Edilberto Fonseca <edilberto.fonseca@outlook.com>",
 	# URL for the add-on documentation support
@@ -37,9 +41,9 @@ Shortcut: Windows+Alt+I."""),
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
-	addon_minimumNVDAVersion="2023.3",
+	addon_minimumNVDAVersion="2026.1.0",
 	# Last NVDA version supported/tested (e.g. "2024.4.0", ideally more recent than minimum version)
-	addon_lastTestedNVDAVersion="2026.1.0",
+	addon_lastTestedNVDAVersion="2026.2.0",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!

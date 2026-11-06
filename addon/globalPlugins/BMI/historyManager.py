@@ -33,10 +33,10 @@ ADDON_DATA_DIR = getattr(globalVars.appArgs, "configPath", "")
 HISTORY_PATH = os.path.join(ADDON_DATA_DIR, "BMIHistory.json")
 
 # Type alias for one history entry
-HistoryEntry = dict[str, str | int | float]
+HISTORY_ENTRY = dict[str, str | int | float]
 
 
-def loadHistory() -> list[HistoryEntry] | None:
+def loadHistory() -> list[HISTORY_ENTRY] | None:
 	"""Loads the BMI calculation history from the JSON file.
 
 	Returns:
@@ -67,7 +67,7 @@ def saveToHistory(height: int, weight: int, bmi: float) -> None:
 		weight: The weight in kilograms.
 		bmi: The calculated BMI value.
 	"""
-	entry: HistoryEntry = {
+	entry: HISTORY_ENTRY = {
 		"timestamp": datetime.now().isoformat(),
 		"height": height,
 		"weight": weight,
