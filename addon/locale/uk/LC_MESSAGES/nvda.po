@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-09-07 02:22+0000\n"
-"PO-Revision-Date: 2026-10-30 06:41\n"
+"POT-Creation-Date: 2026-11-09 04:06+0000\n"
+"PO-Revision-Date: 2026-11-09 04:08\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -186,6 +186,9 @@ msgstr "Цей додаток розраховує індекс маси тіл�
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
-msgid "The new translation system via Crowdin has been integrated and the localization files have been updated."
+msgid "# Changelog\n\n"
+"- Incremented addonversion to 2026.2.3\n"
+"- Update minimum and tested NVDA versions\n"
+"- Announced the new Crowdin-based translation system and refreshed localization files"
 msgstr ""
 
